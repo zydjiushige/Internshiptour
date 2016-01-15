@@ -38,7 +38,7 @@
 #pragma mark------------<UITableViewDataSource,UITableViewDelegate>
 -(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.section == 0 && indexPath.row == 0){
+    if(indexPath.row == 0){
     
     firstCell *cell = [tableView dequeueReusableCellWithIdentifier:@"firstCell"];
         cell.backgroundColor = [UIColor redColor];
@@ -53,6 +53,19 @@
         contentCell *cell = [tableView dequeueReusableCellWithIdentifier:@"contentCell"];
         cell.backgroundColor = [UIColor yellowColor];
         return cell;
+    }else if (indexPath.row == 3){
+    
+        static NSString *reusedID=@"reusedID";
+        UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:reusedID];
+        if(!cell)/////cell==nil
+        {
+            cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reusedID];
+            
+            
+        }
+        cell.backgroundColor = [UIColor blueColor];
+        return cell;
+    
     }
     return nil;
 }
@@ -64,7 +77,7 @@
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
-    return 3;
+    return 4;
 
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -74,11 +87,11 @@
         return 200;
     }else if(indexPath.row == 1){
     
-        return 80;
+        return 50;
     }else if(indexPath.row == 2){
-        return 150;
+        return 100;
     }
-    return 0.001;
+    return 20;
 }
 #pragma mark --------UIScrollViewDelegate
 -(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView

@@ -38,6 +38,8 @@
 		0CD1F1B81C43519F0081EA7A /* InternshiptourUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1F1B71C43519F0081EA7A /* InternshiptourUITests.m */; };
 		0CE4C9731C47A6D000AEF229 /* firstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE4C9711C47A6D000AEF229 /* firstCell.m */; };
 		0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE4C9721C47A6D000AEF229 /* firstCell.xib */; };
+		27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27249ACB1C48F2E1009892F9 /* commentCell.m */; };
+		27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27249ACC1C48F2E1009892F9 /* commentCell.xib */; };
 		B987021C2C4CF972796A9659 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088F6099FC78EAA8D7F07B80 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +117,10 @@
 		0CE4C9701C47A6D000AEF229 /* firstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = firstCell.h; path = "Classes/资讯/Views/firstCell.h"; sourceTree = "<group>"; };
 		0CE4C9711C47A6D000AEF229 /* firstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = firstCell.m; path = "Classes/资讯/Views/firstCell.m"; sourceTree = "<group>"; };
 		0CE4C9721C47A6D000AEF229 /* firstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = firstCell.xib; path = "Classes/资讯/Views/firstCell.xib"; sourceTree = "<group>"; };
+		27249AC51C48F2BC009892F9 /* Internshiptour-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internshiptour-Bridging-Header.h"; sourceTree = "<group>"; };
+		27249ACA1C48F2E1009892F9 /* commentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commentCell.h; path = "Classes/资讯/Views/commentCell.h"; sourceTree = "<group>"; };
+		27249ACB1C48F2E1009892F9 /* commentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = commentCell.m; path = "Classes/资讯/Views/commentCell.m"; sourceTree = "<group>"; };
+		27249ACC1C48F2E1009892F9 /* commentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = commentCell.xib; path = "Classes/资讯/Views/commentCell.xib"; sourceTree = "<group>"; };
 		83A21A025EA7A7F50E0E7F81 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -283,6 +289,10 @@
 				0CAF73F81C489C0000CF1A4B /* contentCell.h */,
 				0CAF73F91C489C0000CF1A4B /* contentCell.m */,
 				0CAF73FA1C489C0000CF1A4B /* contentCell.xib */,
+				27249AC51C48F2BC009892F9 /* Internshiptour-Bridging-Header.h */,
+				27249ACA1C48F2E1009892F9 /* commentCell.h */,
+				27249ACB1C48F2E1009892F9 /* commentCell.m */,
+				27249ACC1C48F2E1009892F9 /* commentCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -523,6 +533,7 @@
 				0CAF73F71C4894EC00CF1A4B /* secondCell.xib in Resources */,
 				0C00401C1C45ED69000DEC34 /* specialSubjectVC.xib in Resources */,
 				0C00402B1C45EDAB000DEC34 /* tripHelp.xib in Resources */,
+				27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */,
 				0CD1F19F1C43519F0081EA7A /* Assets.xcassets in Resources */,
 				0CD1F19D1C43519F0081EA7A /* Main.storyboard in Resources */,
 			);
@@ -602,6 +613,7 @@
 				0CD1F1971C43519F0081EA7A /* AppDelegate.m in Sources */,
 				0C9163691C478F4F00E3B53F /* detailVC.m in Sources */,
 				0CAF73F61C4894EC00CF1A4B /* secondCell.m in Sources */,
+				27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */,
 				0C91635C1C4751C700E3B53F /* WMImageViewCell.m in Sources */,
 				0C00402A1C45EDAB000DEC34 /* tripHelp.m in Sources */,
 				0C0040161C45EBD8000DEC34 /* infoVC.m in Sources */,
@@ -755,10 +767,13 @@
 			baseConfigurationReference = 08E7E85B655C1FFB575A0EC9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Internshiptour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shenzhen-Qianhai-Internshiptour-Co.Ltd.Internshiptour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Internshiptour/Internshiptour-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -767,10 +782,12 @@
 			baseConfigurationReference = 83A21A025EA7A7F50E0E7F81 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Internshiptour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shenzhen-Qianhai-Internshiptour-Co.Ltd.Internshiptour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Internshiptour/Internshiptour-Bridging-Header.h";
 			};
 			name = Release;
 		};
