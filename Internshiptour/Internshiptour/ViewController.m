@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <MBProgressHUD/MBProgressHUD.h>
 @interface ViewController ()
 
 @end
@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 200, 200)];
+    lable.backgroundColor = [UIColor redColor];
+    [self.view addSubview:lable];
+    
+    self.view.backgroundColor = [UIColor yellowColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "tabBar.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+
+
+    tabBar *mytabBar=[[tabBar alloc] init];
+    self.window.rootViewController=mytabBar;
+    
+    
+    
+    
     return YES;
 }
 
