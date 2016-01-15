@@ -19,5 +19,16 @@
 
     // Configure the view for the selected state
 }
+// 返回按钮
+- (IBAction)goBack:(id)sender {
+    
+   
+    NSLog(@"返回按钮");
+}
+// 转发按钮
+- (IBAction)forward:(id)sender {
+    
+    NSLog(@"转发按钮");
+}
 
 @end

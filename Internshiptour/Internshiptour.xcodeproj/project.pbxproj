@@ -23,6 +23,11 @@
 		0C9163651C4751D300E3B53F /* WMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9163621C4751D300E3B53F /* WMViewController.m */; };
 		0C9163691C478F4F00E3B53F /* detailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9163671C478F4F00E3B53F /* detailVC.m */; };
 		0C91636A1C478F4F00E3B53F /* detailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9163681C478F4F00E3B53F /* detailVC.xib */; };
+		0CAF73F21C48912000CF1A4B /* 7411759_164157418126_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CAF73F11C48912000CF1A4B /* 7411759_164157418126_2.jpg */; };
+		0CAF73F61C4894EC00CF1A4B /* secondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF73F41C4894EC00CF1A4B /* secondCell.m */; };
+		0CAF73F71C4894EC00CF1A4B /* secondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CAF73F51C4894EC00CF1A4B /* secondCell.xib */; };
+		0CAF73FB1C489C0000CF1A4B /* contentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF73F91C489C0000CF1A4B /* contentCell.m */; };
+		0CAF73FC1C489C0000CF1A4B /* contentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CAF73FA1C489C0000CF1A4B /* contentCell.xib */; };
 		0CD1F1941C43519E0081EA7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1F1931C43519E0081EA7A /* main.m */; };
 		0CD1F1971C43519F0081EA7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1F1961C43519F0081EA7A /* AppDelegate.m */; };
 		0CD1F19A1C43519F0081EA7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1F1991C43519F0081EA7A /* ViewController.m */; };
@@ -84,6 +89,13 @@
 		0C9163661C478F4F00E3B53F /* detailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = detailVC.h; path = "Classes/资讯/Controllers/detailVC.h"; sourceTree = "<group>"; };
 		0C9163671C478F4F00E3B53F /* detailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = detailVC.m; path = "Classes/资讯/Controllers/detailVC.m"; sourceTree = "<group>"; };
 		0C9163681C478F4F00E3B53F /* detailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = detailVC.xib; path = "Classes/资讯/Controllers/detailVC.xib"; sourceTree = "<group>"; };
+		0CAF73F11C48912000CF1A4B /* 7411759_164157418126_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7411759_164157418126_2.jpg; sourceTree = "<group>"; };
+		0CAF73F31C4894EC00CF1A4B /* secondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secondCell.h; path = "Classes/资讯/Views/secondCell.h"; sourceTree = "<group>"; };
+		0CAF73F41C4894EC00CF1A4B /* secondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondCell.m; path = "Classes/资讯/Views/secondCell.m"; sourceTree = "<group>"; };
+		0CAF73F51C4894EC00CF1A4B /* secondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = secondCell.xib; path = "Classes/资讯/Views/secondCell.xib"; sourceTree = "<group>"; };
+		0CAF73F81C489C0000CF1A4B /* contentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = contentCell.h; path = "Classes/资讯/Views/contentCell.h"; sourceTree = "<group>"; };
+		0CAF73F91C489C0000CF1A4B /* contentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = contentCell.m; path = "Classes/资讯/Views/contentCell.m"; sourceTree = "<group>"; };
+		0CAF73FA1C489C0000CF1A4B /* contentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = contentCell.xib; path = "Classes/资讯/Views/contentCell.xib"; sourceTree = "<group>"; };
 		0CD1F18F1C43519E0081EA7A /* Internshiptour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internshiptour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD1F1931C43519E0081EA7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CD1F1951C43519E0081EA7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -265,6 +277,12 @@
 				0CE4C9701C47A6D000AEF229 /* firstCell.h */,
 				0CE4C9711C47A6D000AEF229 /* firstCell.m */,
 				0CE4C9721C47A6D000AEF229 /* firstCell.xib */,
+				0CAF73F31C4894EC00CF1A4B /* secondCell.h */,
+				0CAF73F41C4894EC00CF1A4B /* secondCell.m */,
+				0CAF73F51C4894EC00CF1A4B /* secondCell.xib */,
+				0CAF73F81C489C0000CF1A4B /* contentCell.h */,
+				0CAF73F91C489C0000CF1A4B /* contentCell.m */,
+				0CAF73FA1C489C0000CF1A4B /* contentCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -307,6 +325,7 @@
 		0CD1F1861C43519E0081EA7A = {
 			isa = PBXGroup;
 			children = (
+				0CAF73F11C48912000CF1A4B /* 7411759_164157418126_2.jpg */,
 				0CD1F1911C43519E0081EA7A /* Internshiptour */,
 				0CD1F1AB1C43519F0081EA7A /* InternshiptourTests */,
 				0CD1F1B61C43519F0081EA7A /* InternshiptourUITests */,
@@ -495,10 +514,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */,
+				0CAF73F21C48912000CF1A4B /* 7411759_164157418126_2.jpg in Resources */,
 				0C0040301C45EDCE000DEC34 /* personalVC.xib in Resources */,
+				0CAF73FC1C489C0000CF1A4B /* contentCell.xib in Resources */,
 				0C91636A1C478F4F00E3B53F /* detailVC.xib in Resources */,
 				0C0040171C45EBD8000DEC34 /* infoVC.xib in Resources */,
 				0CD1F1A21C43519F0081EA7A /* LaunchScreen.storyboard in Resources */,
+				0CAF73F71C4894EC00CF1A4B /* secondCell.xib in Resources */,
 				0C00401C1C45ED69000DEC34 /* specialSubjectVC.xib in Resources */,
 				0C00402B1C45EDAB000DEC34 /* tripHelp.xib in Resources */,
 				0CD1F19F1C43519F0081EA7A /* Assets.xcassets in Resources */,
@@ -576,8 +598,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CD1F19A1C43519F0081EA7A /* ViewController.m in Sources */,
+				0CAF73FB1C489C0000CF1A4B /* contentCell.m in Sources */,
 				0CD1F1971C43519F0081EA7A /* AppDelegate.m in Sources */,
 				0C9163691C478F4F00E3B53F /* detailVC.m in Sources */,
+				0CAF73F61C4894EC00CF1A4B /* secondCell.m in Sources */,
 				0C91635C1C4751C700E3B53F /* WMImageViewCell.m in Sources */,
 				0C00402A1C45EDAB000DEC34 /* tripHelp.m in Sources */,
 				0C0040161C45EBD8000DEC34 /* infoVC.m in Sources */,
