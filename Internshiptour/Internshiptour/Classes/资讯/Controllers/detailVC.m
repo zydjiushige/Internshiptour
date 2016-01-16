@@ -12,6 +12,7 @@
 #import "firstCell.h"
 #import "secondCell.h"
 #import "contentCell.h"
+#import "commentCell.h"
 @interface detailVC ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
 
 @end
@@ -32,8 +33,15 @@
     [self.myTableView registerNib:[UINib nibWithNibName:@"firstCell" bundle:nil] forCellReuseIdentifier:@"firstCell"];
     [self.myTableView registerNib:[UINib nibWithNibName:@"secondCell" bundle:nil] forCellReuseIdentifier:@"secondCell"];
     [self.myTableView registerNib:[UINib nibWithNibName:@"contentCell" bundle:nil] forCellReuseIdentifier:@"contentCell"];
+    [self.myTableView registerNib:[UINib nibWithNibName:@"commentCell" bundle:nil] forCellReuseIdentifier:@"commentCell"];
     self.view.backgroundColor = [UIColor purpleColor];
     
+}
+-(void)goBack
+{
+
+    [self.navigationController popViewControllerAnimated:YES];
+
 }
 #pragma mark------------<UITableViewDataSource,UITableViewDelegate>
 -(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -42,6 +50,8 @@
     
     firstCell *cell = [tableView dequeueReusableCellWithIdentifier:@"firstCell"];
         cell.backgroundColor = [UIColor redColor];
+        // 添加返回主页面事件
+        [cell.goBackButton addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
     return cell;
     }else if(indexPath.section == 0&&indexPath.row == 1){
     
@@ -63,10 +73,34 @@
             
             
         }
-        cell.backgroundColor = [UIColor blueColor];
+        cell.backgroundColor = [UIColor grayColor];
+        return cell;
+    
+    }else if (indexPath.row == 4){
+        // 评论
+        static NSString *reusedID=@"commentID";
+        UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:reusedID];
+        if(!cell)/////cell==nil
+        {
+            cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reusedID];
+            
+            
+        }
+//        cell.backgroundColor = [UIColor grayColor];
+        UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 60, 20)];
+        lable.text = @"评论";
+        [cell addSubview:lable];
+        return cell;
+
+    
+    }else {
+    
+        commentCell *cell = [tableView dequeueReusableCellWithIdentifier:@"commentCell"];
+        
         return cell;
     
     }
+    
     return nil;
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -77,21 +111,27 @@
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
-    return 4;
+    return 9;
 
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if(indexPath.row == 0){
     
-        return 200;
+        return 100;
     }else if(indexPath.row == 1){
     
         return 50;
     }else if(indexPath.row == 2){
         return 100;
+    }else if(indexPath.row == 4){
+    
+        return 20;
+    }else if (indexPath.row == 3){
+    
+        return 10;
     }
-    return 20;
+    return 90;
 }
 #pragma mark --------UIScrollViewDelegate
 -(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView

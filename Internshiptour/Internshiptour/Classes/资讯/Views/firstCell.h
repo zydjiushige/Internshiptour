@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface firstCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIButton *goBackButton;
 
 @end
