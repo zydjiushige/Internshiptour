@@ -59,20 +59,25 @@
     _BackButton.frame = CGRectMake(12, 22, 20, 20);
     [_BackButton setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
     [_BackButton addTarget:self action:@selector(goBack) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:_BackButton];
+//    [self.view addSubview:_BackButton];
     
     // 转发
     _ForwardButton = [UIButton buttonWithType:UIButtonTypeSystem];
     _ForwardButton.frame = CGRectMake(self.view.frame.size.width - 20 - 12 , 22, 20, 20);
     [_ForwardButton setImage:[UIImage imageNamed:@"share"] forState:UIControlStateNormal];
-    [self.view addSubview:_ForwardButton];
+//    [self.view addSubview:_ForwardButton];
     
     _backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 64)];
-    _backView.backgroundColor = [UIColor clearColor];
+    _backView.backgroundColor = [UIColor purpleColor];
     [self.view addSubview:_backView];
-    _backView.hidden = YES;
-    [self.view bringSubviewToFront:_BackButton];
-    [self.view bringSubviewToFront:_ForwardButton];
+    
+    [_backView addSubview:_BackButton];
+    [_backView addSubview:_ForwardButton];
+    
+    
+//    [_backView bringSubviewToFront:_BackButton];
+//    [_backView bringSubviewToFront:_ForwardButton];
+    
 }
 #pragma mark ------键盘事件
 - (void)KeyboardWillShow:(NSNotification *)noti
@@ -232,12 +237,12 @@
     CGFloat offset=_myTableView.contentOffset.y;
     if (offset>100) {
 //         CGFloat alpha=1-((64-offset)/64);
-         _backView.hidden = NO;
+//         _backView.hidden = NO;
 //        self.navigationController.navigationBar.backgroundColor = [color colorWithAlphaComponent:0];
         [_BackButton setImage:[UIImage imageNamed:@"back2"] forState:UIControlStateNormal];
         [_ForwardButton setImage:[UIImage imageNamed:@"share2"] forState:UIControlStateNormal];
-       _backView.backgroundColor =  [UIColor colorWithRed:0 green:132/255.0 blue:208/255.0 alpha:1];
-        
+//       _backView.backgroundColor =  [UIColor colorWithRed:0 green:132/255.0 blue:208/255.0 alpha:1];
+        _backView.backgroundColor =  [UIColor redColor];
         [_backView addSubview:_BackButton];
         [_backView addSubview:_ForwardButton];
         
@@ -250,12 +255,12 @@
          [_BackButton setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
         [_ForwardButton setImage:[UIImage imageNamed:@"share"] forState:UIControlStateNormal];
         _backView.hidden = YES;
-        _backView.backgroundColor = [UIColor clearColor];
+        _backView.alpha = 0;
        
-        [self.view addSubview:_BackButton];
-        [self.view addSubview:_ForwardButton];
-        [self.view bringSubviewToFront:_BackButton];
-        [self.view bringSubviewToFront:_ForwardButton];
+        [_backView addSubview:_BackButton];
+        [_backView addSubview:_ForwardButton];
+//        [self.view bringSubviewToFront:_BackButton];
+//        [self.view bringSubviewToFront:_ForwardButton];
     }
     
 }
