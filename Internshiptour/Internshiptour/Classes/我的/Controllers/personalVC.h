@@ -10,4 +10,8 @@
 
 @interface personalVC : UIViewController
 
+
+
+@property (weak, nonatomic) IBOutlet UITableView *myUserTableView;
+
 @end

@@ -32,6 +32,7 @@
     label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
     NSLog(@"%@",self.model);
+    
 }
 
 - (void)viewDidLayoutSubviews {

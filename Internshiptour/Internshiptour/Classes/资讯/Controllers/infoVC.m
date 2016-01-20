@@ -30,8 +30,7 @@
 //    self.view.backgroundColor = [UIColor purpleColor];
     
     self.navigationController.navigationBar.hidden = YES;
-    
- 
+   
     
     // 创建分页控制器
     [self p_defaultController];
@@ -41,9 +40,10 @@
     
     WMPageController *pageController = [self p_defaultController];
     pageController.viewFrame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.height);
-    pageController.menuHeight = 64;
+    pageController.menuHeight = 74;
     pageController.showOnNavigationBar = NO;
     pageController.menuBGColor = [UIColor colorWithRed:0/255.0 green:132/255.0 blue:208/255.0 alpha:1.0];
+   
     // 添加按钮
 //    pageController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:nil action:nil];
     self.navigationController.navigationBar.barTintColor=[UIColor colorWithRed:0/255.0 green:132/255.0 blue:208/255.0 alpha:1.0];
@@ -65,15 +65,15 @@
         switch (i % 3) {
             case 0:
                 vcClass = [WMTableViewController class];
-                title = @"Greetings";
+                title = @"全部";
                 break;
             case 1:
                 vcClass = [WMViewController class];
-                title = @"Hit Me";
+                title = @"趣味天下";
                 break;
             default:
                 vcClass = [WMCollectionViewController class];
-                title = @"Fluency";
+                title = @"名校风采";
                 break;
         }
         [viewControllers addObject:vcClass];
@@ -82,8 +82,8 @@
     WMPageController *pageVC = [[WMPageController alloc] initWithViewControllerClasses:viewControllers andTheirTitles:titles];
     NSLog(@"%@",pageVC);
     pageVC.pageAnimatable = YES;
-    pageVC.menuItemWidth = 85;
-    pageVC.postNotification = YES;
+    pageVC.menuItemWidth = 80;
+    pageVC.postNotification = YES; // 是否发送在创建控制器或者视图完全展现在用户眼前时通知观察者，默认为不开启，如需利用通知请开启
     pageVC.bounces = YES;
     
     return pageVC;

@@ -40,6 +40,12 @@
 		0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE4C9721C47A6D000AEF229 /* firstCell.xib */; };
 		27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27249ACB1C48F2E1009892F9 /* commentCell.m */; };
 		27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27249ACC1C48F2E1009892F9 /* commentCell.xib */; };
+		2751709B1C4CE4DA00839F94 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 275170991C4CE4DA00839F94 /* InfoCell.m */; };
+		2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2751709A1C4CE4DA00839F94 /* InfoCell.xib */; };
+		2789168A1C4F730D006F2804 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 278916881C4F730D006F2804 /* UserCell.m */; };
+		2789168B1C4F730D006F2804 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278916891C4F730D006F2804 /* UserCell.xib */; };
+		2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789168D1C4F8FCD006F2804 /* companyInviteVC.m */; };
+		278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */; };
 		B987021C2C4CF972796A9659 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088F6099FC78EAA8D7F07B80 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +83,6 @@
 		0C00402C1C45EDCE000DEC34 /* personalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = personalVC.h; path = "Classes/我的/Controllers/personalVC.h"; sourceTree = "<group>"; };
 		0C00402D1C45EDCE000DEC34 /* personalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = personalVC.m; path = "Classes/我的/Controllers/personalVC.m"; sourceTree = "<group>"; };
 		0C00402E1C45EDCE000DEC34 /* personalVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = personalVC.xib; path = "Classes/我的/Controllers/personalVC.xib"; sourceTree = "<group>"; };
-		0C0040311C463780000DEC34 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0C9163571C4750C100E3B53F /* WMLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMLoopView.h; path = "Classes/资讯/Views/WMLoopView.h"; sourceTree = "<group>"; };
 		0C9163581C4750C100E3B53F /* WMLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMLoopView.m; path = "Classes/资讯/Views/WMLoopView.m"; sourceTree = "<group>"; };
 		0C91635A1C4751C700E3B53F /* WMImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMImageViewCell.h; path = "Classes/资讯/Views/WMImageViewCell.h"; sourceTree = "<group>"; };
@@ -121,6 +126,17 @@
 		27249ACA1C48F2E1009892F9 /* commentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commentCell.h; path = "Classes/资讯/Views/commentCell.h"; sourceTree = "<group>"; };
 		27249ACB1C48F2E1009892F9 /* commentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = commentCell.m; path = "Classes/资讯/Views/commentCell.m"; sourceTree = "<group>"; };
 		27249ACC1C48F2E1009892F9 /* commentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = commentCell.xib; path = "Classes/资讯/Views/commentCell.xib"; sourceTree = "<group>"; };
+		275170981C4CE4DA00839F94 /* InfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoCell.h; path = "Classes/资讯/Views/InfoCell.h"; sourceTree = "<group>"; };
+		275170991C4CE4DA00839F94 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoCell.m; path = "Classes/资讯/Views/InfoCell.m"; sourceTree = "<group>"; };
+		2751709A1C4CE4DA00839F94 /* InfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoCell.xib; path = "Classes/资讯/Views/InfoCell.xib"; sourceTree = "<group>"; };
+		278916871C4F730D006F2804 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCell.h; path = "Classes/我的/Views/UserCell.h"; sourceTree = "<group>"; };
+		278916881C4F730D006F2804 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCell.m; path = "Classes/我的/Views/UserCell.m"; sourceTree = "<group>"; };
+		278916891C4F730D006F2804 /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserCell.xib; path = "Classes/我的/Views/UserCell.xib"; sourceTree = "<group>"; };
+		2789168C1C4F8FCD006F2804 /* companyInviteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = companyInviteVC.h; path = "Classes/我的/Controllers/companyInviteVC.h"; sourceTree = "<group>"; };
+		2789168D1C4F8FCD006F2804 /* companyInviteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = companyInviteVC.m; path = "Classes/我的/Controllers/companyInviteVC.m"; sourceTree = "<group>"; };
+		2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = companyInviteVC.xib; path = "Classes/我的/Controllers/companyInviteVC.xib"; sourceTree = "<group>"; };
+		27C3FB6E1C4DF23B00B62959 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		27C3FB6F1C4DF2CA00B62959 /* Internshiptour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internshiptour-Prefix.pch"; sourceTree = "<group>"; };
 		83A21A025EA7A7F50E0E7F81 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,11 +170,10 @@
 			isa = PBXGroup;
 			children = (
 				0C0040121C45E773000DEC34 /* 网络请求类 */,
-				0C0040031C45E673000DEC34 /* 我的 */,
 				0C0040021C45E66C000DEC34 /* 行程帮助 */,
-				0C0040011C45E65B000DEC34 /* 专题 */,
 				0C0040001C45E652000DEC34 /* 资讯 */,
-				0C0040311C463780000DEC34 /* PrefixHeader.pch */,
+				0C0040011C45E65B000DEC34 /* 专题 */,
+				0C0040031C45E673000DEC34 /* 我的 */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -206,6 +221,9 @@
 		0C0040041C45E687000DEC34 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				278916871C4F730D006F2804 /* UserCell.h */,
+				278916881C4F730D006F2804 /* UserCell.m */,
+				278916891C4F730D006F2804 /* UserCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -223,6 +241,9 @@
 				0C00402C1C45EDCE000DEC34 /* personalVC.h */,
 				0C00402D1C45EDCE000DEC34 /* personalVC.m */,
 				0C00402E1C45EDCE000DEC34 /* personalVC.xib */,
+				2789168C1C4F8FCD006F2804 /* companyInviteVC.h */,
+				2789168D1C4F8FCD006F2804 /* companyInviteVC.m */,
+				2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -293,6 +314,9 @@
 				27249ACA1C48F2E1009892F9 /* commentCell.h */,
 				27249ACB1C48F2E1009892F9 /* commentCell.m */,
 				27249ACC1C48F2E1009892F9 /* commentCell.xib */,
+				275170981C4CE4DA00839F94 /* InfoCell.h */,
+				275170991C4CE4DA00839F94 /* InfoCell.m */,
+				2751709A1C4CE4DA00839F94 /* InfoCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -366,6 +390,8 @@
 				0C003FFD1C45E347000DEC34 /* tabBar.m */,
 				0C003FFF1C45E643000DEC34 /* Classes */,
 				0CD1F19B1C43519F0081EA7A /* Main.storyboard */,
+				27C3FB6E1C4DF23B00B62959 /* Header.h */,
+				27C3FB6F1C4DF2CA00B62959 /* Internshiptour-Prefix.pch */,
 				0CD1F19E1C43519F0081EA7A /* Assets.xcassets */,
 				0CD1F1A01C43519F0081EA7A /* LaunchScreen.storyboard */,
 				0CD1F1A31C43519F0081EA7A /* Info.plist */,
@@ -524,7 +550,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */,
+				2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */,
 				0CAF73F21C48912000CF1A4B /* 7411759_164157418126_2.jpg in Resources */,
+				278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */,
 				0C0040301C45EDCE000DEC34 /* personalVC.xib in Resources */,
 				0CAF73FC1C489C0000CF1A4B /* contentCell.xib in Resources */,
 				0C91636A1C478F4F00E3B53F /* detailVC.xib in Resources */,
@@ -536,6 +564,7 @@
 				27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */,
 				0CD1F19F1C43519F0081EA7A /* Assets.xcassets in Resources */,
 				0CD1F19D1C43519F0081EA7A /* Main.storyboard in Resources */,
+				2789168B1C4F730D006F2804 /* UserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,9 +645,12 @@
 				27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */,
 				0C91635C1C4751C700E3B53F /* WMImageViewCell.m in Sources */,
 				0C00402A1C45EDAB000DEC34 /* tripHelp.m in Sources */,
+				2789168A1C4F730D006F2804 /* UserCell.m in Sources */,
 				0C0040161C45EBD8000DEC34 /* infoVC.m in Sources */,
 				0C9163631C4751D300E3B53F /* WMCollectionViewController.m in Sources */,
+				2751709B1C4CE4DA00839F94 /* InfoCell.m in Sources */,
 				0C00402F1C45EDCE000DEC34 /* personalVC.m in Sources */,
+				2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */,
 				0C9163591C4750C100E3B53F /* WMLoopView.m in Sources */,
 				0C00401B1C45ED69000DEC34 /* specialSubjectVC.m in Sources */,
 				0CD1F1941C43519E0081EA7A /* main.m in Sources */,

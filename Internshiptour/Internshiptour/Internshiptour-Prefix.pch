@@ -1,22 +1,18 @@
 //
-//  PrefixHeader.pch
+//  Internshiptour-Prefix.pch
 //  Internshiptour
 //
-//  Created by dexiang lu on 16/1/13.
+//  Created by 赵雍丹 on 16/1/19.
 //  Copyright © 2016年 dexiang lu. All rights reserved.
 //
 
-#ifndef PrefixHeader_pch
-#define PrefixHeader_pch
+#ifndef Internshiptour_Prefix_pch
+#define Internshiptour_Prefix_pch
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-#ifdef DEBUG
-#define PSLog(...) NSLog(__VA_ARGS__)
-#else
-#define PSLog(...)
-#endif
 
 
-#endif /* PrefixHeader_pch */
+#define NJLog(...) NSLog(__VA_ARGS__)
+#endif /* Internshiptour_Prefix_pch */
