@@ -9,6 +9,7 @@
 #import "personalVC.h"
 #import "UserCell.h"
 #import "companyInviteVC.h"
+#import "myInviteVC.h"
 @interface personalVC ()<UITableViewDataSource,UITableViewDelegate>
 {
     NSArray *_imageArr;
@@ -109,6 +110,11 @@
         companyInviteVC *comVC = [[companyInviteVC alloc] initWithNibName:@"companyInviteVC" bundle:nil];
         [self.navigationController pushViewController:comVC animated:YES];
     
+    }else if (indexPath.row == 4){
+    
+        myInviteVC *myVC = [[myInviteVC alloc] initWithNibName:@"myInviteVC" bundle:nil];
+        [self.navigationController pushViewController:myVC animated:YES];
+
     }
 
 

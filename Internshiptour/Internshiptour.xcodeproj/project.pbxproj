@@ -40,12 +40,18 @@
 		0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE4C9721C47A6D000AEF229 /* firstCell.xib */; };
 		27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27249ACB1C48F2E1009892F9 /* commentCell.m */; };
 		27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27249ACC1C48F2E1009892F9 /* commentCell.xib */; };
+		2730EF7F1C50C38400FEF99B /* receivingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2730EF7D1C50C38400FEF99B /* receivingCell.m */; };
+		2730EF801C50C38400FEF99B /* receivingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2730EF7E1C50C38400FEF99B /* receivingCell.xib */; };
+		2730EF911C50E12800FEF99B /* myInviteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2730EF8F1C50E12800FEF99B /* myInviteVC.m */; };
+		2730EF921C50E12800FEF99B /* myInviteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2730EF901C50E12800FEF99B /* myInviteVC.xib */; };
 		2751709B1C4CE4DA00839F94 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 275170991C4CE4DA00839F94 /* InfoCell.m */; };
 		2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2751709A1C4CE4DA00839F94 /* InfoCell.xib */; };
 		2789168A1C4F730D006F2804 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 278916881C4F730D006F2804 /* UserCell.m */; };
 		2789168B1C4F730D006F2804 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278916891C4F730D006F2804 /* UserCell.xib */; };
 		2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789168D1C4F8FCD006F2804 /* companyInviteVC.m */; };
 		278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */; };
+		27FDD91C1C50854900FA8A5D /* AlreadyAcceptedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDD91A1C50854900FA8A5D /* AlreadyAcceptedCell.m */; };
+		27FDD91D1C50854900FA8A5D /* AlreadyAcceptedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FDD91B1C50854900FA8A5D /* AlreadyAcceptedCell.xib */; };
 		B987021C2C4CF972796A9659 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088F6099FC78EAA8D7F07B80 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -126,6 +132,12 @@
 		27249ACA1C48F2E1009892F9 /* commentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commentCell.h; path = "Classes/资讯/Views/commentCell.h"; sourceTree = "<group>"; };
 		27249ACB1C48F2E1009892F9 /* commentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = commentCell.m; path = "Classes/资讯/Views/commentCell.m"; sourceTree = "<group>"; };
 		27249ACC1C48F2E1009892F9 /* commentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = commentCell.xib; path = "Classes/资讯/Views/commentCell.xib"; sourceTree = "<group>"; };
+		2730EF7C1C50C38400FEF99B /* receivingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = receivingCell.h; path = "Classes/我的/Views/receivingCell.h"; sourceTree = "<group>"; };
+		2730EF7D1C50C38400FEF99B /* receivingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = receivingCell.m; path = "Classes/我的/Views/receivingCell.m"; sourceTree = "<group>"; };
+		2730EF7E1C50C38400FEF99B /* receivingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = receivingCell.xib; path = "Classes/我的/Views/receivingCell.xib"; sourceTree = "<group>"; };
+		2730EF8E1C50E12800FEF99B /* myInviteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myInviteVC.h; path = "Classes/我的/Views/myInviteVC.h"; sourceTree = "<group>"; };
+		2730EF8F1C50E12800FEF99B /* myInviteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myInviteVC.m; path = "Classes/我的/Views/myInviteVC.m"; sourceTree = "<group>"; };
+		2730EF901C50E12800FEF99B /* myInviteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = myInviteVC.xib; path = "Classes/我的/Views/myInviteVC.xib"; sourceTree = "<group>"; };
 		275170981C4CE4DA00839F94 /* InfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoCell.h; path = "Classes/资讯/Views/InfoCell.h"; sourceTree = "<group>"; };
 		275170991C4CE4DA00839F94 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoCell.m; path = "Classes/资讯/Views/InfoCell.m"; sourceTree = "<group>"; };
 		2751709A1C4CE4DA00839F94 /* InfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoCell.xib; path = "Classes/资讯/Views/InfoCell.xib"; sourceTree = "<group>"; };
@@ -137,6 +149,9 @@
 		2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = companyInviteVC.xib; path = "Classes/我的/Controllers/companyInviteVC.xib"; sourceTree = "<group>"; };
 		27C3FB6E1C4DF23B00B62959 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		27C3FB6F1C4DF2CA00B62959 /* Internshiptour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internshiptour-Prefix.pch"; sourceTree = "<group>"; };
+		27FDD9191C50854900FA8A5D /* AlreadyAcceptedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlreadyAcceptedCell.h; path = "Classes/我的/Views/AlreadyAcceptedCell.h"; sourceTree = "<group>"; };
+		27FDD91A1C50854900FA8A5D /* AlreadyAcceptedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlreadyAcceptedCell.m; path = "Classes/我的/Views/AlreadyAcceptedCell.m"; sourceTree = "<group>"; };
+		27FDD91B1C50854900FA8A5D /* AlreadyAcceptedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlreadyAcceptedCell.xib; path = "Classes/我的/Views/AlreadyAcceptedCell.xib"; sourceTree = "<group>"; };
 		83A21A025EA7A7F50E0E7F81 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -224,6 +239,12 @@
 				278916871C4F730D006F2804 /* UserCell.h */,
 				278916881C4F730D006F2804 /* UserCell.m */,
 				278916891C4F730D006F2804 /* UserCell.xib */,
+				27FDD9191C50854900FA8A5D /* AlreadyAcceptedCell.h */,
+				27FDD91A1C50854900FA8A5D /* AlreadyAcceptedCell.m */,
+				27FDD91B1C50854900FA8A5D /* AlreadyAcceptedCell.xib */,
+				2730EF7C1C50C38400FEF99B /* receivingCell.h */,
+				2730EF7D1C50C38400FEF99B /* receivingCell.m */,
+				2730EF7E1C50C38400FEF99B /* receivingCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -244,6 +265,9 @@
 				2789168C1C4F8FCD006F2804 /* companyInviteVC.h */,
 				2789168D1C4F8FCD006F2804 /* companyInviteVC.m */,
 				2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */,
+				2730EF8E1C50E12800FEF99B /* myInviteVC.h */,
+				2730EF8F1C50E12800FEF99B /* myInviteVC.m */,
+				2730EF901C50E12800FEF99B /* myInviteVC.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -454,7 +478,6 @@
 				0CD1F18B1C43519E0081EA7A /* Sources */,
 				0CD1F18C1C43519E0081EA7A /* Frameworks */,
 				0CD1F18D1C43519E0081EA7A /* Resources */,
-				6F999EFC27F2FA75E7171447 /* Embed Pods Frameworks */,
 				BF43653FC3DA158B5983EDF9 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -552,15 +575,18 @@
 				0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */,
 				2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */,
 				0CAF73F21C48912000CF1A4B /* 7411759_164157418126_2.jpg in Resources */,
+				27FDD91D1C50854900FA8A5D /* AlreadyAcceptedCell.xib in Resources */,
 				278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */,
 				0C0040301C45EDCE000DEC34 /* personalVC.xib in Resources */,
 				0CAF73FC1C489C0000CF1A4B /* contentCell.xib in Resources */,
+				2730EF801C50C38400FEF99B /* receivingCell.xib in Resources */,
 				0C91636A1C478F4F00E3B53F /* detailVC.xib in Resources */,
 				0C0040171C45EBD8000DEC34 /* infoVC.xib in Resources */,
 				0CD1F1A21C43519F0081EA7A /* LaunchScreen.storyboard in Resources */,
 				0CAF73F71C4894EC00CF1A4B /* secondCell.xib in Resources */,
 				0C00401C1C45ED69000DEC34 /* specialSubjectVC.xib in Resources */,
 				0C00402B1C45EDAB000DEC34 /* tripHelp.xib in Resources */,
+				2730EF921C50E12800FEF99B /* myInviteVC.xib in Resources */,
 				27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */,
 				0CD1F19F1C43519F0081EA7A /* Assets.xcassets in Resources */,
 				0CD1F19D1C43519F0081EA7A /* Main.storyboard in Resources */,
@@ -585,21 +611,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6F999EFC27F2FA75E7171447 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		78AA6CCA4596FA7A165AB90D /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -642,6 +653,7 @@
 				0CD1F1971C43519F0081EA7A /* AppDelegate.m in Sources */,
 				0C9163691C478F4F00E3B53F /* detailVC.m in Sources */,
 				0CAF73F61C4894EC00CF1A4B /* secondCell.m in Sources */,
+				2730EF911C50E12800FEF99B /* myInviteVC.m in Sources */,
 				27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */,
 				0C91635C1C4751C700E3B53F /* WMImageViewCell.m in Sources */,
 				0C00402A1C45EDAB000DEC34 /* tripHelp.m in Sources */,
@@ -652,11 +664,13 @@
 				0C00402F1C45EDCE000DEC34 /* personalVC.m in Sources */,
 				2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */,
 				0C9163591C4750C100E3B53F /* WMLoopView.m in Sources */,
+				27FDD91C1C50854900FA8A5D /* AlreadyAcceptedCell.m in Sources */,
 				0C00401B1C45ED69000DEC34 /* specialSubjectVC.m in Sources */,
 				0CD1F1941C43519E0081EA7A /* main.m in Sources */,
 				0CE4C9731C47A6D000AEF229 /* firstCell.m in Sources */,
 				0C003FFE1C45E347000DEC34 /* tabBar.m in Sources */,
 				0C9163651C4751D300E3B53F /* WMViewController.m in Sources */,
+				2730EF7F1C50C38400FEF99B /* receivingCell.m in Sources */,
 				0C9163641C4751D300E3B53F /* WMTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

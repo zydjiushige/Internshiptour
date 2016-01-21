@@ -44,6 +44,7 @@
         if(i==2){
         
               [button setImageEdgeInsets:UIEdgeInsetsMake(-10, 40, 0, 0)];
+            [button setTitleEdgeInsets:UIEdgeInsetsMake(30, 5, 0, 0)];
         }else if (i==3){
         
               [button setTitleEdgeInsets:UIEdgeInsetsMake(30, -17, 0, 0)];

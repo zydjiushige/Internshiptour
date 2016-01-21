@@ -254,9 +254,9 @@
 //        CGFloat alpha2=1-((64-offset)/64);
          [_BackButton setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
         [_ForwardButton setImage:[UIImage imageNamed:@"share"] forState:UIControlStateNormal];
-        _backView.hidden = YES;
-        _backView.alpha = 0;
-       
+//        _backView.hidden = YES;
+//        _backView.alpha = 0;
+        _backView.backgroundColor = [UIColor purpleColor];
         [_backView addSubview:_BackButton];
         [_backView addSubview:_ForwardButton];
 //        [self.view bringSubviewToFront:_BackButton];
