@@ -23,7 +23,6 @@
 		0C9163651C4751D300E3B53F /* WMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9163621C4751D300E3B53F /* WMViewController.m */; };
 		0C9163691C478F4F00E3B53F /* detailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9163671C478F4F00E3B53F /* detailVC.m */; };
 		0C91636A1C478F4F00E3B53F /* detailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C9163681C478F4F00E3B53F /* detailVC.xib */; };
-		0CAF73F21C48912000CF1A4B /* 7411759_164157418126_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CAF73F11C48912000CF1A4B /* 7411759_164157418126_2.jpg */; };
 		0CAF73F61C4894EC00CF1A4B /* secondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF73F41C4894EC00CF1A4B /* secondCell.m */; };
 		0CAF73F71C4894EC00CF1A4B /* secondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CAF73F51C4894EC00CF1A4B /* secondCell.xib */; };
 		0CAF73FB1C489C0000CF1A4B /* contentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF73F91C489C0000CF1A4B /* contentCell.m */; };
@@ -50,8 +49,24 @@
 		2789168B1C4F730D006F2804 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278916891C4F730D006F2804 /* UserCell.xib */; };
 		2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789168D1C4F8FCD006F2804 /* companyInviteVC.m */; };
 		278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */; };
+		27C8602B1C51C8E400B13E09 /* myResumeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C860291C51C8E400B13E09 /* myResumeVC.m */; };
+		27C8602C1C51C8E400B13E09 /* myResumeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C8602A1C51C8E400B13E09 /* myResumeVC.xib */; };
+		27C860301C51D18800B13E09 /* myResumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8602E1C51D18800B13E09 /* myResumeCell.m */; };
+		27C860311C51D18800B13E09 /* myResumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C8602F1C51D18800B13E09 /* myResumeCell.xib */; };
 		27FDD91C1C50854900FA8A5D /* AlreadyAcceptedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDD91A1C50854900FA8A5D /* AlreadyAcceptedCell.m */; };
 		27FDD91D1C50854900FA8A5D /* AlreadyAcceptedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FDD91B1C50854900FA8A5D /* AlreadyAcceptedCell.xib */; };
+		27FF53811C52014C0003D2F5 /* setUpResumeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FF537F1C52014C0003D2F5 /* setUpResumeVC.m */; };
+		27FF53821C52014C0003D2F5 /* setUpResumeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FF53801C52014C0003D2F5 /* setUpResumeVC.xib */; };
+		27FF53861C52107B0003D2F5 /* setUpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FF53841C52107B0003D2F5 /* setUpCell.m */; };
+		27FF53871C52107B0003D2F5 /* setUpCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FF53851C52107B0003D2F5 /* setUpCell.xib */; };
+		27FF538B1C521C4B0003D2F5 /* userInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FF53891C521C4B0003D2F5 /* userInfoVC.m */; };
+		27FF538C1C521C4B0003D2F5 /* userInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FF538A1C521C4B0003D2F5 /* userInfoVC.xib */; };
+		27FF53901C5223A80003D2F5 /* sexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FF538E1C5223A80003D2F5 /* sexCell.m */; };
+		27FF53911C5223A80003D2F5 /* sexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FF538F1C5223A80003D2F5 /* sexCell.xib */; };
+		27FF53951C5224D70003D2F5 /* DirectInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FF53931C5224D70003D2F5 /* DirectInputCell.m */; };
+		27FF53961C5224D70003D2F5 /* DirectInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FF53941C5224D70003D2F5 /* DirectInputCell.xib */; };
+		27FF539A1C5225070003D2F5 /* InToVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FF53981C5225070003D2F5 /* InToVCCell.m */; };
+		27FF539B1C5225070003D2F5 /* InToVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FF53991C5225070003D2F5 /* InToVCCell.xib */; };
 		B987021C2C4CF972796A9659 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 088F6099FC78EAA8D7F07B80 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -102,7 +117,6 @@
 		0C9163661C478F4F00E3B53F /* detailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = detailVC.h; path = "Classes/资讯/Controllers/detailVC.h"; sourceTree = "<group>"; };
 		0C9163671C478F4F00E3B53F /* detailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = detailVC.m; path = "Classes/资讯/Controllers/detailVC.m"; sourceTree = "<group>"; };
 		0C9163681C478F4F00E3B53F /* detailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = detailVC.xib; path = "Classes/资讯/Controllers/detailVC.xib"; sourceTree = "<group>"; };
-		0CAF73F11C48912000CF1A4B /* 7411759_164157418126_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7411759_164157418126_2.jpg; sourceTree = "<group>"; };
 		0CAF73F31C4894EC00CF1A4B /* secondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secondCell.h; path = "Classes/资讯/Views/secondCell.h"; sourceTree = "<group>"; };
 		0CAF73F41C4894EC00CF1A4B /* secondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secondCell.m; path = "Classes/资讯/Views/secondCell.m"; sourceTree = "<group>"; };
 		0CAF73F51C4894EC00CF1A4B /* secondCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = secondCell.xib; path = "Classes/资讯/Views/secondCell.xib"; sourceTree = "<group>"; };
@@ -149,9 +163,33 @@
 		2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = companyInviteVC.xib; path = "Classes/我的/Controllers/companyInviteVC.xib"; sourceTree = "<group>"; };
 		27C3FB6E1C4DF23B00B62959 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		27C3FB6F1C4DF2CA00B62959 /* Internshiptour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internshiptour-Prefix.pch"; sourceTree = "<group>"; };
+		27C860281C51C8E400B13E09 /* myResumeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myResumeVC.h; path = "Classes/我的/Controllers/myResumeVC.h"; sourceTree = "<group>"; };
+		27C860291C51C8E400B13E09 /* myResumeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myResumeVC.m; path = "Classes/我的/Controllers/myResumeVC.m"; sourceTree = "<group>"; };
+		27C8602A1C51C8E400B13E09 /* myResumeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = myResumeVC.xib; path = "Classes/我的/Controllers/myResumeVC.xib"; sourceTree = "<group>"; };
+		27C8602D1C51D18800B13E09 /* myResumeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myResumeCell.h; path = "Classes/我的/Views/myResumeCell.h"; sourceTree = "<group>"; };
+		27C8602E1C51D18800B13E09 /* myResumeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myResumeCell.m; path = "Classes/我的/Views/myResumeCell.m"; sourceTree = "<group>"; };
+		27C8602F1C51D18800B13E09 /* myResumeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = myResumeCell.xib; path = "Classes/我的/Views/myResumeCell.xib"; sourceTree = "<group>"; };
 		27FDD9191C50854900FA8A5D /* AlreadyAcceptedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlreadyAcceptedCell.h; path = "Classes/我的/Views/AlreadyAcceptedCell.h"; sourceTree = "<group>"; };
 		27FDD91A1C50854900FA8A5D /* AlreadyAcceptedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlreadyAcceptedCell.m; path = "Classes/我的/Views/AlreadyAcceptedCell.m"; sourceTree = "<group>"; };
 		27FDD91B1C50854900FA8A5D /* AlreadyAcceptedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlreadyAcceptedCell.xib; path = "Classes/我的/Views/AlreadyAcceptedCell.xib"; sourceTree = "<group>"; };
+		27FF537E1C52014C0003D2F5 /* setUpResumeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = setUpResumeVC.h; path = "Classes/我的/Controllers/setUpResumeVC.h"; sourceTree = "<group>"; };
+		27FF537F1C52014C0003D2F5 /* setUpResumeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = setUpResumeVC.m; path = "Classes/我的/Controllers/setUpResumeVC.m"; sourceTree = "<group>"; };
+		27FF53801C52014C0003D2F5 /* setUpResumeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = setUpResumeVC.xib; path = "Classes/我的/Controllers/setUpResumeVC.xib"; sourceTree = "<group>"; };
+		27FF53831C52107B0003D2F5 /* setUpCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = setUpCell.h; path = "Classes/我的/Controllers/setUpCell.h"; sourceTree = "<group>"; };
+		27FF53841C52107B0003D2F5 /* setUpCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = setUpCell.m; path = "Classes/我的/Controllers/setUpCell.m"; sourceTree = "<group>"; };
+		27FF53851C52107B0003D2F5 /* setUpCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = setUpCell.xib; path = "Classes/我的/Controllers/setUpCell.xib"; sourceTree = "<group>"; };
+		27FF53881C521C4B0003D2F5 /* userInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = userInfoVC.h; path = "Classes/我的/Controllers/userInfoVC.h"; sourceTree = "<group>"; };
+		27FF53891C521C4B0003D2F5 /* userInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = userInfoVC.m; path = "Classes/我的/Controllers/userInfoVC.m"; sourceTree = "<group>"; };
+		27FF538A1C521C4B0003D2F5 /* userInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = userInfoVC.xib; path = "Classes/我的/Controllers/userInfoVC.xib"; sourceTree = "<group>"; };
+		27FF538D1C5223A80003D2F5 /* sexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sexCell.h; path = "Classes/我的/Views/sexCell.h"; sourceTree = "<group>"; };
+		27FF538E1C5223A80003D2F5 /* sexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sexCell.m; path = "Classes/我的/Views/sexCell.m"; sourceTree = "<group>"; };
+		27FF538F1C5223A80003D2F5 /* sexCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = sexCell.xib; path = "Classes/我的/Views/sexCell.xib"; sourceTree = "<group>"; };
+		27FF53921C5224D70003D2F5 /* DirectInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectInputCell.h; path = "Classes/我的/Views/DirectInputCell.h"; sourceTree = "<group>"; };
+		27FF53931C5224D70003D2F5 /* DirectInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirectInputCell.m; path = "Classes/我的/Views/DirectInputCell.m"; sourceTree = "<group>"; };
+		27FF53941C5224D70003D2F5 /* DirectInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DirectInputCell.xib; path = "Classes/我的/Views/DirectInputCell.xib"; sourceTree = "<group>"; };
+		27FF53971C5225070003D2F5 /* InToVCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InToVCCell.h; path = "Classes/我的/Views/InToVCCell.h"; sourceTree = "<group>"; };
+		27FF53981C5225070003D2F5 /* InToVCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InToVCCell.m; path = "Classes/我的/Views/InToVCCell.m"; sourceTree = "<group>"; };
+		27FF53991C5225070003D2F5 /* InToVCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InToVCCell.xib; path = "Classes/我的/Views/InToVCCell.xib"; sourceTree = "<group>"; };
 		83A21A025EA7A7F50E0E7F81 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,6 +283,21 @@
 				2730EF7C1C50C38400FEF99B /* receivingCell.h */,
 				2730EF7D1C50C38400FEF99B /* receivingCell.m */,
 				2730EF7E1C50C38400FEF99B /* receivingCell.xib */,
+				27C8602D1C51D18800B13E09 /* myResumeCell.h */,
+				27C8602E1C51D18800B13E09 /* myResumeCell.m */,
+				27C8602F1C51D18800B13E09 /* myResumeCell.xib */,
+				27FF53831C52107B0003D2F5 /* setUpCell.h */,
+				27FF53841C52107B0003D2F5 /* setUpCell.m */,
+				27FF53851C52107B0003D2F5 /* setUpCell.xib */,
+				27FF538D1C5223A80003D2F5 /* sexCell.h */,
+				27FF538E1C5223A80003D2F5 /* sexCell.m */,
+				27FF538F1C5223A80003D2F5 /* sexCell.xib */,
+				27FF53921C5224D70003D2F5 /* DirectInputCell.h */,
+				27FF53931C5224D70003D2F5 /* DirectInputCell.m */,
+				27FF53941C5224D70003D2F5 /* DirectInputCell.xib */,
+				27FF53971C5225070003D2F5 /* InToVCCell.h */,
+				27FF53981C5225070003D2F5 /* InToVCCell.m */,
+				27FF53991C5225070003D2F5 /* InToVCCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -268,6 +321,15 @@
 				2730EF8E1C50E12800FEF99B /* myInviteVC.h */,
 				2730EF8F1C50E12800FEF99B /* myInviteVC.m */,
 				2730EF901C50E12800FEF99B /* myInviteVC.xib */,
+				27C860281C51C8E400B13E09 /* myResumeVC.h */,
+				27C860291C51C8E400B13E09 /* myResumeVC.m */,
+				27C8602A1C51C8E400B13E09 /* myResumeVC.xib */,
+				27FF537E1C52014C0003D2F5 /* setUpResumeVC.h */,
+				27FF537F1C52014C0003D2F5 /* setUpResumeVC.m */,
+				27FF53801C52014C0003D2F5 /* setUpResumeVC.xib */,
+				27FF53881C521C4B0003D2F5 /* userInfoVC.h */,
+				27FF53891C521C4B0003D2F5 /* userInfoVC.m */,
+				27FF538A1C521C4B0003D2F5 /* userInfoVC.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -383,7 +445,6 @@
 		0CD1F1861C43519E0081EA7A = {
 			isa = PBXGroup;
 			children = (
-				0CAF73F11C48912000CF1A4B /* 7411759_164157418126_2.jpg */,
 				0CD1F1911C43519E0081EA7A /* Internshiptour */,
 				0CD1F1AB1C43519F0081EA7A /* InternshiptourTests */,
 				0CD1F1B61C43519F0081EA7A /* InternshiptourUITests */,
@@ -574,23 +635,30 @@
 			files = (
 				0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */,
 				2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */,
-				0CAF73F21C48912000CF1A4B /* 7411759_164157418126_2.jpg in Resources */,
 				27FDD91D1C50854900FA8A5D /* AlreadyAcceptedCell.xib in Resources */,
 				278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */,
 				0C0040301C45EDCE000DEC34 /* personalVC.xib in Resources */,
 				0CAF73FC1C489C0000CF1A4B /* contentCell.xib in Resources */,
+				27FF539B1C5225070003D2F5 /* InToVCCell.xib in Resources */,
 				2730EF801C50C38400FEF99B /* receivingCell.xib in Resources */,
 				0C91636A1C478F4F00E3B53F /* detailVC.xib in Resources */,
 				0C0040171C45EBD8000DEC34 /* infoVC.xib in Resources */,
 				0CD1F1A21C43519F0081EA7A /* LaunchScreen.storyboard in Resources */,
+				27C8602C1C51C8E400B13E09 /* myResumeVC.xib in Resources */,
+				27FF53871C52107B0003D2F5 /* setUpCell.xib in Resources */,
+				27FF53911C5223A80003D2F5 /* sexCell.xib in Resources */,
 				0CAF73F71C4894EC00CF1A4B /* secondCell.xib in Resources */,
+				27FF538C1C521C4B0003D2F5 /* userInfoVC.xib in Resources */,
+				27C860311C51D18800B13E09 /* myResumeCell.xib in Resources */,
 				0C00401C1C45ED69000DEC34 /* specialSubjectVC.xib in Resources */,
+				27FF53821C52014C0003D2F5 /* setUpResumeVC.xib in Resources */,
 				0C00402B1C45EDAB000DEC34 /* tripHelp.xib in Resources */,
 				2730EF921C50E12800FEF99B /* myInviteVC.xib in Resources */,
 				27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */,
 				0CD1F19F1C43519F0081EA7A /* Assets.xcassets in Resources */,
 				0CD1F19D1C43519F0081EA7A /* Main.storyboard in Resources */,
 				2789168B1C4F730D006F2804 /* UserCell.xib in Resources */,
+				27FF53961C5224D70003D2F5 /* DirectInputCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +720,7 @@
 				0CAF73FB1C489C0000CF1A4B /* contentCell.m in Sources */,
 				0CD1F1971C43519F0081EA7A /* AppDelegate.m in Sources */,
 				0C9163691C478F4F00E3B53F /* detailVC.m in Sources */,
+				27C8602B1C51C8E400B13E09 /* myResumeVC.m in Sources */,
 				0CAF73F61C4894EC00CF1A4B /* secondCell.m in Sources */,
 				2730EF911C50E12800FEF99B /* myInviteVC.m in Sources */,
 				27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */,
@@ -663,13 +732,20 @@
 				2751709B1C4CE4DA00839F94 /* InfoCell.m in Sources */,
 				0C00402F1C45EDCE000DEC34 /* personalVC.m in Sources */,
 				2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */,
+				27FF53901C5223A80003D2F5 /* sexCell.m in Sources */,
 				0C9163591C4750C100E3B53F /* WMLoopView.m in Sources */,
+				27FF53811C52014C0003D2F5 /* setUpResumeVC.m in Sources */,
 				27FDD91C1C50854900FA8A5D /* AlreadyAcceptedCell.m in Sources */,
 				0C00401B1C45ED69000DEC34 /* specialSubjectVC.m in Sources */,
 				0CD1F1941C43519E0081EA7A /* main.m in Sources */,
 				0CE4C9731C47A6D000AEF229 /* firstCell.m in Sources */,
 				0C003FFE1C45E347000DEC34 /* tabBar.m in Sources */,
+				27FF53861C52107B0003D2F5 /* setUpCell.m in Sources */,
+				27FF538B1C521C4B0003D2F5 /* userInfoVC.m in Sources */,
+				27FF539A1C5225070003D2F5 /* InToVCCell.m in Sources */,
+				27C860301C51D18800B13E09 /* myResumeCell.m in Sources */,
 				0C9163651C4751D300E3B53F /* WMViewController.m in Sources */,
+				27FF53951C5224D70003D2F5 /* DirectInputCell.m in Sources */,
 				2730EF7F1C50C38400FEF99B /* receivingCell.m in Sources */,
 				0C9163641C4751D300E3B53F /* WMTableViewController.m in Sources */,
 			);

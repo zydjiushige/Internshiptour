@@ -10,6 +10,9 @@
 #import "UserCell.h"
 #import "companyInviteVC.h"
 #import "myInviteVC.h"
+#import "myResumeVC.h"
+#import "AppDelegate.h"
+#import "tabBar.h"
 @interface personalVC ()<UITableViewDataSource,UITableViewDelegate>
 {
     NSArray *_imageArr;
@@ -19,7 +22,17 @@
 @end
 
 @implementation personalVC
-
+-(void)viewWillAppear:(BOOL)animated
+{
+    //主视图退出后,再次加载自定义系统tabbar
+    AppDelegate *delegate = [UIApplication sharedApplication].delegate;
+    
+    UIWindow *window = delegate.window;
+    tabBar *tabbar = (tabBar *)window.rootViewController;
+    
+    tabbar.tab.hidden = NO;
+    
+}
 
 -(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -115,6 +128,11 @@
         myInviteVC *myVC = [[myInviteVC alloc] initWithNibName:@"myInviteVC" bundle:nil];
         [self.navigationController pushViewController:myVC animated:YES];
 
+    }else if (indexPath.row == 2){
+    
+        
+        myResumeVC * myResume = [[myResumeVC alloc] initWithNibName:@"myResumeVC" bundle:nil];
+        [self.navigationController pushViewController:myResume animated:YES];
     }
 
 
