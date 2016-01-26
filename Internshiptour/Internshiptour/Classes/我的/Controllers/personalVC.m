@@ -51,22 +51,22 @@
     
     // 图片数组
     
-    _imageArr = @[@"",@"my_jifen_ic",@"my_resume_ic",@"",@"my_sq_ic",@"my_yq_ic",@"",@"my_set_ic",@""];
+    _imageArr = @[@"",@"my_jifen_ic",@"my_resume_ic",@"my_resume_order_ic",@"",@"my_sq_ic",@"my_yq_ic",@"",@"my_set_ic",@""];
    
-    _NameArr = @[@"",@"我的积分",@"我的简历",@"",@"我的申请",@"企业邀请",@"",@"设置",@""];
+    _NameArr = @[@"",@"我的积分",@"我的简历",@"我的订单",@"",@"我的申请",@"企业邀请",@"",@"设置",@""];
     [_myUserTableView registerNib:[UINib nibWithNibName:@"UserCell" bundle:nil] forCellReuseIdentifier:@"UserCell"];
     
 }
 #pragma mark  -----------<UITableViewDataSource,UITableViewDelegate>
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 9;
+    return 10;
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    if(indexPath.row == 0 || indexPath.row == 3 || indexPath.row == 6 || indexPath.row == 8 ){
+    if(indexPath.row == 0 || indexPath.row == 4 || indexPath.row == 7 || indexPath.row == 9 ){
     
         static NSString *reusedID=@"reusedID";
         UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:reusedID];
@@ -80,7 +80,7 @@
         cell.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
     
         return cell;
-    }else if(indexPath.row == 1 || indexPath.row == 2 || indexPath.row == 4 || indexPath.row == 5 || indexPath.row == 7){
+    }else if(indexPath.row == 1 || indexPath.row == 2 || indexPath.row == 3 || indexPath.row == 5 || indexPath.row == 6 || indexPath.row == 8){
     
         UserCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UserCell"];
         
@@ -101,10 +101,10 @@
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 1 || indexPath.row == 2 || indexPath.row == 4 || indexPath.row == 5 || indexPath.row == 7){
+    if(indexPath.row == 1 || indexPath.row == 2 || indexPath.row == 3 || indexPath.row == 5 || indexPath.row == 6 || indexPath.row == 8){
         return 44;
     
-    }else if(indexPath.row == 0 || indexPath.row == 3 || indexPath.row == 6){
+    }else if(indexPath.row == 0 || indexPath.row == 4 || indexPath.row == 7){
     
         
         return 20.0f;
@@ -117,13 +117,13 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
-    if(indexPath.row == 5){
+    if(indexPath.row == 6){
     
 //        companyInviteVC *comVC = [[NSBundle mainBundle] loadNibNamed:@"companyInviteVC" owner:self options:nil][0];
         companyInviteVC *comVC = [[companyInviteVC alloc] initWithNibName:@"companyInviteVC" bundle:nil];
         [self.navigationController pushViewController:comVC animated:YES];
     
-    }else if (indexPath.row == 4){
+    }else if (indexPath.row == 5){
     
         myInviteVC *myVC = [[myInviteVC alloc] initWithNibName:@"myInviteVC" bundle:nil];
         [self.navigationController pushViewController:myVC animated:YES];

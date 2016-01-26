@@ -21,7 +21,12 @@
                             <constraint firstAttribute="width" constant="30" id="awO-gO-pnZ"/>
                             <constraint firstAttribute="height" constant="30" id="uIA-G6-LaL"/>
                         </constraints>
-                        <state key="normal" title="保密"/>
+                        <state key="normal" title="保密">
+                            <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="secretAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7me-1P-KSq"/>
+                        </connections>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKi-xX-j4U">
                         <rect key="frame" x="217" y="7" width="30" height="30"/>
@@ -29,7 +34,12 @@
                             <constraint firstAttribute="height" constant="30" id="6aT-VN-t3Z"/>
                             <constraint firstAttribute="width" constant="30" id="YfQ-HJ-Lgc"/>
                         </constraints>
-                        <state key="normal" title="男"/>
+                        <state key="normal" title="男">
+                            <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="manAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="wqI-se-rH8"/>
+                        </connections>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynd-Wv-A00">
                         <rect key="frame" x="282" y="7" width="30" height="30"/>
@@ -37,7 +47,12 @@
                             <constraint firstAttribute="height" constant="30" id="U7Q-6L-0YM"/>
                             <constraint firstAttribute="width" constant="30" id="gZn-Sq-ySu"/>
                         </constraints>
-                        <state key="normal" title="女"/>
+                        <state key="normal" title="女">
+                            <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="womenAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="u3c-oZ-dkE"/>
+                        </connections>
                     </button>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="personal_information_nan_off" translatesAutoresizingMaskIntoConstraints="NO" id="km3-RX-0XA" userLabel="man">
                         <rect key="frame" x="192" y="12" width="22" height="20"/>

@@ -1,14 +1,14 @@
 //
-//  InToVCCell.m
+//  EducationExperienceCell.m
 //  Internshiptour
 //
-//  Created by 赵雍丹 on 16/1/22.
+//  Created by 赵雍丹 on 16/1/26.
 //  Copyright © 2016年 dexiang lu. All rights reserved.
 //
 
-#import "InToVCCell.h"
+#import "EducationExperienceCell.h"
 
-@implementation InToVCCell
+@implementation EducationExperienceCell
 
 - (void)awakeFromNib {
     // Initialization code
@@ -20,7 +20,4 @@
     // Configure the view for the selected state
 }
 
-
-//@property (weak, nonatomic) IBOutlet UILabel *titleLable;
-//@property (weak, nonatomic) IBOutlet UIButton *boolSelectedButton;
 @end

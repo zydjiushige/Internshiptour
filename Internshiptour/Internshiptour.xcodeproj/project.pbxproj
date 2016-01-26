@@ -43,16 +43,26 @@
 		2730EF801C50C38400FEF99B /* receivingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2730EF7E1C50C38400FEF99B /* receivingCell.xib */; };
 		2730EF911C50E12800FEF99B /* myInviteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2730EF8F1C50E12800FEF99B /* myInviteVC.m */; };
 		2730EF921C50E12800FEF99B /* myInviteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2730EF901C50E12800FEF99B /* myInviteVC.xib */; };
+		274D64461C57611D00F06C03 /* EducationExperienceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 274D64441C57611D00F06C03 /* EducationExperienceCell.m */; };
+		274D64471C57611D00F06C03 /* EducationExperienceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 274D64451C57611D00F06C03 /* EducationExperienceCell.xib */; };
 		2751709B1C4CE4DA00839F94 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 275170991C4CE4DA00839F94 /* InfoCell.m */; };
 		2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2751709A1C4CE4DA00839F94 /* InfoCell.xib */; };
 		2789168A1C4F730D006F2804 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 278916881C4F730D006F2804 /* UserCell.m */; };
 		2789168B1C4F730D006F2804 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278916891C4F730D006F2804 /* UserCell.xib */; };
 		2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789168D1C4F8FCD006F2804 /* companyInviteVC.m */; };
 		278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */; };
+		27AD7BB71C56245B003ADCA9 /* ExpectedIndustryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AD7BB51C56245B003ADCA9 /* ExpectedIndustryVC.m */; };
+		27AD7BB81C56245B003ADCA9 /* ExpectedIndustryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AD7BB61C56245B003ADCA9 /* ExpectedIndustryVC.xib */; };
 		27C8602B1C51C8E400B13E09 /* myResumeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C860291C51C8E400B13E09 /* myResumeVC.m */; };
 		27C8602C1C51C8E400B13E09 /* myResumeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C8602A1C51C8E400B13E09 /* myResumeVC.xib */; };
 		27C860301C51D18800B13E09 /* myResumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8602E1C51D18800B13E09 /* myResumeCell.m */; };
 		27C860311C51D18800B13E09 /* myResumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C8602F1C51D18800B13E09 /* myResumeCell.xib */; };
+		27F514141C57A7B200DE783A /* ExpectedIndustryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F514121C57A7B200DE783A /* ExpectedIndustryCell.m */; };
+		27F514151C57A7B200DE783A /* ExpectedIndustryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27F514131C57A7B200DE783A /* ExpectedIndustryCell.xib */; };
+		27FBA0251C5748300087D8A6 /* headCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBA0241C5748300087D8A6 /* headCellView.m */; };
+		27FBA0271C5748490087D8A6 /* headCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FBA0261C5748490087D8A6 /* headCellView.xib */; };
+		27FBA0351C575AED0087D8A6 /* EducationExperienceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FBA0331C575AED0087D8A6 /* EducationExperienceVC.m */; };
+		27FBA0361C575AED0087D8A6 /* EducationExperienceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FBA0341C575AED0087D8A6 /* EducationExperienceVC.xib */; };
 		27FDD91C1C50854900FA8A5D /* AlreadyAcceptedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDD91A1C50854900FA8A5D /* AlreadyAcceptedCell.m */; };
 		27FDD91D1C50854900FA8A5D /* AlreadyAcceptedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FDD91B1C50854900FA8A5D /* AlreadyAcceptedCell.xib */; };
 		27FF53811C52014C0003D2F5 /* setUpResumeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FF537F1C52014C0003D2F5 /* setUpResumeVC.m */; };
@@ -152,6 +162,9 @@
 		2730EF8E1C50E12800FEF99B /* myInviteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myInviteVC.h; path = "Classes/我的/Views/myInviteVC.h"; sourceTree = "<group>"; };
 		2730EF8F1C50E12800FEF99B /* myInviteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myInviteVC.m; path = "Classes/我的/Views/myInviteVC.m"; sourceTree = "<group>"; };
 		2730EF901C50E12800FEF99B /* myInviteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = myInviteVC.xib; path = "Classes/我的/Views/myInviteVC.xib"; sourceTree = "<group>"; };
+		274D64431C57611D00F06C03 /* EducationExperienceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EducationExperienceCell.h; path = "Classes/我的/Views/EducationExperienceCell.h"; sourceTree = "<group>"; };
+		274D64441C57611D00F06C03 /* EducationExperienceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EducationExperienceCell.m; path = "Classes/我的/Views/EducationExperienceCell.m"; sourceTree = "<group>"; };
+		274D64451C57611D00F06C03 /* EducationExperienceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EducationExperienceCell.xib; path = "Classes/我的/Views/EducationExperienceCell.xib"; sourceTree = "<group>"; };
 		275170981C4CE4DA00839F94 /* InfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoCell.h; path = "Classes/资讯/Views/InfoCell.h"; sourceTree = "<group>"; };
 		275170991C4CE4DA00839F94 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoCell.m; path = "Classes/资讯/Views/InfoCell.m"; sourceTree = "<group>"; };
 		2751709A1C4CE4DA00839F94 /* InfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoCell.xib; path = "Classes/资讯/Views/InfoCell.xib"; sourceTree = "<group>"; };
@@ -161,6 +174,9 @@
 		2789168C1C4F8FCD006F2804 /* companyInviteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = companyInviteVC.h; path = "Classes/我的/Controllers/companyInviteVC.h"; sourceTree = "<group>"; };
 		2789168D1C4F8FCD006F2804 /* companyInviteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = companyInviteVC.m; path = "Classes/我的/Controllers/companyInviteVC.m"; sourceTree = "<group>"; };
 		2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = companyInviteVC.xib; path = "Classes/我的/Controllers/companyInviteVC.xib"; sourceTree = "<group>"; };
+		27AD7BB41C56245B003ADCA9 /* ExpectedIndustryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpectedIndustryVC.h; path = "Classes/我的/Controllers/ExpectedIndustryVC.h"; sourceTree = "<group>"; };
+		27AD7BB51C56245B003ADCA9 /* ExpectedIndustryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectedIndustryVC.m; path = "Classes/我的/Controllers/ExpectedIndustryVC.m"; sourceTree = "<group>"; };
+		27AD7BB61C56245B003ADCA9 /* ExpectedIndustryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpectedIndustryVC.xib; path = "Classes/我的/Controllers/ExpectedIndustryVC.xib"; sourceTree = "<group>"; };
 		27C3FB6E1C4DF23B00B62959 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		27C3FB6F1C4DF2CA00B62959 /* Internshiptour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internshiptour-Prefix.pch"; sourceTree = "<group>"; };
 		27C860281C51C8E400B13E09 /* myResumeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myResumeVC.h; path = "Classes/我的/Controllers/myResumeVC.h"; sourceTree = "<group>"; };
@@ -169,6 +185,15 @@
 		27C8602D1C51D18800B13E09 /* myResumeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myResumeCell.h; path = "Classes/我的/Views/myResumeCell.h"; sourceTree = "<group>"; };
 		27C8602E1C51D18800B13E09 /* myResumeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myResumeCell.m; path = "Classes/我的/Views/myResumeCell.m"; sourceTree = "<group>"; };
 		27C8602F1C51D18800B13E09 /* myResumeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = myResumeCell.xib; path = "Classes/我的/Views/myResumeCell.xib"; sourceTree = "<group>"; };
+		27F514111C57A7B200DE783A /* ExpectedIndustryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpectedIndustryCell.h; path = "Classes/我的/Views/ExpectedIndustryCell.h"; sourceTree = "<group>"; };
+		27F514121C57A7B200DE783A /* ExpectedIndustryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectedIndustryCell.m; path = "Classes/我的/Views/ExpectedIndustryCell.m"; sourceTree = "<group>"; };
+		27F514131C57A7B200DE783A /* ExpectedIndustryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpectedIndustryCell.xib; path = "Classes/我的/Views/ExpectedIndustryCell.xib"; sourceTree = "<group>"; };
+		27FBA0231C5748300087D8A6 /* headCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = headCellView.h; path = "Classes/我的/Views/headCellView.h"; sourceTree = "<group>"; };
+		27FBA0241C5748300087D8A6 /* headCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = headCellView.m; path = "Classes/我的/Views/headCellView.m"; sourceTree = "<group>"; };
+		27FBA0261C5748490087D8A6 /* headCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = headCellView.xib; sourceTree = "<group>"; };
+		27FBA0321C575AED0087D8A6 /* EducationExperienceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EducationExperienceVC.h; path = "Classes/我的/Controllers/EducationExperienceVC.h"; sourceTree = "<group>"; };
+		27FBA0331C575AED0087D8A6 /* EducationExperienceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EducationExperienceVC.m; path = "Classes/我的/Controllers/EducationExperienceVC.m"; sourceTree = "<group>"; };
+		27FBA0341C575AED0087D8A6 /* EducationExperienceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EducationExperienceVC.xib; path = "Classes/我的/Controllers/EducationExperienceVC.xib"; sourceTree = "<group>"; };
 		27FDD9191C50854900FA8A5D /* AlreadyAcceptedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlreadyAcceptedCell.h; path = "Classes/我的/Views/AlreadyAcceptedCell.h"; sourceTree = "<group>"; };
 		27FDD91A1C50854900FA8A5D /* AlreadyAcceptedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlreadyAcceptedCell.m; path = "Classes/我的/Views/AlreadyAcceptedCell.m"; sourceTree = "<group>"; };
 		27FDD91B1C50854900FA8A5D /* AlreadyAcceptedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlreadyAcceptedCell.xib; path = "Classes/我的/Views/AlreadyAcceptedCell.xib"; sourceTree = "<group>"; };
@@ -274,30 +299,11 @@
 		0C0040041C45E687000DEC34 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				278916871C4F730D006F2804 /* UserCell.h */,
+				27FBA0301C5752B40087D8A6 /* 我的申请 */,
+				27FBA02D1C57523D0087D8A6 /* 我的简历 */,
 				278916881C4F730D006F2804 /* UserCell.m */,
+				278916871C4F730D006F2804 /* UserCell.h */,
 				278916891C4F730D006F2804 /* UserCell.xib */,
-				27FDD9191C50854900FA8A5D /* AlreadyAcceptedCell.h */,
-				27FDD91A1C50854900FA8A5D /* AlreadyAcceptedCell.m */,
-				27FDD91B1C50854900FA8A5D /* AlreadyAcceptedCell.xib */,
-				2730EF7C1C50C38400FEF99B /* receivingCell.h */,
-				2730EF7D1C50C38400FEF99B /* receivingCell.m */,
-				2730EF7E1C50C38400FEF99B /* receivingCell.xib */,
-				27C8602D1C51D18800B13E09 /* myResumeCell.h */,
-				27C8602E1C51D18800B13E09 /* myResumeCell.m */,
-				27C8602F1C51D18800B13E09 /* myResumeCell.xib */,
-				27FF53831C52107B0003D2F5 /* setUpCell.h */,
-				27FF53841C52107B0003D2F5 /* setUpCell.m */,
-				27FF53851C52107B0003D2F5 /* setUpCell.xib */,
-				27FF538D1C5223A80003D2F5 /* sexCell.h */,
-				27FF538E1C5223A80003D2F5 /* sexCell.m */,
-				27FF538F1C5223A80003D2F5 /* sexCell.xib */,
-				27FF53921C5224D70003D2F5 /* DirectInputCell.h */,
-				27FF53931C5224D70003D2F5 /* DirectInputCell.m */,
-				27FF53941C5224D70003D2F5 /* DirectInputCell.xib */,
-				27FF53971C5225070003D2F5 /* InToVCCell.h */,
-				27FF53981C5225070003D2F5 /* InToVCCell.m */,
-				27FF53991C5225070003D2F5 /* InToVCCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -312,24 +318,12 @@
 		0C0040081C45E70D000DEC34 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				27FBA02C1C5752260087D8A6 /* 企业邀请 */,
+				27FBA02B1C5752110087D8A6 /* 我的申请 */,
+				27FBA0291C5751710087D8A6 /* 我的简历 */,
 				0C00402C1C45EDCE000DEC34 /* personalVC.h */,
 				0C00402D1C45EDCE000DEC34 /* personalVC.m */,
 				0C00402E1C45EDCE000DEC34 /* personalVC.xib */,
-				2789168C1C4F8FCD006F2804 /* companyInviteVC.h */,
-				2789168D1C4F8FCD006F2804 /* companyInviteVC.m */,
-				2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */,
-				2730EF8E1C50E12800FEF99B /* myInviteVC.h */,
-				2730EF8F1C50E12800FEF99B /* myInviteVC.m */,
-				2730EF901C50E12800FEF99B /* myInviteVC.xib */,
-				27C860281C51C8E400B13E09 /* myResumeVC.h */,
-				27C860291C51C8E400B13E09 /* myResumeVC.m */,
-				27C8602A1C51C8E400B13E09 /* myResumeVC.xib */,
-				27FF537E1C52014C0003D2F5 /* setUpResumeVC.h */,
-				27FF537F1C52014C0003D2F5 /* setUpResumeVC.m */,
-				27FF53801C52014C0003D2F5 /* setUpResumeVC.xib */,
-				27FF53881C521C4B0003D2F5 /* userInfoVC.h */,
-				27FF53891C521C4B0003D2F5 /* userInfoVC.m */,
-				27FF538A1C521C4B0003D2F5 /* userInfoVC.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -511,6 +505,140 @@
 			path = InternshiptourUITests;
 			sourceTree = "<group>";
 		};
+		274D64421C5760EF00F06C03 /* 教育经历 */ = {
+			isa = PBXGroup;
+			children = (
+				274D64431C57611D00F06C03 /* EducationExperienceCell.h */,
+				274D64441C57611D00F06C03 /* EducationExperienceCell.m */,
+				274D64451C57611D00F06C03 /* EducationExperienceCell.xib */,
+			);
+			name = "教育经历";
+			sourceTree = "<group>";
+		};
+		27FBA0281C5751430087D8A6 /* 个人信息 */ = {
+			isa = PBXGroup;
+			children = (
+				27FF53881C521C4B0003D2F5 /* userInfoVC.h */,
+				27FF53891C521C4B0003D2F5 /* userInfoVC.m */,
+				27FF538A1C521C4B0003D2F5 /* userInfoVC.xib */,
+				27AD7BB41C56245B003ADCA9 /* ExpectedIndustryVC.h */,
+				27AD7BB51C56245B003ADCA9 /* ExpectedIndustryVC.m */,
+				27AD7BB61C56245B003ADCA9 /* ExpectedIndustryVC.xib */,
+			);
+			name = "个人信息";
+			sourceTree = "<group>";
+		};
+		27FBA0291C5751710087D8A6 /* 我的简历 */ = {
+			isa = PBXGroup;
+			children = (
+				27C860281C51C8E400B13E09 /* myResumeVC.h */,
+				27C860291C51C8E400B13E09 /* myResumeVC.m */,
+				27C8602A1C51C8E400B13E09 /* myResumeVC.xib */,
+				27FF537E1C52014C0003D2F5 /* setUpResumeVC.h */,
+				27FF537F1C52014C0003D2F5 /* setUpResumeVC.m */,
+				27FF53801C52014C0003D2F5 /* setUpResumeVC.xib */,
+				27FBA02A1C57517F0087D8A6 /* 创建简历 */,
+			);
+			name = "我的简历";
+			sourceTree = "<group>";
+		};
+		27FBA02A1C57517F0087D8A6 /* 创建简历 */ = {
+			isa = PBXGroup;
+			children = (
+				27FBA0281C5751430087D8A6 /* 个人信息 */,
+				27FBA0311C575A840087D8A6 /* 教育经历 */,
+			);
+			name = "创建简历";
+			sourceTree = "<group>";
+		};
+		27FBA02B1C5752110087D8A6 /* 我的申请 */ = {
+			isa = PBXGroup;
+			children = (
+				2730EF8E1C50E12800FEF99B /* myInviteVC.h */,
+				2730EF8F1C50E12800FEF99B /* myInviteVC.m */,
+				2730EF901C50E12800FEF99B /* myInviteVC.xib */,
+			);
+			name = "我的申请";
+			sourceTree = "<group>";
+		};
+		27FBA02C1C5752260087D8A6 /* 企业邀请 */ = {
+			isa = PBXGroup;
+			children = (
+				2789168C1C4F8FCD006F2804 /* companyInviteVC.h */,
+				2789168D1C4F8FCD006F2804 /* companyInviteVC.m */,
+				2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */,
+			);
+			name = "企业邀请";
+			sourceTree = "<group>";
+		};
+		27FBA02D1C57523D0087D8A6 /* 我的简历 */ = {
+			isa = PBXGroup;
+			children = (
+				27FBA02E1C5752510087D8A6 /* 创建简历 */,
+			);
+			name = "我的简历";
+			sourceTree = "<group>";
+		};
+		27FBA02E1C5752510087D8A6 /* 创建简历 */ = {
+			isa = PBXGroup;
+			children = (
+				274D64421C5760EF00F06C03 /* 教育经历 */,
+				27FF53831C52107B0003D2F5 /* setUpCell.h */,
+				27FF53841C52107B0003D2F5 /* setUpCell.m */,
+				27FF53851C52107B0003D2F5 /* setUpCell.xib */,
+				27FBA02F1C57525E0087D8A6 /* 个人信息 */,
+			);
+			name = "创建简历";
+			sourceTree = "<group>";
+		};
+		27FBA02F1C57525E0087D8A6 /* 个人信息 */ = {
+			isa = PBXGroup;
+			children = (
+				27FF538D1C5223A80003D2F5 /* sexCell.h */,
+				27FF538E1C5223A80003D2F5 /* sexCell.m */,
+				27FF538F1C5223A80003D2F5 /* sexCell.xib */,
+				27FF53921C5224D70003D2F5 /* DirectInputCell.h */,
+				27FF53931C5224D70003D2F5 /* DirectInputCell.m */,
+				27FF53941C5224D70003D2F5 /* DirectInputCell.xib */,
+				27FF53971C5225070003D2F5 /* InToVCCell.h */,
+				27FF53981C5225070003D2F5 /* InToVCCell.m */,
+				27FF53991C5225070003D2F5 /* InToVCCell.xib */,
+				27F514111C57A7B200DE783A /* ExpectedIndustryCell.h */,
+				27F514121C57A7B200DE783A /* ExpectedIndustryCell.m */,
+				27F514131C57A7B200DE783A /* ExpectedIndustryCell.xib */,
+				27FBA0231C5748300087D8A6 /* headCellView.h */,
+				27FBA0241C5748300087D8A6 /* headCellView.m */,
+				27FBA0261C5748490087D8A6 /* headCellView.xib */,
+			);
+			name = "个人信息";
+			sourceTree = "<group>";
+		};
+		27FBA0301C5752B40087D8A6 /* 我的申请 */ = {
+			isa = PBXGroup;
+			children = (
+				27C8602D1C51D18800B13E09 /* myResumeCell.h */,
+				27C8602E1C51D18800B13E09 /* myResumeCell.m */,
+				27C8602F1C51D18800B13E09 /* myResumeCell.xib */,
+				2730EF7C1C50C38400FEF99B /* receivingCell.h */,
+				2730EF7D1C50C38400FEF99B /* receivingCell.m */,
+				2730EF7E1C50C38400FEF99B /* receivingCell.xib */,
+				27FDD9191C50854900FA8A5D /* AlreadyAcceptedCell.h */,
+				27FDD91A1C50854900FA8A5D /* AlreadyAcceptedCell.m */,
+				27FDD91B1C50854900FA8A5D /* AlreadyAcceptedCell.xib */,
+			);
+			name = "我的申请";
+			sourceTree = "<group>";
+		};
+		27FBA0311C575A840087D8A6 /* 教育经历 */ = {
+			isa = PBXGroup;
+			children = (
+				27FBA0321C575AED0087D8A6 /* EducationExperienceVC.h */,
+				27FBA0331C575AED0087D8A6 /* EducationExperienceVC.m */,
+				27FBA0341C575AED0087D8A6 /* EducationExperienceVC.xib */,
+			);
+			name = "教育经历";
+			sourceTree = "<group>";
+		};
 		B184F0B6B3CD2C4948B1B2BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,11 +763,13 @@
 			files = (
 				0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */,
 				2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */,
+				27F514151C57A7B200DE783A /* ExpectedIndustryCell.xib in Resources */,
 				27FDD91D1C50854900FA8A5D /* AlreadyAcceptedCell.xib in Resources */,
 				278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */,
 				0C0040301C45EDCE000DEC34 /* personalVC.xib in Resources */,
 				0CAF73FC1C489C0000CF1A4B /* contentCell.xib in Resources */,
 				27FF539B1C5225070003D2F5 /* InToVCCell.xib in Resources */,
+				27FBA0271C5748490087D8A6 /* headCellView.xib in Resources */,
 				2730EF801C50C38400FEF99B /* receivingCell.xib in Resources */,
 				0C91636A1C478F4F00E3B53F /* detailVC.xib in Resources */,
 				0C0040171C45EBD8000DEC34 /* infoVC.xib in Resources */,
@@ -656,9 +786,12 @@
 				2730EF921C50E12800FEF99B /* myInviteVC.xib in Resources */,
 				27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */,
 				0CD1F19F1C43519F0081EA7A /* Assets.xcassets in Resources */,
+				27FBA0361C575AED0087D8A6 /* EducationExperienceVC.xib in Resources */,
+				27AD7BB81C56245B003ADCA9 /* ExpectedIndustryVC.xib in Resources */,
 				0CD1F19D1C43519F0081EA7A /* Main.storyboard in Resources */,
 				2789168B1C4F730D006F2804 /* UserCell.xib in Resources */,
 				27FF53961C5224D70003D2F5 /* DirectInputCell.xib in Resources */,
+				274D64471C57611D00F06C03 /* EducationExperienceCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,6 +852,7 @@
 				0CD1F19A1C43519F0081EA7A /* ViewController.m in Sources */,
 				0CAF73FB1C489C0000CF1A4B /* contentCell.m in Sources */,
 				0CD1F1971C43519F0081EA7A /* AppDelegate.m in Sources */,
+				27FBA0351C575AED0087D8A6 /* EducationExperienceVC.m in Sources */,
 				0C9163691C478F4F00E3B53F /* detailVC.m in Sources */,
 				27C8602B1C51C8E400B13E09 /* myResumeVC.m in Sources */,
 				0CAF73F61C4894EC00CF1A4B /* secondCell.m in Sources */,
@@ -737,14 +871,18 @@
 				27FF53811C52014C0003D2F5 /* setUpResumeVC.m in Sources */,
 				27FDD91C1C50854900FA8A5D /* AlreadyAcceptedCell.m in Sources */,
 				0C00401B1C45ED69000DEC34 /* specialSubjectVC.m in Sources */,
+				274D64461C57611D00F06C03 /* EducationExperienceCell.m in Sources */,
 				0CD1F1941C43519E0081EA7A /* main.m in Sources */,
 				0CE4C9731C47A6D000AEF229 /* firstCell.m in Sources */,
 				0C003FFE1C45E347000DEC34 /* tabBar.m in Sources */,
 				27FF53861C52107B0003D2F5 /* setUpCell.m in Sources */,
 				27FF538B1C521C4B0003D2F5 /* userInfoVC.m in Sources */,
+				27FBA0251C5748300087D8A6 /* headCellView.m in Sources */,
 				27FF539A1C5225070003D2F5 /* InToVCCell.m in Sources */,
+				27AD7BB71C56245B003ADCA9 /* ExpectedIndustryVC.m in Sources */,
 				27C860301C51D18800B13E09 /* myResumeCell.m in Sources */,
 				0C9163651C4751D300E3B53F /* WMViewController.m in Sources */,
+				27F514141C57A7B200DE783A /* ExpectedIndustryCell.m in Sources */,
 				27FF53951C5224D70003D2F5 /* DirectInputCell.m in Sources */,
 				2730EF7F1C50C38400FEF99B /* receivingCell.m in Sources */,
 				0C9163641C4751D300E3B53F /* WMTableViewController.m in Sources */,

@@ -11,6 +11,7 @@
 #import "userInfoVC.h"
 #import "AppDelegate.h"
 #import "tabBar.h"
+#import "EducationExperienceVC.h"
 @interface setUpResumeVC ()<UITableViewDataSource,UITableViewDelegate>
 {
 
@@ -134,6 +135,11 @@
         userInfoVC *userVC = [[userInfoVC alloc] initWithNibName:@"userInfoVC" bundle:nil];
         
         [self.navigationController pushViewController:userVC animated:YES];
+    
+    }else if (indexPath.row == 2){
+    
+        EducationExperienceVC *eduVC = [[EducationExperienceVC alloc] initWithNibName:@"EducationExperienceVC" bundle:nil];
+        [self.navigationController pushViewController:eduVC animated:YES];
     
     }
 
