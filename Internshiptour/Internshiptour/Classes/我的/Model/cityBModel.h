@@ -1,0 +1,15 @@
+//
+//  cityBModel.h
+//  Internshiptour
+//
+//  Created by 赵雍丹 on 16/1/27.
+//  Copyright © 2016年 dexiang lu. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface cityBModel : NSObject
+
+
+@property(nonatomic,copy)NSString *cityName;
+@end

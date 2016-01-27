@@ -55,7 +55,7 @@
     
     
     ExpectedIndustryCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExpectedIndustryCell"];
-    cell.isSelected = YES;
+    cell.isSelected = NO;
     if(indexPath.section == 0 && indexPath.row == 0){
     
         cell.titleLable.text = @"123";
@@ -118,6 +118,8 @@
                 
                 [_titleArr addObject:cell.titleLable.text];
                  NSLog(@"2:%ld",_titleArr.count);
+                
+                cell.isSelected = !cell.isSelected;
                 
             }else{
                 

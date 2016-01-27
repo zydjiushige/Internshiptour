@@ -13,6 +13,7 @@
 #import "AppDelegate.h"
 #import "tabBar.h"
 #import "ExpectedIndustryVC.h"
+#import "locationVC.h"
 @interface userInfoVC ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate,UIPickerViewDelegate,UIPickerViewDataSource>
 {
     NSArray *_leftTitleArr;
@@ -106,14 +107,14 @@
 {
     
     // 可直接书写内容Cell
-    if(indexPath.row == 0 || indexPath.row == 3 || indexPath.row == 4 || indexPath.row == 5 || indexPath.row == 6 || indexPath.row == 10){
+    if(indexPath.row == 0 || indexPath.row == 3 || indexPath.row == 4 || indexPath.row == 5 || indexPath.row == 6 ){
     
         DirectInputCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DirectInputCell"];
         cell.DirLeftLable.text = _leftTitleArr[indexPath.row];
         cell.DirRightLable.placeholder = _rightTitleArr[indexPath.row];
         return cell;
         
-    }else if (indexPath.row == 2 || indexPath.row == 7 || indexPath.row == 9 || indexPath.row == 11){
+    }else if (indexPath.row == 2 || indexPath.row == 7 || indexPath.row == 9 || indexPath.row == 10 || indexPath.row == 11){
     
         // 进入二级页面书写内容Cell
         InToVCCell *cell = [tableView dequeueReusableCellWithIdentifier:@"InToVCCell"];
@@ -194,6 +195,11 @@
         // 跳转到选择期望行业页面
         ExpectedIndustryVC *exVC = [[ExpectedIndustryVC alloc] initWithNibName:@"ExpectedIndustryVC" bundle:nil];
         [self.navigationController pushViewController:exVC animated:YES];
+    
+    }else if(indexPath.row == 10){
+    
+        locationVC *locVC = [[locationVC alloc] initWithNibName:@"locationVC" bundle:nil];
+        [self.navigationController pushViewController:locVC animated:YES];
     
     }
     

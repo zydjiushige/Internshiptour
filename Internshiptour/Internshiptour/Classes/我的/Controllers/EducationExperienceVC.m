@@ -9,11 +9,13 @@
 #import "EducationExperienceVC.h"
 #import "EducationExperienceCell.h"
 #import "DirectInputCell.h"
-@interface EducationExperienceVC ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
+@interface EducationExperienceVC ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate,UIPickerViewDataSource,UIPickerViewDelegate>
 {
     NSArray *_leftTitleArr;
     NSArray *_rightTitleArr;
-
+    UIPickerView *_maritalStatusPickerView;
+    NSArray *_maritalStatusArr;
+    NSString *_dateOrOther; // 判断点击的是毕业时间还是学历
 
 }
 @property (weak, nonatomic) IBOutlet UITableView *myEduTableView;
@@ -29,6 +31,7 @@
     
     self.navigationController.navigationBarHidden = YES;
     
+    _dateOrOther = @"date"; // 默认为空
     
     _leftTitleArr = [[NSArray alloc] init];
     _rightTitleArr = [[NSArray alloc] init];
@@ -40,10 +43,28 @@
     
     _myEduTableView.backgroundColor = [UIColor colorWithRed:241/255.0 green:242/255.0 blue:244/255.0 alpha:1.0];
     _myEduTableView.separatorStyle = NO;
+    
+    
+    // 选择页面开始隐藏
+    _fatherView.hidden = YES;
+    
+
+    
+    // 学历选择页面
+    _maritalStatusPickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0, 44, self.view.frame.size.width, _fatherView.frame.size.height - 44)];
+    _maritalStatusPickerView.delegate = self;
+    [_fatherView addSubview:_maritalStatusPickerView];
+    _maritalStatusPickerView.hidden = YES;
+
+    _maritalStatusArr = @[@"专科",@"本科",@"研究生"];
+    
 }
 - (IBAction)cancelAction:(id)sender {
+    
+    _fatherView.hidden = YES;
 }
 - (IBAction)YesAction:(id)sender {
+    _fatherView.hidden = YES;
 }
 #pragma mark --------<UITableViewDataSource,UITableViewDelegate>
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -82,14 +103,101 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    _fatherView.hidden = YES;
     
+    if(indexPath.row == 0){
+        _fatherView.hidden = NO;
+        _pikerTitleLable.text = @"入学时间";
+        _dateOrOther = @"date";
+        _maritalStatusPickerView.hidden = NO;
+        
+    }else if(indexPath.row == 3){
+        _fatherView.hidden = NO;
+        _pikerTitleLable.text = @"学历";
+        _maritalStatusPickerView.hidden = NO;
+        
+        _dateOrOther = @"xueli";
+      
+    }else if(indexPath.row == 1){
+        _fatherView.hidden = NO;
+        _pikerTitleLable.text = @"毕业时间";
+        _maritalStatusPickerView.hidden = NO;
+        _dateOrOther = @"date";
+        
+        
+    }
     
-
+    [_maritalStatusPickerView reloadAllComponents];
 }
 
 -(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
     [self.view endEditing:YES];
+}
+#pragma mark-----UIPickerViewDataSource,UIPickerViewDelegate
+
+-(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    if([_dateOrOther isEqualToString:@"date"]){
+    
+        return 2;
+    }else if([_dateOrOther isEqualToString:@"xueli"]){
+    
+    return 1;
+    }
+    return  1;
+}
+-(NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    if([_dateOrOther isEqualToString:@"date"]){
+    
+        
+            if (component == 0)
+            {
+                return [NSString stringWithFormat:@"%ld年",1970+row];
+            }
+            else
+            {
+                return [NSString stringWithFormat:@"%ld月",1+row];
+            }
+        }
+
+else if([_dateOrOther isEqualToString:@"xueli"]){
+    return _maritalStatusArr[row];
+    
+    }
+    return @"1";
+}
+-(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    
+    //    if (component == 0) {
+    //        _citiesArray = _dataArray[row][@"cities"];
+    //        [_addPickerView reloadComponent:1];
+    //    }
+    //
+    NSLog(@"123");
+}
+
+-(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    if([_dateOrOther isEqualToString:@"date"]){
+        if (component == 0)
+        {
+            NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+            [formatter setDateFormat:@"yyyy"];
+            return [[formatter stringFromDate:[NSDate date]] intValue]-1970+1;//从1970年开始
+        }
+        else
+        {
+            return 12;
+        }
+    
+    }else if([_dateOrOther isEqualToString:@"xueli"]){
+    return _maritalStatusArr.count;
+    }
+    
+    return 1;
 }
 
 - (void)didReceiveMemoryWarning {
