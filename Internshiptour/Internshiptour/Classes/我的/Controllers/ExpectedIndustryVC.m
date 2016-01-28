@@ -107,7 +107,7 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"1:%ld",_titleArr.count);
+//    NSLog(@"1:%ld",_titleArr.count);
    
     ExpectedIndustryCell *cell = (ExpectedIndustryCell *)[tableView cellForRowAtIndexPath:indexPath];
     
@@ -117,7 +117,7 @@
             if(![_titleArr containsObject:cell.titleLable.text]){
                 
                 [_titleArr addObject:cell.titleLable.text];
-                 NSLog(@"2:%ld",_titleArr.count);
+//                 NSLog(@"2:%ld",_titleArr.count);
                 
                 cell.isSelected = !cell.isSelected;
                 
@@ -126,7 +126,7 @@
                 [_titleArr removeObject:cell.titleLable.text];
                 cell.isSelected = !cell.isSelected;
                NSLog(@"_isSelected:::: value: %@" ,cell.isSelected?@"YES":@"NO");
-                 NSLog(@"3:%ld",_titleArr.count);
+//                 NSLog(@"3:%ld",_titleArr.count);
             }
 
             NSLog(@"111");
@@ -142,13 +142,13 @@
                 UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
                 [actionVC addAction:action];
                 [self presentViewController:actionVC animated:YES completion:nil];
-                 NSLog(@"4:%ld",_titleArr.count);
+//                 NSLog(@"4:%ld",_titleArr.count);
                 return;
                 
             }else{
                 
                 [_titleArr removeObject:cell.titleLable.text];
-                 NSLog(@"5:%ld",_titleArr.count);
+//                 NSLog(@"5:%ld",_titleArr.count);
                 cell.isSelected = !cell.isSelected;
             }
         
@@ -163,7 +163,7 @@
         UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
         [actionVC addAction:action];
         [self presentViewController:actionVC animated:YES completion:nil];
-         NSLog(@"6:%ld",_titleArr.count);
+//         NSLog(@"6:%ld",_titleArr.count);
         return;
     
     }
@@ -174,7 +174,7 @@
         cell.boolSelectedButton.hidden = YES;
         
     }
-    NSLog(@"7:%ld",_titleArr.count);
+//    NSLog(@"7:%ld",_titleArr.count);
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {

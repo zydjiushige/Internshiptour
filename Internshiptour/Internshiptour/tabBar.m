@@ -75,6 +75,12 @@
     UINavigationController *personNA = [[UINavigationController alloc] initWithRootViewController:personVC];
     
       self.viewControllers=@[infoNC,subNA,helpNA,personNA];
+    
+    NSUserDefaults *myDefault = [NSUserDefaults standardUserDefaults];
+    [myDefault setObject:@"" forKey:@"firstMajor"];
+    [myDefault setObject:@"" forKey:@"secondMajor"];
+    
+    
 }
 -(void)click:(UIButton *)button
 {

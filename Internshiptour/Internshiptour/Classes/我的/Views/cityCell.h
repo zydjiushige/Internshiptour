@@ -10,5 +10,6 @@
 
 @interface cityCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *titleLable;
+@property (weak, nonatomic) IBOutlet UIButton *selectedMajorState;
 
 @end

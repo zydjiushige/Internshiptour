@@ -25,18 +25,32 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMc-zP-rWE">
+                        <rect key="frame" x="255" y="11" width="20" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="8lN-sZ-az9"/>
+                            <constraint firstAttribute="height" constant="22" id="fxk-To-eSC"/>
+                        </constraints>
+                        <state key="normal" image="expected_industry_ok_ic"/>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="Ihf-Jd-3k6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="31" id="3Fo-Tr-TMP"/>
+                    <constraint firstItem="uMc-zP-rWE" firstAttribute="centerY" secondItem="Ihf-Jd-3k6" secondAttribute="centerY" id="Ygv-Q8-Xxd"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="uMc-zP-rWE" secondAttribute="trailing" constant="5" id="aBQ-Mp-Kji"/>
                 </constraints>
             </tableViewCellContentView>
             <constraints>
                 <constraint firstItem="Ihf-Jd-3k6" firstAttribute="centerY" secondItem="KGk-i7-Jjw" secondAttribute="centerY" id="06S-ld-elR"/>
             </constraints>
             <connections>
+                <outlet property="selectedMajorState" destination="uMc-zP-rWE" id="7M3-uX-Cjj"/>
                 <outlet property="titleLable" destination="Ihf-Jd-3k6" id="qhK-V8-QP0"/>
             </connections>
-            <point key="canvasLocation" x="260.5" y="303"/>
+            <point key="canvasLocation" x="256.5" y="315"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="expected_industry_ok_ic" width="20" height="20"/>
+    </resources>
 </document>

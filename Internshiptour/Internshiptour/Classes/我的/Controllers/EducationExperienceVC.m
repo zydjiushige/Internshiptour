@@ -9,6 +9,8 @@
 #import "EducationExperienceVC.h"
 #import "EducationExperienceCell.h"
 #import "DirectInputCell.h"
+#import "majorVC.h"
+#import "majorDescribeVC.h"
 @interface EducationExperienceVC ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate,UIPickerViewDataSource,UIPickerViewDelegate>
 {
     NSArray *_leftTitleArr;
@@ -18,13 +20,20 @@
     NSString *_dateOrOther; // 判断点击的是毕业时间还是学历
 
 }
-@property (weak, nonatomic) IBOutlet UITableView *myEduTableView;
+
+
 @property (weak, nonatomic) IBOutlet UILabel *pikerTitleLable;
 @property (weak, nonatomic) IBOutlet UIView *fatherView;
 @end
 
 @implementation EducationExperienceVC
+-(void)viewWillAppear:(BOOL)animated
+{
+    
+    // 从子页面选择完后,刷新主页面,重新加载选择的信息
+    [_myEduTableView reloadData];
 
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
@@ -58,6 +67,9 @@
 
     _maritalStatusArr = @[@"专科",@"本科",@"研究生"];
     
+    
+    
+    
 }
 - (IBAction)cancelAction:(id)sender {
     
@@ -89,6 +101,21 @@
         cell.leftLable.text = _leftTitleArr[indexPath.row];
         cell.rightLable.text = _rightTitleArr[indexPath.row];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        NSUserDefaults *myDefault = [NSUserDefaults standardUserDefaults];
+        NSString *first = [myDefault objectForKey:@"firstMajor"];
+        NSString *second = [myDefault objectForKey:@"secondMajor"];
+        if(indexPath.row == 4){
+        if([first isEqualToString:@""]|| [second isEqualToString:@""]){
+            
+            cell.rightLable.text = _rightTitleArr[indexPath.row];
+        
+        }else{
+        
+            cell.rightLable.text = [NSString stringWithFormat:@"%@,%@",first,second];
+           
+        }
+        }
+        
         return cell;
     }
    
@@ -110,13 +137,14 @@
         _pikerTitleLable.text = @"入学时间";
         _dateOrOther = @"date";
         _maritalStatusPickerView.hidden = NO;
+        [_maritalStatusPickerView reloadAllComponents];
         
     }else if(indexPath.row == 3){
         _fatherView.hidden = NO;
         _pikerTitleLable.text = @"学历";
         _maritalStatusPickerView.hidden = NO;
-        
         _dateOrOther = @"xueli";
+        [_maritalStatusPickerView reloadAllComponents];
       
     }else if(indexPath.row == 1){
         _fatherView.hidden = NO;
@@ -124,10 +152,20 @@
         _maritalStatusPickerView.hidden = NO;
         _dateOrOther = @"date";
         
-        
+        [_maritalStatusPickerView reloadAllComponents];
     }
+        else if (indexPath.row == 4){
+
+            // 进入选择专业页面
+        majorVC *major = [[majorVC alloc] initWithNibName:@"majorVC" bundle:nil];
+        [self.navigationController pushViewController:major animated:YES];
+        }else if(indexPath.row == 5){
+        
+            majorDescribeVC *majorDeVC = [[majorDescribeVC alloc] initWithNibName:@"majorDescribeVC" bundle:nil];
+            [self.navigationController pushViewController:majorDeVC animated:YES];
+        }
     
-    [_maritalStatusPickerView reloadAllComponents];
+
 }
 
 -(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView

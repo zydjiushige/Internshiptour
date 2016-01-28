@@ -10,4 +10,5 @@
 
 @interface EducationExperienceVC : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *myEduTableView;
 @end

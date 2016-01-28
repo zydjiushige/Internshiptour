@@ -36,7 +36,7 @@
     
     // 获取数据库
     
-  
+    
     [self loadDataFromDB];
     
    
@@ -49,7 +49,7 @@
 -(void)loadDataFromDB
 {
       FMDBManager *manager = [FMDBManager shareInstance];
-    //将product中所有记录都读出来
+   
     FMResultSet *rs =  [manager.dataBase executeQuery:@"select * from ocenter_country"];
     while ([rs next])
     {
@@ -85,7 +85,7 @@
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
-    UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(12, 5, 120, 30)];
+    UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(12, 0, 120, 30)];
     lable.text = @"选择国家";
     lable.textColor = [UIColor colorWithRed:132/255.0 green:133/255.0 blue:134/255.0 alpha:1.0];
     [view addSubview:lable];
@@ -114,7 +114,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 30;
 
+}
 /*
 #pragma mark - Navigation
 

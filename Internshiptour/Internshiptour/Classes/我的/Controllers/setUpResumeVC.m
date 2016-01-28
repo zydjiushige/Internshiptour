@@ -140,7 +140,7 @@
     
         EducationExperienceVC *eduVC = [[EducationExperienceVC alloc] initWithNibName:@"EducationExperienceVC" bundle:nil];
         [self.navigationController pushViewController:eduVC animated:YES];
-    
+        
     }
 
 }
