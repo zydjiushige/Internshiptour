@@ -47,6 +47,7 @@
 		274D64471C57611D00F06C03 /* EducationExperienceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 274D64451C57611D00F06C03 /* EducationExperienceCell.xib */; };
 		2751709B1C4CE4DA00839F94 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 275170991C4CE4DA00839F94 /* InfoCell.m */; };
 		2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2751709A1C4CE4DA00839F94 /* InfoCell.xib */; };
+		275267751C5A44E900CA6A52 /* loc.db in Resources */ = {isa = PBXBuildFile; fileRef = 275267741C5A44E900CA6A52 /* loc.db */; };
 		2789168A1C4F730D006F2804 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 278916881C4F730D006F2804 /* UserCell.m */; };
 		2789168B1C4F730D006F2804 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278916891C4F730D006F2804 /* UserCell.xib */; };
 		2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789168D1C4F8FCD006F2804 /* companyInviteVC.m */; };
@@ -188,6 +189,7 @@
 		275170981C4CE4DA00839F94 /* InfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoCell.h; path = "Classes/资讯/Views/InfoCell.h"; sourceTree = "<group>"; };
 		275170991C4CE4DA00839F94 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoCell.m; path = "Classes/资讯/Views/InfoCell.m"; sourceTree = "<group>"; };
 		2751709A1C4CE4DA00839F94 /* InfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoCell.xib; path = "Classes/资讯/Views/InfoCell.xib"; sourceTree = "<group>"; };
+		275267741C5A44E900CA6A52 /* loc.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = loc.db; path = "Classes/数据库/loc.db"; sourceTree = "<group>"; };
 		278916871C4F730D006F2804 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCell.h; path = "Classes/我的/Views/UserCell.h"; sourceTree = "<group>"; };
 		278916881C4F730D006F2804 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCell.m; path = "Classes/我的/Views/UserCell.m"; sourceTree = "<group>"; };
 		278916891C4F730D006F2804 /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserCell.xib; path = "Classes/我的/Views/UserCell.xib"; sourceTree = "<group>"; };
@@ -608,6 +610,7 @@
 		27F78CAE1C58727B00D843C5 /* 数据库 */ = {
 			isa = PBXGroup;
 			children = (
+				275267741C5A44E900CA6A52 /* loc.db */,
 				27F78CB31C58906800D843C5 /* FMDBManager.h */,
 				27F78CB41C58907900D843C5 /* FMDBManager.m */,
 				27F78CB01C58728A00D843C5 /* ocenter_country.sql */,
@@ -917,6 +920,7 @@
 				0CD1F19F1C43519F0081EA7A /* Assets.xcassets in Resources */,
 				27FBA0361C575AED0087D8A6 /* EducationExperienceVC.xib in Resources */,
 				27AD7BB81C56245B003ADCA9 /* ExpectedIndustryVC.xib in Resources */,
+				275267751C5A44E900CA6A52 /* loc.db in Resources */,
 				0CD1F19D1C43519F0081EA7A /* Main.storyboard in Resources */,
 				2789168B1C4F730D006F2804 /* UserCell.xib in Resources */,
 				27FF53961C5224D70003D2F5 /* DirectInputCell.xib in Resources */,

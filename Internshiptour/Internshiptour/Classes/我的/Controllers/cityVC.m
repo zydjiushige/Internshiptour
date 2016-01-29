@@ -37,7 +37,7 @@
     
     _countryTitleLable.text = _name;
     
-    
+    NJLog(@"_num%@",_num);
     
     
 }

@@ -55,7 +55,7 @@
     {
         cityModel *model = [[cityModel alloc]init];
         model.cityName = [rs stringForColumn:@"Name"];
-        model.countryNum = [rs stringForColumn:@"id"];
+        model.countryNum = [rs stringForColumn:@"Code"];
 
         [_locArr addObject:model];
     }

@@ -30,20 +30,21 @@
     self = [super init];
     if (self) {
         //初始化数据库
-        NSString *filePath = [NSHomeDirectory() stringByAppendingString:@"/Documents/loc.db"];
+       NSString *filePath = [[NSBundle mainBundle] pathForResource:@"loc" ofType:@"db"];
         NSLog(@"filePath==%@",filePath);
         
         //有数据库就读取,没有就创建
         self.dataBase = [FMDatabase databaseWithPath:filePath];
+    
         if (![self.dataBase open])
         {
             NSLog(@"数据库打开失败");
         }
         
-        if (![self.dataBase executeUpdate:@"create table if not exists ocenter_city(id integer primary key autoincrement,Name text,CountryCode text,District text,Population text)"])
-        {
-            NSLog(@"创建表失败");
-        }
+//        if (![self.dataBase executeUpdate:@"create table if not exists ocenter_city(id integer primary key autoincrement,Name text,CountryCode text,District text,Population text)"])
+//        {
+//            NSLog(@"创建表失败");
+//        }
         
     }
     return self;

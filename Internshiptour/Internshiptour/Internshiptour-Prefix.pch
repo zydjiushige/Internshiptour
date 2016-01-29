@@ -19,5 +19,5 @@
 #define NJLog(...)
 #endif
 //color
-
+#define BACKCOLOR [UIColor colorWithRed:241/255.0 green:242/255.0 blue:244/255.0 alpha:1.0]
 #endif /* Internshiptour_Prefix_pch */

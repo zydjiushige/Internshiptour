@@ -12,6 +12,7 @@
 #import "AppDelegate.h"
 #import "tabBar.h"
 #import "EducationExperienceVC.h"
+#import "InternshipExperienceVC.h"
 @interface setUpResumeVC ()<UITableViewDataSource,UITableViewDelegate>
 {
 
@@ -141,6 +142,11 @@
         EducationExperienceVC *eduVC = [[EducationExperienceVC alloc] initWithNibName:@"EducationExperienceVC" bundle:nil];
         [self.navigationController pushViewController:eduVC animated:YES];
         
+    }else if (indexPath.row == 3 ){
+    
+        InternshipExperienceVC *internshipVC = [[InternshipExperienceVC alloc] initWithNibName:@"InternshipExperienceVC" bundle:nil];
+        [self.navigationController pushViewController:internshipVC animated:YES];
+    
     }
 
 }

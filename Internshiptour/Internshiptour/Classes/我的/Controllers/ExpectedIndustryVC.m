@@ -56,19 +56,20 @@
     
     ExpectedIndustryCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExpectedIndustryCell"];
     cell.isSelected = NO;
+    cell.titleLable.font = [UIFont systemFontOfSize:18];
     if(indexPath.section == 0 && indexPath.row == 0){
     
-        cell.titleLable.text = @"123";
+        cell.titleLable.text = @"12388888";
     }else if(indexPath.section == 1 && indexPath.row == 0){
     
     cell.titleLable.text = @"222";
     
     }else if (indexPath.section == 3 && indexPath.row == 0){
     
-        cell.titleLable.text = @"555";
+        cell.titleLable.text = @"555000000000";
     }else if (indexPath.section == 2 && indexPath.row == 0){
     
-        cell.titleLable.text = @"666";
+        cell.titleLable.text = @"6688886";
     
     }
 //    [cell.bigButton addTarget:self action:@selector(selected) forControlEvents:UIControlEventTouchUpInside];
@@ -107,7 +108,8 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    NSLog(@"1:%ld",_titleArr.count);
+    
+    NSLog(@"1:%ld",_titleArr.count);
    
     ExpectedIndustryCell *cell = (ExpectedIndustryCell *)[tableView cellForRowAtIndexPath:indexPath];
     
@@ -117,7 +119,7 @@
             if(![_titleArr containsObject:cell.titleLable.text]){
                 
                 [_titleArr addObject:cell.titleLable.text];
-//                 NSLog(@"2:%ld",_titleArr.count);
+                 NSLog(@"2:%ld",_titleArr.count);
                 
                 cell.isSelected = !cell.isSelected;
                 
@@ -126,7 +128,7 @@
                 [_titleArr removeObject:cell.titleLable.text];
                 cell.isSelected = !cell.isSelected;
                NSLog(@"_isSelected:::: value: %@" ,cell.isSelected?@"YES":@"NO");
-//                 NSLog(@"3:%ld",_titleArr.count);
+                 NSLog(@"3:%ld",_titleArr.count);
             }
 
             NSLog(@"111");
@@ -142,13 +144,13 @@
                 UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
                 [actionVC addAction:action];
                 [self presentViewController:actionVC animated:YES completion:nil];
-//                 NSLog(@"4:%ld",_titleArr.count);
+                 NSLog(@"4:%ld",_titleArr.count);
                 return;
                 
             }else{
                 
                 [_titleArr removeObject:cell.titleLable.text];
-//                 NSLog(@"5:%ld",_titleArr.count);
+                 NSLog(@"5:%ld",_titleArr.count);
                 cell.isSelected = !cell.isSelected;
             }
         
@@ -163,7 +165,7 @@
         UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
         [actionVC addAction:action];
         [self presentViewController:actionVC animated:YES completion:nil];
-//         NSLog(@"6:%ld",_titleArr.count);
+         NSLog(@"6:%ld",_titleArr.count);
         return;
     
     }
@@ -174,7 +176,43 @@
         cell.boolSelectedButton.hidden = YES;
         
     }
-//    NSLog(@"7:%ld",_titleArr.count);
+    
+    for (UIView * obj in _selectedView.subviews) {
+        
+        if ([obj isKindOfClass:[UIButton class]]) {
+            [obj removeFromSuperview];
+        }
+    }
+
+    
+    if(_titleArr>0){
+        for(int i=0; i<_titleArr.count;i++){
+            UIButton * btn = [UIButton buttonWithType:0];
+            [btn setTitle:[NSString stringWithFormat:@"  %@",_titleArr[i]] forState:UIControlStateNormal];
+            [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+            btn.titleLabel.font = [UIFont systemFontOfSize:16];
+            btn.frame = CGRectMake(5,5+i*30, 100, 25);
+            btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+            
+            CGRect rect = [btn.titleLabel.text boundingRectWithSize:CGSizeMake(200, 25) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil];
+            CGRect frame = btn.frame;
+            
+            frame.size.width = rect.size.width+30;
+            btn.frame = frame;
+            
+            btn.layer.masksToBounds = YES;
+            btn.layer.cornerRadius = 4;
+            [btn.layer setBorderWidth:1];
+            CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+            CGColorRef colorref = CGColorCreate(colorSpace,(CGFloat[]){ 1, 0, 0, 1 });
+            [btn.layer setBorderColor:colorref];//边框颜色
+            
+            NSLog(@"%f,%f,%f,%f",frame.origin.x,frame.origin.y,frame.size.width,frame.size.height);
+            [_selectedView addSubview:btn];
+        }
+    }
+    
+    NSLog(@"7:%ld",_titleArr.count);
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
