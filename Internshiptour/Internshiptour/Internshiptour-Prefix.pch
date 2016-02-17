@@ -20,4 +20,6 @@
 #endif
 //color
 #define BACKCOLOR [UIColor colorWithRed:241/255.0 green:242/255.0 blue:244/255.0 alpha:1.0]
+#define dfdfddColor [UIColor colorWithRed:223/255.0 green:223/255.0 blue:221/255.0 alpha:1.0]
+#define CLEARCOLOR UIColor clearColor]
 #endif /* Internshiptour_Prefix_pch */

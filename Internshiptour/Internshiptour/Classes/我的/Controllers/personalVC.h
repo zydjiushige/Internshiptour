@@ -13,5 +13,7 @@
 
 
 @property (weak, nonatomic) IBOutlet UITableView *myUserTableView;
+@property (weak, nonatomic) IBOutlet UILabel *nameLable;
+@property (weak, nonatomic) IBOutlet UILabel *userNameLable;
 
 @end

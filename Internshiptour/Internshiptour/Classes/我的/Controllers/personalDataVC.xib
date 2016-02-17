@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="personalDataVC">
+            <connections>
+                <outlet property="myPerDataTV" destination="lrs-3D-G8A" id="hP0-tN-ljd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iIN-hM-6Ec">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="个人资料" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xw-Pk-U6M">
+                            <rect key="frame" x="124" y="28" width="72" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="C2E-n3-xle"/>
+                                <constraint firstAttribute="width" constant="72" id="Hia-ag-K5J"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWL-eR-jJf" userLabel="goBack">
+                            <rect key="frame" x="12" y="27" width="10" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="10" id="18u-Ij-XTt"/>
+                                <constraint firstAttribute="height" constant="22" id="MTi-JV-SU1"/>
+                            </constraints>
+                            <state key="normal" image="back2"/>
+                            <connections>
+                                <action selector="goBack:" destination="-1" eventType="touchUpInside" id="6un-26-n9T"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.086274509799999996" green="0.52156862749999999" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="DWL-eR-jJf" secondAttribute="bottom" constant="18" id="ATm-Ut-Pwo"/>
+                        <constraint firstAttribute="bottom" secondItem="5xw-Pk-U6M" secondAttribute="bottom" constant="15" id="LRR-5R-CMh"/>
+                        <constraint firstAttribute="height" constant="64" id="N77-sw-J8U"/>
+                        <constraint firstItem="DWL-eR-jJf" firstAttribute="centerY" secondItem="5xw-Pk-U6M" secondAttribute="centerY" id="W4W-3L-sCE"/>
+                        <constraint firstItem="DWL-eR-jJf" firstAttribute="leading" secondItem="iIN-hM-6Ec" secondAttribute="leading" constant="12" id="gla-Gb-vt0"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ATm-Ut-Pwo"/>
+                        </mask>
+                    </variation>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lrs-3D-G8A">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ej4-Mo-8vQ"/>
+                        <outlet property="delegate" destination="-1" id="OAY-vZ-Wcf"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iIN-hM-6Ec" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1ok-G9-pVt"/>
+                <constraint firstItem="lrs-3D-G8A" firstAttribute="top" secondItem="iIN-hM-6Ec" secondAttribute="bottom" id="9gB-l2-Ufy"/>
+                <constraint firstAttribute="trailing" secondItem="iIN-hM-6Ec" secondAttribute="trailing" id="EV7-Lp-NcZ"/>
+                <constraint firstAttribute="trailing" secondItem="lrs-3D-G8A" secondAttribute="trailing" id="PIo-pS-dQw"/>
+                <constraint firstItem="iIN-hM-6Ec" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="T35-1z-yTa"/>
+                <constraint firstAttribute="bottom" secondItem="lrs-3D-G8A" secondAttribute="bottom" id="mrl-OO-m5D"/>
+                <constraint firstItem="5xw-Pk-U6M" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wRT-6X-bOk"/>
+                <constraint firstItem="lrs-3D-G8A" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="x7B-Yg-0jw"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back2" width="10" height="18"/>
+    </resources>
+</document>

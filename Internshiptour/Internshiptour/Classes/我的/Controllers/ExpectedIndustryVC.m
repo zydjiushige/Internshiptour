@@ -56,6 +56,7 @@
     
     ExpectedIndustryCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExpectedIndustryCell"];
     cell.isSelected = NO;
+    cell.boolSelectedButton.hidden = YES;
     cell.titleLable.font = [UIFont systemFontOfSize:18];
     if(indexPath.section == 0 && indexPath.row == 0){
     
@@ -70,8 +71,12 @@
     }else if (indexPath.section == 2 && indexPath.row == 0){
     
         cell.titleLable.text = @"6688886";
-    
     }
+    
+    if([_titleArr containsObject:cell.titleLable.text]){
+        cell.boolSelectedButton.hidden = NO;
+    }
+    
 //    [cell.bigButton addTarget:self action:@selector(selected) forControlEvents:UIControlEventTouchUpInside];
     // 全选
 //    if(_isSelected){
@@ -183,15 +188,17 @@
             [obj removeFromSuperview];
         }
     }
-
+    CGRect m ;
     
     if(_titleArr>0){
         for(int i=0; i<_titleArr.count;i++){
             UIButton * btn = [UIButton buttonWithType:0];
-            [btn setTitle:[NSString stringWithFormat:@"  %@",_titleArr[i]] forState:UIControlStateNormal];
-            [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+            [btn setTitle:[NSString stringWithFormat:@"%@",_titleArr[i]] forState:UIControlStateNormal];
+            [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
             btn.titleLabel.font = [UIFont systemFontOfSize:16];
-            btn.frame = CGRectMake(5,5+i*30, 100, 25);
+            
+            btn.frame = CGRectMake(5,5, 100, 25);
+            
             btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
             
             CGRect rect = [btn.titleLabel.text boundingRectWithSize:CGSizeMake(200, 25) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil];
@@ -200,14 +207,27 @@
             frame.size.width = rect.size.width+30;
             btn.frame = frame;
             
+            if(i==0){
+                m = btn.frame;
+                m.origin.x = btn.frame.size.width + 10;
+            }
+            if (i==1) {
+                m.size.width = rect.size.width + 30;
+                btn.frame = m;
+            }
+            if(i==2){
+                btn.frame = CGRectMake(5, 35, btn.frame.size.width, btn.frame.size.height);
+            }
+            
             btn.layer.masksToBounds = YES;
             btn.layer.cornerRadius = 4;
             [btn.layer setBorderWidth:1];
             CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
-            CGColorRef colorref = CGColorCreate(colorSpace,(CGFloat[]){ 1, 0, 0, 1 });
+            CGColorRef colorref = CGColorCreate(colorSpace,(CGFloat[]){ 55, 0, 207, 1 });
             [btn.layer setBorderColor:colorref];//边框颜色
             
-            NSLog(@"%f,%f,%f,%f",frame.origin.x,frame.origin.y,frame.size.width,frame.size.height);
+            [btn addTarget:self action:@selector(touchBtn:) forControlEvents:UIControlEventTouchUpInside];
+            
             [_selectedView addSubview:btn];
         }
     }
@@ -246,6 +266,23 @@
     [self.navigationController popViewControllerAnimated:YES];
     
     
+}
+
+- (void)touchBtn:(UIButton*)btn
+{
+    
+    
+    if([_titleArr containsObject:[NSString stringWithFormat:@"%@",btn.titleLabel.text]]){
+        [_titleArr removeObject:[NSString stringWithFormat:@"%@",btn.titleLabel.text]];
+    }
+    
+    for (int i=0; i<_titleArr.count; i++) {
+        NSLog(@"%@",_titleArr[i]);
+    }
+    
+    [btn removeFromSuperview];
+    
+    [_myExpectedIndustryTableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {

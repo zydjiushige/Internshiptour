@@ -48,10 +48,22 @@
 		2751709B1C4CE4DA00839F94 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 275170991C4CE4DA00839F94 /* InfoCell.m */; };
 		2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2751709A1C4CE4DA00839F94 /* InfoCell.xib */; };
 		275267751C5A44E900CA6A52 /* loc.db in Resources */ = {isa = PBXBuildFile; fileRef = 275267741C5A44E900CA6A52 /* loc.db */; };
+		276CC0111C71A6AF00478FB5 /* loginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 276CC00F1C71A6AF00478FB5 /* loginVC.m */; };
+		276CC0121C71A6AF00478FB5 /* loginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276CC0101C71A6AF00478FB5 /* loginVC.xib */; };
+		276CC0161C71B5B200478FB5 /* registerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 276CC0141C71B5B200478FB5 /* registerVC.m */; };
+		276CC0171C71B5B200478FB5 /* registerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276CC0151C71B5B200478FB5 /* registerVC.xib */; };
 		2789168A1C4F730D006F2804 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 278916881C4F730D006F2804 /* UserCell.m */; };
 		2789168B1C4F730D006F2804 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278916891C4F730D006F2804 /* UserCell.xib */; };
 		2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789168D1C4F8FCD006F2804 /* companyInviteVC.m */; };
 		278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */; };
+		278F54A31C73005F00390730 /* ServicesProtocolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F54A11C73005F00390730 /* ServicesProtocolVC.m */; };
+		278F54A41C73005F00390730 /* ServicesProtocolVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278F54A21C73005F00390730 /* ServicesProtocolVC.xib */; };
+		278F54A81C73153500390730 /* getBackPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F54A61C73153500390730 /* getBackPassword.m */; };
+		278F54A91C73153500390730 /* getBackPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278F54A71C73153500390730 /* getBackPassword.xib */; };
+		278F54AD1C73193600390730 /* getBackPassword2.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F54AB1C73193600390730 /* getBackPassword2.m */; };
+		278F54AE1C73193600390730 /* getBackPassword2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278F54AC1C73193600390730 /* getBackPassword2.xib */; };
+		278F54B31C73212500390730 /* settingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F54B11C73212500390730 /* settingVC.m */; };
+		278F54B41C73212500390730 /* settingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278F54B21C73212500390730 /* settingVC.xib */; };
 		27AD7BB71C56245B003ADCA9 /* ExpectedIndustryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AD7BB51C56245B003ADCA9 /* ExpectedIndustryVC.m */; };
 		27AD7BB81C56245B003ADCA9 /* ExpectedIndustryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AD7BB61C56245B003ADCA9 /* ExpectedIndustryVC.xib */; };
 		27BE77FC1C59B734005A9607 /* majorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE77FA1C59B734005A9607 /* majorVC.m */; };
@@ -62,10 +74,22 @@
 		27BE78081C5A0492005A9607 /* majorDescribeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BE78061C5A0492005A9607 /* majorDescribeVC.xib */; };
 		27BE780D1C5A15AF005A9607 /* InternshipExperienceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE780B1C5A15AF005A9607 /* InternshipExperienceVC.m */; };
 		27BE780E1C5A15AF005A9607 /* InternshipExperienceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BE780C1C5A15AF005A9607 /* InternshipExperienceVC.xib */; };
+		27C1CABF1C697AE80051B82E /* ExperienceDirVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1CABD1C697AE80051B82E /* ExperienceDirVC.m */; };
+		27C1CAC01C697AE80051B82E /* ExperienceDirVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C1CABE1C697AE80051B82E /* ExperienceDirVC.xib */; };
 		27C8602B1C51C8E400B13E09 /* myResumeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C860291C51C8E400B13E09 /* myResumeVC.m */; };
 		27C8602C1C51C8E400B13E09 /* myResumeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C8602A1C51C8E400B13E09 /* myResumeVC.xib */; };
 		27C860301C51D18800B13E09 /* myResumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8602E1C51D18800B13E09 /* myResumeCell.m */; };
 		27C860311C51D18800B13E09 /* myResumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C8602F1C51D18800B13E09 /* myResumeCell.xib */; };
+		27D8AB3A1C740E2600F056DF /* loginOutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8AB381C740E2600F056DF /* loginOutCell.m */; };
+		27D8AB3B1C740E2600F056DF /* loginOutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D8AB391C740E2600F056DF /* loginOutCell.xib */; };
+		27D8AB3F1C7412D000F056DF /* personalDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8AB3D1C7412D000F056DF /* personalDataVC.m */; };
+		27D8AB401C7412D000F056DF /* personalDataVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D8AB3E1C7412D000F056DF /* personalDataVC.xib */; };
+		27D8AB441C741C2400F056DF /* headPortraitCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8AB421C741C2400F056DF /* headPortraitCellTableViewCell.m */; };
+		27D8AB451C741C2400F056DF /* headPortraitCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D8AB431C741C2400F056DF /* headPortraitCellTableViewCell.xib */; };
+		27D8AB491C74478800F056DF /* personalInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8AB471C74478800F056DF /* personalInfoCell.m */; };
+		27D8AB4A1C74478800F056DF /* personalInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D8AB481C74478800F056DF /* personalInfoCell.xib */; };
+		27D8AB4E1C747BF800F056DF /* changeNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8AB4C1C747BF800F056DF /* changeNameVC.m */; };
+		27D8AB4F1C747BF800F056DF /* changeNameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D8AB4D1C747BF800F056DF /* changeNameVC.xib */; };
 		27ED8B751C59069800F0AE7D /* cityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ED8B731C59069800F0AE7D /* cityVC.m */; };
 		27ED8B761C59069800F0AE7D /* cityVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27ED8B741C59069800F0AE7D /* cityVC.xib */; };
 		27ED8B791C5906DD00F0AE7D /* cityBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ED8B781C5906DD00F0AE7D /* cityBModel.m */; };
@@ -190,12 +214,30 @@
 		275170991C4CE4DA00839F94 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoCell.m; path = "Classes/资讯/Views/InfoCell.m"; sourceTree = "<group>"; };
 		2751709A1C4CE4DA00839F94 /* InfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoCell.xib; path = "Classes/资讯/Views/InfoCell.xib"; sourceTree = "<group>"; };
 		275267741C5A44E900CA6A52 /* loc.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = loc.db; path = "Classes/数据库/loc.db"; sourceTree = "<group>"; };
+		276CC00E1C71A6AF00478FB5 /* loginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loginVC.h; path = "Classes/我的/Controllers/loginVC.h"; sourceTree = "<group>"; };
+		276CC00F1C71A6AF00478FB5 /* loginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = loginVC.m; path = "Classes/我的/Controllers/loginVC.m"; sourceTree = "<group>"; };
+		276CC0101C71A6AF00478FB5 /* loginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = loginVC.xib; path = "Classes/我的/Controllers/loginVC.xib"; sourceTree = "<group>"; };
+		276CC0131C71B5B200478FB5 /* registerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registerVC.h; path = "Classes/我的/Controllers/registerVC.h"; sourceTree = "<group>"; };
+		276CC0141C71B5B200478FB5 /* registerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = registerVC.m; path = "Classes/我的/Controllers/registerVC.m"; sourceTree = "<group>"; };
+		276CC0151C71B5B200478FB5 /* registerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = registerVC.xib; path = "Classes/我的/Controllers/registerVC.xib"; sourceTree = "<group>"; };
 		278916871C4F730D006F2804 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCell.h; path = "Classes/我的/Views/UserCell.h"; sourceTree = "<group>"; };
 		278916881C4F730D006F2804 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCell.m; path = "Classes/我的/Views/UserCell.m"; sourceTree = "<group>"; };
 		278916891C4F730D006F2804 /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserCell.xib; path = "Classes/我的/Views/UserCell.xib"; sourceTree = "<group>"; };
 		2789168C1C4F8FCD006F2804 /* companyInviteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = companyInviteVC.h; path = "Classes/我的/Controllers/companyInviteVC.h"; sourceTree = "<group>"; };
 		2789168D1C4F8FCD006F2804 /* companyInviteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = companyInviteVC.m; path = "Classes/我的/Controllers/companyInviteVC.m"; sourceTree = "<group>"; };
 		2789168E1C4F8FCD006F2804 /* companyInviteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = companyInviteVC.xib; path = "Classes/我的/Controllers/companyInviteVC.xib"; sourceTree = "<group>"; };
+		278F54A01C73005F00390730 /* ServicesProtocolVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServicesProtocolVC.h; path = "Classes/我的/Controllers/ServicesProtocolVC.h"; sourceTree = "<group>"; };
+		278F54A11C73005F00390730 /* ServicesProtocolVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServicesProtocolVC.m; path = "Classes/我的/Controllers/ServicesProtocolVC.m"; sourceTree = "<group>"; };
+		278F54A21C73005F00390730 /* ServicesProtocolVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ServicesProtocolVC.xib; path = "Classes/我的/Controllers/ServicesProtocolVC.xib"; sourceTree = "<group>"; };
+		278F54A51C73153500390730 /* getBackPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = getBackPassword.h; path = "Classes/我的/Controllers/getBackPassword.h"; sourceTree = "<group>"; };
+		278F54A61C73153500390730 /* getBackPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = getBackPassword.m; path = "Classes/我的/Controllers/getBackPassword.m"; sourceTree = "<group>"; };
+		278F54A71C73153500390730 /* getBackPassword.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = getBackPassword.xib; path = "Classes/我的/Controllers/getBackPassword.xib"; sourceTree = "<group>"; };
+		278F54AA1C73193600390730 /* getBackPassword2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = getBackPassword2.h; path = "Classes/我的/Controllers/getBackPassword2.h"; sourceTree = "<group>"; };
+		278F54AB1C73193600390730 /* getBackPassword2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = getBackPassword2.m; path = "Classes/我的/Controllers/getBackPassword2.m"; sourceTree = "<group>"; };
+		278F54AC1C73193600390730 /* getBackPassword2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = getBackPassword2.xib; path = "Classes/我的/Controllers/getBackPassword2.xib"; sourceTree = "<group>"; };
+		278F54B01C73212500390730 /* settingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settingVC.h; path = "Classes/我的/Controllers/settingVC.h"; sourceTree = "<group>"; };
+		278F54B11C73212500390730 /* settingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = settingVC.m; path = "Classes/我的/Controllers/settingVC.m"; sourceTree = "<group>"; };
+		278F54B21C73212500390730 /* settingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = settingVC.xib; path = "Classes/我的/Controllers/settingVC.xib"; sourceTree = "<group>"; };
 		27AD7BB41C56245B003ADCA9 /* ExpectedIndustryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpectedIndustryVC.h; path = "Classes/我的/Controllers/ExpectedIndustryVC.h"; sourceTree = "<group>"; };
 		27AD7BB51C56245B003ADCA9 /* ExpectedIndustryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectedIndustryVC.m; path = "Classes/我的/Controllers/ExpectedIndustryVC.m"; sourceTree = "<group>"; };
 		27AD7BB61C56245B003ADCA9 /* ExpectedIndustryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpectedIndustryVC.xib; path = "Classes/我的/Controllers/ExpectedIndustryVC.xib"; sourceTree = "<group>"; };
@@ -211,6 +253,9 @@
 		27BE780A1C5A15AF005A9607 /* InternshipExperienceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InternshipExperienceVC.h; path = "Classes/我的/Controllers/InternshipExperienceVC.h"; sourceTree = "<group>"; };
 		27BE780B1C5A15AF005A9607 /* InternshipExperienceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InternshipExperienceVC.m; path = "Classes/我的/Controllers/InternshipExperienceVC.m"; sourceTree = "<group>"; };
 		27BE780C1C5A15AF005A9607 /* InternshipExperienceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InternshipExperienceVC.xib; path = "Classes/我的/Controllers/InternshipExperienceVC.xib"; sourceTree = "<group>"; };
+		27C1CABC1C697AE80051B82E /* ExperienceDirVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExperienceDirVC.h; path = "Classes/我的/Controllers/ExperienceDirVC.h"; sourceTree = "<group>"; };
+		27C1CABD1C697AE80051B82E /* ExperienceDirVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExperienceDirVC.m; path = "Classes/我的/Controllers/ExperienceDirVC.m"; sourceTree = "<group>"; };
+		27C1CABE1C697AE80051B82E /* ExperienceDirVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExperienceDirVC.xib; path = "Classes/我的/Controllers/ExperienceDirVC.xib"; sourceTree = "<group>"; };
 		27C3FB6E1C4DF23B00B62959 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		27C3FB6F1C4DF2CA00B62959 /* Internshiptour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internshiptour-Prefix.pch"; sourceTree = "<group>"; };
 		27C860281C51C8E400B13E09 /* myResumeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myResumeVC.h; path = "Classes/我的/Controllers/myResumeVC.h"; sourceTree = "<group>"; };
@@ -219,6 +264,21 @@
 		27C8602D1C51D18800B13E09 /* myResumeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myResumeCell.h; path = "Classes/我的/Views/myResumeCell.h"; sourceTree = "<group>"; };
 		27C8602E1C51D18800B13E09 /* myResumeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myResumeCell.m; path = "Classes/我的/Views/myResumeCell.m"; sourceTree = "<group>"; };
 		27C8602F1C51D18800B13E09 /* myResumeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = myResumeCell.xib; path = "Classes/我的/Views/myResumeCell.xib"; sourceTree = "<group>"; };
+		27D8AB371C740E2600F056DF /* loginOutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loginOutCell.h; path = "Classes/我的/Views/loginOutCell.h"; sourceTree = "<group>"; };
+		27D8AB381C740E2600F056DF /* loginOutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = loginOutCell.m; path = "Classes/我的/Views/loginOutCell.m"; sourceTree = "<group>"; };
+		27D8AB391C740E2600F056DF /* loginOutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = loginOutCell.xib; path = "Classes/我的/Views/loginOutCell.xib"; sourceTree = "<group>"; };
+		27D8AB3C1C7412D000F056DF /* personalDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = personalDataVC.h; path = "Classes/我的/Controllers/personalDataVC.h"; sourceTree = "<group>"; };
+		27D8AB3D1C7412D000F056DF /* personalDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = personalDataVC.m; path = "Classes/我的/Controllers/personalDataVC.m"; sourceTree = "<group>"; };
+		27D8AB3E1C7412D000F056DF /* personalDataVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = personalDataVC.xib; path = "Classes/我的/Controllers/personalDataVC.xib"; sourceTree = "<group>"; };
+		27D8AB411C741C2400F056DF /* headPortraitCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = headPortraitCellTableViewCell.h; path = "Classes/我的/Views/headPortraitCellTableViewCell.h"; sourceTree = "<group>"; };
+		27D8AB421C741C2400F056DF /* headPortraitCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = headPortraitCellTableViewCell.m; path = "Classes/我的/Views/headPortraitCellTableViewCell.m"; sourceTree = "<group>"; };
+		27D8AB431C741C2400F056DF /* headPortraitCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = headPortraitCellTableViewCell.xib; path = "Classes/我的/Views/headPortraitCellTableViewCell.xib"; sourceTree = "<group>"; };
+		27D8AB461C74478800F056DF /* personalInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = personalInfoCell.h; path = "Classes/我的/Views/personalInfoCell.h"; sourceTree = "<group>"; };
+		27D8AB471C74478800F056DF /* personalInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = personalInfoCell.m; path = "Classes/我的/Views/personalInfoCell.m"; sourceTree = "<group>"; };
+		27D8AB481C74478800F056DF /* personalInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = personalInfoCell.xib; path = "Classes/我的/Views/personalInfoCell.xib"; sourceTree = "<group>"; };
+		27D8AB4B1C747BF800F056DF /* changeNameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = changeNameVC.h; path = "Classes/我的/Controllers/changeNameVC.h"; sourceTree = "<group>"; };
+		27D8AB4C1C747BF800F056DF /* changeNameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = changeNameVC.m; path = "Classes/我的/Controllers/changeNameVC.m"; sourceTree = "<group>"; };
+		27D8AB4D1C747BF800F056DF /* changeNameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = changeNameVC.xib; path = "Classes/我的/Controllers/changeNameVC.xib"; sourceTree = "<group>"; };
 		27ED8B721C59069800F0AE7D /* cityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cityVC.h; path = "Classes/我的/Controllers/cityVC.h"; sourceTree = "<group>"; };
 		27ED8B731C59069800F0AE7D /* cityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cityVC.m; path = "Classes/我的/Controllers/cityVC.m"; sourceTree = "<group>"; };
 		27ED8B741C59069800F0AE7D /* cityVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = cityVC.xib; path = "Classes/我的/Controllers/cityVC.xib"; sourceTree = "<group>"; };
@@ -377,6 +437,8 @@
 		0C0040081C45E70D000DEC34 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				278F54AF1C731D5F00390730 /* 设置 */,
+				276CC00D1C71A69800478FB5 /* 登陆和注册 */,
 				27FBA02C1C5752260087D8A6 /* 企业邀请 */,
 				27FBA02B1C5752110087D8A6 /* 我的申请 */,
 				27FBA0291C5751710087D8A6 /* 我的简历 */,
@@ -574,6 +636,44 @@
 			name = "教育经历";
 			sourceTree = "<group>";
 		};
+		276CC00D1C71A69800478FB5 /* 登陆和注册 */ = {
+			isa = PBXGroup;
+			children = (
+				276CC00E1C71A6AF00478FB5 /* loginVC.h */,
+				276CC00F1C71A6AF00478FB5 /* loginVC.m */,
+				276CC0101C71A6AF00478FB5 /* loginVC.xib */,
+				276CC0131C71B5B200478FB5 /* registerVC.h */,
+				276CC0141C71B5B200478FB5 /* registerVC.m */,
+				276CC0151C71B5B200478FB5 /* registerVC.xib */,
+				278F54A01C73005F00390730 /* ServicesProtocolVC.h */,
+				278F54A11C73005F00390730 /* ServicesProtocolVC.m */,
+				278F54A21C73005F00390730 /* ServicesProtocolVC.xib */,
+				278F54A51C73153500390730 /* getBackPassword.h */,
+				278F54A61C73153500390730 /* getBackPassword.m */,
+				278F54A71C73153500390730 /* getBackPassword.xib */,
+				278F54AA1C73193600390730 /* getBackPassword2.h */,
+				278F54AB1C73193600390730 /* getBackPassword2.m */,
+				278F54AC1C73193600390730 /* getBackPassword2.xib */,
+			);
+			name = "登陆和注册";
+			sourceTree = "<group>";
+		};
+		278F54AF1C731D5F00390730 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				278F54B01C73212500390730 /* settingVC.h */,
+				278F54B11C73212500390730 /* settingVC.m */,
+				278F54B21C73212500390730 /* settingVC.xib */,
+				27D8AB3C1C7412D000F056DF /* personalDataVC.h */,
+				27D8AB3D1C7412D000F056DF /* personalDataVC.m */,
+				27D8AB3E1C7412D000F056DF /* personalDataVC.xib */,
+				27D8AB4B1C747BF800F056DF /* changeNameVC.h */,
+				27D8AB4C1C747BF800F056DF /* changeNameVC.m */,
+				27D8AB4D1C747BF800F056DF /* changeNameVC.xib */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
 		27BE77F81C59B2DD005A9607 /* 专业 */ = {
 			isa = PBXGroup;
 			children = (
@@ -603,6 +703,9 @@
 				27BE780A1C5A15AF005A9607 /* InternshipExperienceVC.h */,
 				27BE780B1C5A15AF005A9607 /* InternshipExperienceVC.m */,
 				27BE780C1C5A15AF005A9607 /* InternshipExperienceVC.xib */,
+				27C1CABC1C697AE80051B82E /* ExperienceDirVC.h */,
+				27C1CABD1C697AE80051B82E /* ExperienceDirVC.m */,
+				27C1CABE1C697AE80051B82E /* ExperienceDirVC.xib */,
 			);
 			name = "实习经历";
 			sourceTree = "<group>";
@@ -730,6 +833,15 @@
 				27F78CBD1C58C1C500D843C5 /* cityCell.h */,
 				27F78CBE1C58C1C500D843C5 /* cityCell.m */,
 				27F78CBF1C58C1C500D843C5 /* cityCell.xib */,
+				27D8AB371C740E2600F056DF /* loginOutCell.h */,
+				27D8AB381C740E2600F056DF /* loginOutCell.m */,
+				27D8AB391C740E2600F056DF /* loginOutCell.xib */,
+				27D8AB411C741C2400F056DF /* headPortraitCellTableViewCell.h */,
+				27D8AB421C741C2400F056DF /* headPortraitCellTableViewCell.m */,
+				27D8AB431C741C2400F056DF /* headPortraitCellTableViewCell.xib */,
+				27D8AB461C74478800F056DF /* personalInfoCell.h */,
+				27D8AB471C74478800F056DF /* personalInfoCell.m */,
+				27D8AB481C74478800F056DF /* personalInfoCell.xib */,
 			);
 			name = "个人信息";
 			sourceTree = "<group>";
@@ -891,8 +1003,11 @@
 				27F514151C57A7B200DE783A /* ExpectedIndustryCell.xib in Resources */,
 				27FDD91D1C50854900FA8A5D /* AlreadyAcceptedCell.xib in Resources */,
 				278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */,
+				276CC0121C71A6AF00478FB5 /* loginVC.xib in Resources */,
 				0C0040301C45EDCE000DEC34 /* personalVC.xib in Resources */,
 				0CAF73FC1C489C0000CF1A4B /* contentCell.xib in Resources */,
+				27D8AB4A1C74478800F056DF /* personalInfoCell.xib in Resources */,
+				276CC0171C71B5B200478FB5 /* registerVC.xib in Resources */,
 				27FF539B1C5225070003D2F5 /* InToVCCell.xib in Resources */,
 				27FBA0271C5748490087D8A6 /* headCellView.xib in Resources */,
 				2730EF801C50C38400FEF99B /* receivingCell.xib in Resources */,
@@ -904,6 +1019,8 @@
 				27FF53871C52107B0003D2F5 /* setUpCell.xib in Resources */,
 				27FF53911C5223A80003D2F5 /* sexCell.xib in Resources */,
 				0CAF73F71C4894EC00CF1A4B /* secondCell.xib in Resources */,
+				27D8AB4F1C747BF800F056DF /* changeNameVC.xib in Resources */,
+				278F54B41C73212500390730 /* settingVC.xib in Resources */,
 				27F78CAB1C586B6900D843C5 /* locationVC.xib in Resources */,
 				27FF538C1C521C4B0003D2F5 /* userInfoVC.xib in Resources */,
 				27F78CB11C58728A00D843C5 /* ocenter_city.sql in Resources */,
@@ -916,16 +1033,23 @@
 				2730EF921C50E12800FEF99B /* myInviteVC.xib in Resources */,
 				27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */,
 				27BE78021C59C931005A9607 /* majorDetailVC.xib in Resources */,
+				278F54AE1C73193600390730 /* getBackPassword2.xib in Resources */,
 				27F78CB21C58728A00D843C5 /* ocenter_country.sql in Resources */,
+				27D8AB451C741C2400F056DF /* headPortraitCellTableViewCell.xib in Resources */,
+				27C1CAC01C697AE80051B82E /* ExperienceDirVC.xib in Resources */,
 				0CD1F19F1C43519F0081EA7A /* Assets.xcassets in Resources */,
 				27FBA0361C575AED0087D8A6 /* EducationExperienceVC.xib in Resources */,
 				27AD7BB81C56245B003ADCA9 /* ExpectedIndustryVC.xib in Resources */,
 				275267751C5A44E900CA6A52 /* loc.db in Resources */,
 				0CD1F19D1C43519F0081EA7A /* Main.storyboard in Resources */,
+				278F54A91C73153500390730 /* getBackPassword.xib in Resources */,
 				2789168B1C4F730D006F2804 /* UserCell.xib in Resources */,
 				27FF53961C5224D70003D2F5 /* DirectInputCell.xib in Resources */,
 				27BE78081C5A0492005A9607 /* majorDescribeVC.xib in Resources */,
+				27D8AB3B1C740E2600F056DF /* loginOutCell.xib in Resources */,
 				274D64471C57611D00F06C03 /* EducationExperienceCell.xib in Resources */,
+				27D8AB401C7412D000F056DF /* personalDataVC.xib in Resources */,
+				278F54A41C73005F00390730 /* ServicesProtocolVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -983,6 +1107,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278F54A81C73153500390730 /* getBackPassword.m in Sources */,
 				0CD1F19A1C43519F0081EA7A /* ViewController.m in Sources */,
 				0CAF73FB1C489C0000CF1A4B /* contentCell.m in Sources */,
 				27BE780D1C5A15AF005A9607 /* InternshipExperienceVC.m in Sources */,
@@ -995,15 +1120,21 @@
 				27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */,
 				0C91635C1C4751C700E3B53F /* WMImageViewCell.m in Sources */,
 				0C00402A1C45EDAB000DEC34 /* tripHelp.m in Sources */,
+				27C1CABF1C697AE80051B82E /* ExperienceDirVC.m in Sources */,
 				2789168A1C4F730D006F2804 /* UserCell.m in Sources */,
+				27D8AB441C741C2400F056DF /* headPortraitCellTableViewCell.m in Sources */,
 				0C0040161C45EBD8000DEC34 /* infoVC.m in Sources */,
 				27BE78011C59C931005A9607 /* majorDetailVC.m in Sources */,
 				0C9163631C4751D300E3B53F /* WMCollectionViewController.m in Sources */,
+				27D8AB4E1C747BF800F056DF /* changeNameVC.m in Sources */,
 				27BE77FC1C59B734005A9607 /* majorVC.m in Sources */,
 				27F78CB51C58907900D843C5 /* FMDBManager.m in Sources */,
+				27D8AB491C74478800F056DF /* personalInfoCell.m in Sources */,
 				2751709B1C4CE4DA00839F94 /* InfoCell.m in Sources */,
 				0C00402F1C45EDCE000DEC34 /* personalVC.m in Sources */,
 				27ED8B751C59069800F0AE7D /* cityVC.m in Sources */,
+				278F54B31C73212500390730 /* settingVC.m in Sources */,
+				278F54AD1C73193600390730 /* getBackPassword2.m in Sources */,
 				2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */,
 				27BE78071C5A0492005A9607 /* majorDescribeVC.m in Sources */,
 				27FF53901C5223A80003D2F5 /* sexCell.m in Sources */,
@@ -1016,16 +1147,21 @@
 				274D64461C57611D00F06C03 /* EducationExperienceCell.m in Sources */,
 				0CD1F1941C43519E0081EA7A /* main.m in Sources */,
 				0CE4C9731C47A6D000AEF229 /* firstCell.m in Sources */,
+				27D8AB3A1C740E2600F056DF /* loginOutCell.m in Sources */,
 				0C003FFE1C45E347000DEC34 /* tabBar.m in Sources */,
 				27FF53861C52107B0003D2F5 /* setUpCell.m in Sources */,
 				27FF538B1C521C4B0003D2F5 /* userInfoVC.m in Sources */,
 				27FBA0251C5748300087D8A6 /* headCellView.m in Sources */,
+				27D8AB3F1C7412D000F056DF /* personalDataVC.m in Sources */,
 				27FF539A1C5225070003D2F5 /* InToVCCell.m in Sources */,
 				27AD7BB71C56245B003ADCA9 /* ExpectedIndustryVC.m in Sources */,
 				27F78CC01C58C1C500D843C5 /* cityCell.m in Sources */,
 				27C860301C51D18800B13E09 /* myResumeCell.m in Sources */,
+				278F54A31C73005F00390730 /* ServicesProtocolVC.m in Sources */,
 				0C9163651C4751D300E3B53F /* WMViewController.m in Sources */,
+				276CC0161C71B5B200478FB5 /* registerVC.m in Sources */,
 				27F514141C57A7B200DE783A /* ExpectedIndustryCell.m in Sources */,
+				276CC0111C71A6AF00478FB5 /* loginVC.m in Sources */,
 				27ED8B791C5906DD00F0AE7D /* cityBModel.m in Sources */,
 				27FF53951C5224D70003D2F5 /* DirectInputCell.m in Sources */,
 				2730EF7F1C50C38400FEF99B /* receivingCell.m in Sources */,

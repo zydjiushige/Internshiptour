@@ -13,12 +13,16 @@
 #import "myResumeVC.h"
 #import "AppDelegate.h"
 #import "tabBar.h"
+#import "loginVC.h"
+#import "settingVC.h"
 @interface personalVC ()<UITableViewDataSource,UITableViewDelegate>
 {
     NSArray *_imageArr;
     NSArray *_NameArr;
 
 }
+@property (weak, nonatomic) IBOutlet UIButton *levelButton;
+
 @end
 
 @implementation personalVC
@@ -55,6 +59,13 @@
    
     _NameArr = @[@"",@"我的积分",@"我的简历",@"我的订单",@"",@"我的申请",@"企业邀请",@"",@"设置",@""];
     [_myUserTableView registerNib:[UINib nibWithNibName:@"UserCell" bundle:nil] forCellReuseIdentifier:@"UserCell"];
+    
+}
+#pragma mark -------登陆事件
+- (IBAction)loginAction:(id)sender {
+    
+    loginVC *logVC = [[loginVC alloc] initWithNibName:@"loginVC" bundle:nil];
+    [self.navigationController pushViewController:logVC animated:YES];
     
 }
 #pragma mark  -----------<UITableViewDataSource,UITableViewDelegate>
@@ -133,6 +144,11 @@
         
         myResumeVC * myResume = [[myResumeVC alloc] initWithNibName:@"myResumeVC" bundle:nil];
         [self.navigationController pushViewController:myResume animated:YES];
+    }else if(indexPath.row == 8){
+    
+    
+        settingVC *setVC = [[settingVC alloc] initWithNibName:@"settingVC" bundle:nil];
+        [self.navigationController pushViewController:setVC animated:YES];
     }
 
 

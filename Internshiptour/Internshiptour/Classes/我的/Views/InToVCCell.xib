@@ -49,6 +49,7 @@
                 <outlet property="inToLable" destination="jcX-uG-zZY" id="pfB-UQ-4XA"/>
                 <outlet property="inToRightLable" destination="9wX-Yu-qym" id="0ic-rv-wkD"/>
             </connections>
+            <point key="canvasLocation" x="167" y="296"/>
         </tableViewCell>
     </objects>
 </document>
