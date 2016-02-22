@@ -27,12 +27,13 @@ PODS:
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
   - MJRefresh (3.1.0)
-  - PayPal-iOS-SDK (2.13.1):
-    - PayPal-iOS-SDK/CardIO (= 2.13.1)
-    - PayPal-iOS-SDK/Core (= 2.13.1)
-  - PayPal-iOS-SDK/CardIO (2.13.1):
+  - PayPal-iOS-SDK (2.13.2):
+    - PayPal-iOS-SDK/CardIO (= 2.13.2)
+    - PayPal-iOS-SDK/Core (= 2.13.2)
+  - PayPal-iOS-SDK/CardIO (2.13.2):
     - CardIO (~> 5.3.1)
-  - PayPal-iOS-SDK/Core (2.13.1)
+  - PayPal-iOS-SDK/Core (2.13.2)
+  - UMengAnalytics (3.6.6)
   - WMPageController (1.4.0)
 
 DEPENDENCIES:
@@ -42,6 +43,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 0.9.2)
   - MJRefresh
   - PayPal-iOS-SDK
+  - UMengAnalytics
   - WMPageController
 
 SPEC CHECKSUMS:
@@ -51,7 +53,8 @@ SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
-  PayPal-iOS-SDK: fc36f26c818d31b014044ec0b22c0861b2fe733f
+  PayPal-iOS-SDK: bb1dc77443d3b6817554251015da982e6c5bf549
+  UMengAnalytics: 4bf831415146b9c57cb10be65fbd43462ef8cf65
   WMPageController: 6515091ceca9ad834e52d041611d33cb8999ac83
 
 COCOAPODS: 0.38.2

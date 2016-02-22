@@ -29,6 +29,9 @@
                     <constraint firstItem="Wu2-z1-r5Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="lKy-II-lpg"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="loginOutButton" destination="Wu2-z1-r5Y" id="Qvc-EL-Use"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>

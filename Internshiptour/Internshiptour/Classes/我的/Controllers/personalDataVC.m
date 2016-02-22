@@ -9,6 +9,10 @@
 #import "personalDataVC.h"
 #import "headPortraitCellTableViewCell.h"
 #import "personalInfoCell.h"
+#import "changeNameVC.h"
+#import "changeSexVC.h"
+#import "locationVC.h"
+#import "personalSignatureVC.h"
 @interface personalDataVC ()<UITableViewDataSource,UITableViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 {
     NSArray *_titleArr;
@@ -18,7 +22,15 @@
 @end
 
 @implementation personalDataVC
-
+-(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    if(self=[super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])
+    {
+      _titleArr = [[NSArray alloc] init];
+        
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
@@ -28,7 +40,7 @@
     [_myPerDataTV registerNib:[UINib nibWithNibName:@"personalInfoCell" bundle:nil] forCellReuseIdentifier:@"personalInfoCell"];
     _myPerDataTV.backgroundColor = BACKCOLOR;
     
-    
+    _titleArr = @[@"",@"头像",@"",@"昵称",@"邮箱",@"性别",@"所在地",@"个性签名"];
     
 }
 #pragma mark - 返回
@@ -67,6 +79,7 @@
     }else{
     
         personalInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"personalInfoCell"];
+        cell.leftLable.text = _titleArr[indexPath.row];
         if(indexPath.row == 3 || indexPath.row == 4 || indexPath.row == 5 || indexPath.row == 6 || indexPath.row == 7){
         UIView *downLine = [[UIView alloc] initWithFrame:CGRectMake(12, cell.frame.size.height, self.view.frame.size.width - 12, 1)];
         downLine.backgroundColor = dfdfddColor;
@@ -101,7 +114,7 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if(indexPath.row == 1){
-    
+    // 选取头像
         
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"" message:@"选择头像" preferredStyle:UIAlertControllerStyleActionSheet];
         // 拍照
@@ -152,8 +165,41 @@
         [alert addAction:actionCancel];
         [alert addAction:actionCancel1];
         [self presentViewController:alert animated:YES completion:nil];
+    }else if (indexPath.row == 3){
+        
+        // 修改名字
+        changeNameVC *nameVC = [[changeNameVC alloc] initWithNibName:@"changeNameVC" bundle:nil];
+       
+        personalInfoCell *cell = [_myPerDataTV cellForRowAtIndexPath:indexPath];
+        NJLog(@"个人资料中用户名字--%@",cell.rightLable.text);
+        nameVC.name= cell.rightLable.text;
+        [self.navigationController pushViewController:nameVC animated:YES];
+    }else if (indexPath.row == 5){
+    
+        changeSexVC *sexVC = [[changeSexVC alloc] initWithNibName:@"changeSexVC" bundle:nil];
+        
+        sexVC.block = ^(NSString *string){
+        
+          personalInfoCell *cell = [_myPerDataTV cellForRowAtIndexPath:indexPath];
+            cell.rightLable.text = string;
+            [_myPerDataTV reloadData];
+        };
+        personalInfoCell *cell = [_myPerDataTV cellForRowAtIndexPath:indexPath];
+        sexVC.sex = cell.rightLable.text;
+        [self.navigationController pushViewController:sexVC animated:YES];
+    
+    }else if(indexPath.row == 6){
+        // 所在地
+        
+        locationVC *locVC = [[locationVC alloc] initWithNibName:@"locationVC" bundle:nil];
+        [self.navigationController pushViewController:locVC animated:YES];
+    
+    }else if(indexPath.row == 7){
+    
+        personalSignatureVC *SignatureVC = [[personalSignatureVC alloc] initWithNibName:@"personalSignatureVC" bundle:nil];
+        [self.navigationController pushViewController:SignatureVC animated:YES];
     }
-
+    
 }
 #pragma mark ----- <选取头像的回调>
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info

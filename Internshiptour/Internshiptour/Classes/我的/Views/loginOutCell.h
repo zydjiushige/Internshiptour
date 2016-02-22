@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface loginOutCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIButton *loginOutButton;
 
 @end

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "tabBar.h"
+#import <UMengAnalytics/MobClick.h>
+#import <PayPal-iOS-SDK/PayPalMobile.h>
 @interface AppDelegate ()
 
 @end
@@ -23,7 +25,21 @@
     tabBar *mytabBar=[[tabBar alloc] init];
     self.window.rootViewController=mytabBar;
     
+    //  友盟统计
+    [MobClick startWithAppkey:@"56c6be25e0f55a7a9a0000ef" reportPolicy:BATCH channelId:@"Web"];
+    /*
+     将channelId:@"Web" 中的Web 替换为您应用的推广渠道。channelId为nil或@""时，默认会被当作@"App Store"渠道
+     */
+    [MobClick profileSignInWithPUID:@"playerID"];
     
+    // 统计第三方登陆
+//    [MobClick profileSignInWithPUID:@"playerID" provider:@"WB"];
+    
+    
+    // PayPal
+    
+    [PayPalMobile initializeWithClientIdsForEnvironments:@{PayPalEnvironmentProduction : @"YOUR_CLIENT_ID_FOR_PRODUCTION",
+                                                           PayPalEnvironmentSandbox : @"YOUR_CLIENT_ID_FOR_SANDBOX"}];
     
     
     return YES;

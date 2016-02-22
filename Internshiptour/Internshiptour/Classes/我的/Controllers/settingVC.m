@@ -10,6 +10,9 @@
 #import "InToVCCell.h"
 #import "loginOutCell.h"
 #import "personalDataVC.h"
+#import "changePasswordVC.h"
+#import "aboutUSVC.h"
+#import "setLanguageVC.h"
 @interface settingVC ()<UITableViewDataSource,UITableViewDelegate>
 {
     NSArray *_leftTitleArr;
@@ -84,6 +87,7 @@
             // 退出登录cell
     
         loginOutCell *cell = [tableView dequeueReusableCellWithIdentifier:@"loginOutCell"];
+           [cell.loginOutButton addTarget:self action:@selector(loginOut) forControlEvents:UIControlEventTouchUpInside];
         return cell;
     }
     return nil;
@@ -111,7 +115,45 @@
         personalDataVC *perDVC = [[personalDataVC alloc] initWithNibName:@"personalDataVC" bundle:nil];
         [self.navigationController pushViewController:perDVC animated:YES];
     
+    }else if (indexPath.row == 3){
+        // 修改密码
+        changePasswordVC *changePassVC = [[changePasswordVC alloc] initWithNibName:@"changePasswordVC" bundle:nil];
+        [self.navigationController pushViewController:changePassVC animated:YES];
+        
+    }else if(indexPath.row == 4){
+        aboutUSVC *aboutVC = [[aboutUSVC alloc] initWithNibName:@"aboutUSVC" bundle:nil];
+        [self.navigationController pushViewController:aboutVC animated:YES];
+        
+    
+    }else if(indexPath.row == 5){
+    
+        setLanguageVC *LanVC = [[setLanguageVC alloc] initWithNibName:@"setLanguageVC" bundle:nil];
+//        LanVC.block = ^(NSString *string){
+//            
+//            InToVCCell *cell = [_mySetTableView cellForRowAtIndexPath:indexPath];
+//            cell.inToRightLable.text = string;
+//            [_mySetTableView reloadData];
+//        };
+//        InToVCCell *cell = [_mySetTableView cellForRowAtIndexPath:indexPath];
+//        LanVC.language = cell.inToRightLable.text;
+        [self.navigationController pushViewController:LanVC animated:YES];
+    }else if (indexPath.row == 7){
+    
+//        loginOutCell *cell = [_mySetTableView cellForRowAtIndexPath:indexPath];
+//        [cell.loginOutButton addTarget:self action:@selector(loginOut) forControlEvents:UIControlEventTouchUpInside];
+        
+    
     }
+
+}
+-(void)loginOut
+{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"" message:@"确定退出登录吗?" preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertAction *actionCancel = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil];
+    UIAlertAction *actionYes = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+    [alert addAction:actionYes];
+    [alert addAction:actionCancel];
+    [self presentViewController:alert animated:YES completion:nil];
 
 }
 - (void)didReceiveMemoryWarning {

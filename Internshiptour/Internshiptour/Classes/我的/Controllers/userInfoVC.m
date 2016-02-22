@@ -197,7 +197,7 @@
         [self.navigationController pushViewController:exVC animated:YES];
     
     }else if(indexPath.row == 10){
-    
+        // 所在地
         locationVC *locVC = [[locationVC alloc] initWithNibName:@"locationVC" bundle:nil];
         [self.navigationController pushViewController:locVC animated:YES];
     

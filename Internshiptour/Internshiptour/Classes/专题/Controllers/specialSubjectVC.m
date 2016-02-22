@@ -18,6 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor = [UIColor blueColor];
+    
+    
+    //文字的本地化
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(50, 250, 200, 30)];
+    label.text = NSLocalizedString(@"qianfeng", nil);
+
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {

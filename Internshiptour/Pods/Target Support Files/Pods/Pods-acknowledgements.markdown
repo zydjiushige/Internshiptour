@@ -180,6 +180,11 @@ The PayPalMobile header files and the PayPal iOS SDK Sample App are released und
     either expressed or implied, of the FreeBSD Project.
 
 
+## UMengAnalytics
+
+Copyright 2011 - 2015 UMeng.com. All rights reserved.
+
+
 ## WMPageController
 
 The MIT License (MIT)

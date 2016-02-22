@@ -10,4 +10,6 @@
 
 @interface changeNameVC : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+@property(nonatomic,copy)NSString *name;
 @end
