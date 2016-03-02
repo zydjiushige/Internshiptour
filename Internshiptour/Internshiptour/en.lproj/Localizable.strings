@@ -8,5 +8,5 @@
 
 
 //键值对,左侧的是key,多个语言下,key是一样的.值不同
-"imageName" = "english.jpg";
-"qianfeng" = "1000Phone";
+
+"qianfeng" = "helloWorld";

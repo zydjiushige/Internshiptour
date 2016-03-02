@@ -11,7 +11,8 @@
 #import "setUpResumeVC.h"
 #import "AppDelegate.h"
 #import "tabBar.h"
-@interface myResumeVC ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
+#import "checkResumeVC.h"
+@interface myResumeVC ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate,UIGestureRecognizerDelegate>
 {
     UIImageView *_paopaoView;
     UIButton *_paopaoButton;
@@ -47,7 +48,7 @@
     _paopaoView.image = [UIImage imageNamed:@"my_resume_down_bj"];
     [self.view addSubview:_paopaoView];
     _paopaoView.hidden = YES;
-
+    _paopaoView.userInteractionEnabled = YES;
     _titleArr = [[NSArray alloc]init];
     _imgArr = [[NSArray alloc] init];
     
@@ -65,13 +66,52 @@
             button.tag = 100 + i *3 + j;
            [ button setTitle:_titleArr[i*3+j]  forState:UIControlStateNormal];
             [_paopaoView addSubview:button];
+            
+        [button addTarget:self action:@selector(clickButton:) forControlEvents:UIControlEventTouchUpInside];
+            
     
         }
     
     }
     
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hidePop)];
+    tap.delegate = self;
+    tap.numberOfTouchesRequired = 1;
+    
+    [self.view addGestureRecognizer:tap];
 }
+-(void)hidePop
+{
+    _paopaoView.hidden = YES;
 
+}
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
+{
+//    if(NSStringFromClass([touch.view Class]) )
+    NJLog(@"%@",NSStringFromClass([touch.view class]));
+    
+    if([NSStringFromClass([touch.view class]) isEqualToString:@"UITableViewCellContentView"])
+    {
+    
+        return NO;
+    }
+    return YES;
+}
+-(void)clickButton:(UIButton *)button
+{
+//    UIButton *button1 = (UIButton *)[self.view viewWithTag:button.tag];
+
+    NJLog(@"点击了:%ld",button.tag);
+    
+    if(button.tag == 100){
+        checkResumeVC *checkVC = [[checkResumeVC alloc] initWithNibName:@"checkResumeVC" bundle:nil];
+        
+        [self.navigationController pushViewController:checkVC animated:YES];
+    
+    }
+    
+    
+}
 - (IBAction)goBack:(id)sender {
     
     
@@ -147,14 +187,10 @@
     
     _paopaoView.hidden = NO;
     
-    NSLog(@"%d",indexPath.section);
+    NJLog(@"%ld",indexPath.section);
 
 }
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-{
 
-    _paopaoView.hidden = YES;
-}
 #pragma mark -------UIScrollViewDelegate
 -(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {

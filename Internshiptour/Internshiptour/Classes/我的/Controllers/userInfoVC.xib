@@ -151,6 +151,7 @@
                 <constraint firstAttribute="trailing" secondItem="9sB-BT-2t9" secondAttribute="trailing" id="ztm-Kt-v2P"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="45" y="173"/>
         </view>
     </objects>
     <resources>

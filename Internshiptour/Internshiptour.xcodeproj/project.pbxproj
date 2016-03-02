@@ -37,6 +37,12 @@
 		0CD1F1B81C43519F0081EA7A /* InternshiptourUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1F1B71C43519F0081EA7A /* InternshiptourUITests.m */; };
 		0CE4C9731C47A6D000AEF229 /* firstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE4C9711C47A6D000AEF229 /* firstCell.m */; };
 		0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE4C9721C47A6D000AEF229 /* firstCell.xib */; };
+		27017DBC1C83E2CB00D970B9 /* nextButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27017DBB1C83E2CB00D970B9 /* nextButtonView.m */; };
+		27017DBE1C83E2DF00D970B9 /* nextButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27017DBD1C83E2DE00D970B9 /* nextButtonView.xib */; };
+		27017DC21C83E93C00D970B9 /* chooseInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27017DC01C83E93C00D970B9 /* chooseInfoVC.m */; };
+		27017DC31C83E93C00D970B9 /* chooseInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27017DC11C83E93C00D970B9 /* chooseInfoVC.xib */; };
+		27017DC71C841E2A00D970B9 /* chooseServicePackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27017DC51C841E2A00D970B9 /* chooseServicePackVC.m */; };
+		27017DC81C841E2A00D970B9 /* chooseServicePackVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27017DC61C841E2A00D970B9 /* chooseServicePackVC.xib */; };
 		27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27249ACB1C48F2E1009892F9 /* commentCell.m */; };
 		27249ACE1C48F2E1009892F9 /* commentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27249ACC1C48F2E1009892F9 /* commentCell.xib */; };
 		2730EF7F1C50C38400FEF99B /* receivingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2730EF7D1C50C38400FEF99B /* receivingCell.m */; };
@@ -73,6 +79,22 @@
 		278F54AE1C73193600390730 /* getBackPassword2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278F54AC1C73193600390730 /* getBackPassword2.xib */; };
 		278F54B31C73212500390730 /* settingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F54B11C73212500390730 /* settingVC.m */; };
 		278F54B41C73212500390730 /* settingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278F54B21C73212500390730 /* settingVC.xib */; };
+		27915BB21C85389900C31DBC /* InfiniteScrollPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 27915BAF1C85389900C31DBC /* InfiniteScrollPicker.m */; };
+		27915BB31C85389900C31DBC /* UIView+viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27915BB11C85389900C31DBC /* UIView+viewController.m */; };
+		27915BC01C85391800C31DBC /* s2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BB61C85391800C31DBC /* s2_1.png */; };
+		27915BC11C85391800C31DBC /* s2_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BB71C85391800C31DBC /* s2_10.png */; };
+		27915BC21C85391800C31DBC /* s2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BB81C85391800C31DBC /* s2_2.png */; };
+		27915BC31C85391800C31DBC /* s2_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BB91C85391800C31DBC /* s2_3.png */; };
+		27915BC41C85391800C31DBC /* s2_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BBA1C85391800C31DBC /* s2_4.png */; };
+		27915BC51C85391800C31DBC /* s2_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BBB1C85391800C31DBC /* s2_5.png */; };
+		27915BC61C85391800C31DBC /* s2_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BBC1C85391800C31DBC /* s2_6.png */; };
+		27915BC71C85391800C31DBC /* s2_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BBD1C85391800C31DBC /* s2_7.png */; };
+		27915BC81C85391800C31DBC /* s2_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BBE1C85391800C31DBC /* s2_8.png */; };
+		27915BC91C85391800C31DBC /* s2_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 27915BBF1C85391800C31DBC /* s2_9.png */; };
+		27915BCD1C856A5500C31DBC /* shoppingCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27915BCB1C856A5500C31DBC /* shoppingCartVC.m */; };
+		27915BCE1C856A5500C31DBC /* shoppingCartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27915BCC1C856A5500C31DBC /* shoppingCartVC.xib */; };
+		27915BD31C85750600C31DBC /* shoppingCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27915BD11C85750600C31DBC /* shoppingCartCell.m */; };
+		27915BD41C85750600C31DBC /* shoppingCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27915BD21C85750600C31DBC /* shoppingCartCell.xib */; };
 		2798C81F1C756E12001BAB2C /* changeSexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2798C81D1C756E12001BAB2C /* changeSexVC.m */; };
 		2798C8201C756E12001BAB2C /* changeSexVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2798C81E1C756E12001BAB2C /* changeSexVC.xib */; };
 		2798C8251C759DAF001BAB2C /* personalSignatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2798C8231C759DAF001BAB2C /* personalSignatureVC.m */; };
@@ -83,10 +105,31 @@
 		2798C8321C75ABFB001BAB2C /* aboutUSVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2798C8301C75ABFB001BAB2C /* aboutUSVC.xib */; };
 		2798C8371C75B366001BAB2C /* setLanguageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2798C8351C75B366001BAB2C /* setLanguageVC.m */; };
 		2798C8381C75B366001BAB2C /* setLanguageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2798C8361C75B366001BAB2C /* setLanguageVC.xib */; };
+		279E94651C7E9DFE0012C752 /* MainTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 279E94641C7E9DFE0012C752 /* MainTitleView.m */; };
+		279E94691C7EA15A0012C752 /* MainTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279E94681C7EA15A0012C752 /* MainTitleView.xib */; };
+		279E94721C7EA2760012C752 /* internshipInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279E94701C7EA2760012C752 /* internshipInfoCell.m */; };
+		279E94731C7EA2760012C752 /* internshipInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279E94711C7EA2760012C752 /* internshipInfoCell.xib */; };
+		279E94771C7EA4BE0012C752 /* InternshipProcessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279E94751C7EA4BE0012C752 /* InternshipProcessCell.m */; };
+		279E94781C7EA4BE0012C752 /* InternshipProcessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279E94761C7EA4BE0012C752 /* InternshipProcessCell.xib */; };
+		279E947C1C7EE2210012C752 /* movieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 279E947A1C7EE2210012C752 /* movieCell.m */; };
+		279E947D1C7EE2210012C752 /* movieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279E947B1C7EE2210012C752 /* movieCell.xib */; };
+		279E94811C7EF72B0012C752 /* pastVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 279E947F1C7EF72B0012C752 /* pastVC.m */; };
+		279E94821C7EF72B0012C752 /* pastVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279E94801C7EF72B0012C752 /* pastVC.xib */; };
+		279F21501C7D8BCF000A1F03 /* DVSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 279F214F1C7D8BCF000A1F03 /* DVSwitch.m */; };
 		27AD7BB71C56245B003ADCA9 /* ExpectedIndustryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AD7BB51C56245B003ADCA9 /* ExpectedIndustryVC.m */; };
 		27AD7BB81C56245B003ADCA9 /* ExpectedIndustryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AD7BB61C56245B003ADCA9 /* ExpectedIndustryVC.xib */; };
 		27B7C8271C7815C000339D35 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B7C8261C7815C000339D35 /* Security.framework */; };
 		27B7C8291C7815CC00339D35 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B7C8281C7815CC00339D35 /* CoreTelephony.framework */; };
+		27B98A741C7FEC2600542FAB /* pastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B98A721C7FEC2600542FAB /* pastCell.m */; };
+		27B98A751C7FEC2600542FAB /* pastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B98A731C7FEC2600542FAB /* pastCell.xib */; };
+		27B98A7A1C80018400542FAB /* pastDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B98A781C80018400542FAB /* pastDetailVC.m */; };
+		27B98A7B1C80018400542FAB /* pastDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B98A791C80018400542FAB /* pastDetailVC.xib */; };
+		27B98A801C8045A300542FAB /* chooseJobVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B98A7E1C8045A300542FAB /* chooseJobVC.m */; };
+		27B98A811C8045A300542FAB /* chooseJobVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B98A7F1C8045A300542FAB /* chooseJobVC.xib */; };
+		27B98A871C80498000542FAB /* chooseJobCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B98A851C80498000542FAB /* chooseJobCell.m */; };
+		27B98A881C80498000542FAB /* chooseJobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B98A861C80498000542FAB /* chooseJobCell.xib */; };
+		27BD17E41C829F3300A03108 /* checkResumeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD17E21C829F3300A03108 /* checkResumeVC.m */; };
+		27BD17E51C829F3300A03108 /* checkResumeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BD17E31C829F3300A03108 /* checkResumeVC.xib */; };
 		27BE77FC1C59B734005A9607 /* majorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE77FA1C59B734005A9607 /* majorVC.m */; };
 		27BE77FD1C59B734005A9607 /* majorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BE77FB1C59B734005A9607 /* majorVC.xib */; };
 		27BE78011C59C931005A9607 /* majorDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE77FF1C59C931005A9607 /* majorDetailVC.m */; };
@@ -220,6 +263,15 @@
 		0CE4C9701C47A6D000AEF229 /* firstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = firstCell.h; path = "Classes/资讯/Views/firstCell.h"; sourceTree = "<group>"; };
 		0CE4C9711C47A6D000AEF229 /* firstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = firstCell.m; path = "Classes/资讯/Views/firstCell.m"; sourceTree = "<group>"; };
 		0CE4C9721C47A6D000AEF229 /* firstCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = firstCell.xib; path = "Classes/资讯/Views/firstCell.xib"; sourceTree = "<group>"; };
+		27017DBA1C83E2CB00D970B9 /* nextButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nextButtonView.h; path = "Classes/专题/Views/nextButtonView.h"; sourceTree = "<group>"; };
+		27017DBB1C83E2CB00D970B9 /* nextButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = nextButtonView.m; path = "Classes/专题/Views/nextButtonView.m"; sourceTree = "<group>"; };
+		27017DBD1C83E2DE00D970B9 /* nextButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nextButtonView.xib; sourceTree = "<group>"; };
+		27017DBF1C83E93C00D970B9 /* chooseInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chooseInfoVC.h; path = "Classes/专题/Controllers/chooseInfoVC.h"; sourceTree = "<group>"; };
+		27017DC01C83E93C00D970B9 /* chooseInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = chooseInfoVC.m; path = "Classes/专题/Controllers/chooseInfoVC.m"; sourceTree = "<group>"; };
+		27017DC11C83E93C00D970B9 /* chooseInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = chooseInfoVC.xib; path = "Classes/专题/Controllers/chooseInfoVC.xib"; sourceTree = "<group>"; };
+		27017DC41C841E2A00D970B9 /* chooseServicePackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chooseServicePackVC.h; path = "Classes/专题/Controllers/chooseServicePackVC.h"; sourceTree = "<group>"; };
+		27017DC51C841E2A00D970B9 /* chooseServicePackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = chooseServicePackVC.m; path = "Classes/专题/Controllers/chooseServicePackVC.m"; sourceTree = "<group>"; };
+		27017DC61C841E2A00D970B9 /* chooseServicePackVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = chooseServicePackVC.xib; path = "Classes/专题/Controllers/chooseServicePackVC.xib"; sourceTree = "<group>"; };
 		27249AC51C48F2BC009892F9 /* Internshiptour-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internshiptour-Bridging-Header.h"; sourceTree = "<group>"; };
 		27249ACA1C48F2E1009892F9 /* commentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = commentCell.h; path = "Classes/资讯/Views/commentCell.h"; sourceTree = "<group>"; };
 		27249ACB1C48F2E1009892F9 /* commentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = commentCell.m; path = "Classes/资讯/Views/commentCell.m"; sourceTree = "<group>"; };
@@ -484,6 +536,26 @@
 		278F54B01C73212500390730 /* settingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settingVC.h; path = "Classes/我的/Controllers/settingVC.h"; sourceTree = "<group>"; };
 		278F54B11C73212500390730 /* settingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = settingVC.m; path = "Classes/我的/Controllers/settingVC.m"; sourceTree = "<group>"; };
 		278F54B21C73212500390730 /* settingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = settingVC.xib; path = "Classes/我的/Controllers/settingVC.xib"; sourceTree = "<group>"; };
+		27915BAE1C85389900C31DBC /* InfiniteScrollPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteScrollPicker.h; sourceTree = "<group>"; };
+		27915BAF1C85389900C31DBC /* InfiniteScrollPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollPicker.m; sourceTree = "<group>"; };
+		27915BB01C85389900C31DBC /* UIView+viewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+viewController.h"; sourceTree = "<group>"; };
+		27915BB11C85389900C31DBC /* UIView+viewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+viewController.m"; sourceTree = "<group>"; };
+		27915BB61C85391800C31DBC /* s2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_1.png; sourceTree = "<group>"; };
+		27915BB71C85391800C31DBC /* s2_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_10.png; sourceTree = "<group>"; };
+		27915BB81C85391800C31DBC /* s2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_2.png; sourceTree = "<group>"; };
+		27915BB91C85391800C31DBC /* s2_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_3.png; sourceTree = "<group>"; };
+		27915BBA1C85391800C31DBC /* s2_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_4.png; sourceTree = "<group>"; };
+		27915BBB1C85391800C31DBC /* s2_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_5.png; sourceTree = "<group>"; };
+		27915BBC1C85391800C31DBC /* s2_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_6.png; sourceTree = "<group>"; };
+		27915BBD1C85391800C31DBC /* s2_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_7.png; sourceTree = "<group>"; };
+		27915BBE1C85391800C31DBC /* s2_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_8.png; sourceTree = "<group>"; };
+		27915BBF1C85391800C31DBC /* s2_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s2_9.png; sourceTree = "<group>"; };
+		27915BCA1C856A5500C31DBC /* shoppingCartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shoppingCartVC.h; path = "Classes/专题/Controllers/shoppingCartVC.h"; sourceTree = "<group>"; };
+		27915BCB1C856A5500C31DBC /* shoppingCartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shoppingCartVC.m; path = "Classes/专题/Controllers/shoppingCartVC.m"; sourceTree = "<group>"; };
+		27915BCC1C856A5500C31DBC /* shoppingCartVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = shoppingCartVC.xib; path = "Classes/专题/Controllers/shoppingCartVC.xib"; sourceTree = "<group>"; };
+		27915BD01C85750600C31DBC /* shoppingCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shoppingCartCell.h; path = "Classes/专题/Views/shoppingCartCell.h"; sourceTree = "<group>"; };
+		27915BD11C85750600C31DBC /* shoppingCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = shoppingCartCell.m; path = "Classes/专题/Views/shoppingCartCell.m"; sourceTree = "<group>"; };
+		27915BD21C85750600C31DBC /* shoppingCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = shoppingCartCell.xib; path = "Classes/专题/Views/shoppingCartCell.xib"; sourceTree = "<group>"; };
 		2798C81C1C756E12001BAB2C /* changeSexVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = changeSexVC.h; path = "Classes/我的/Controllers/changeSexVC.h"; sourceTree = "<group>"; };
 		2798C81D1C756E12001BAB2C /* changeSexVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = changeSexVC.m; path = "Classes/我的/Controllers/changeSexVC.m"; sourceTree = "<group>"; };
 		2798C81E1C756E12001BAB2C /* changeSexVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = changeSexVC.xib; path = "Classes/我的/Controllers/changeSexVC.xib"; sourceTree = "<group>"; };
@@ -499,11 +571,43 @@
 		2798C8341C75B366001BAB2C /* setLanguageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = setLanguageVC.h; path = "Classes/我的/Controllers/setLanguageVC.h"; sourceTree = "<group>"; };
 		2798C8351C75B366001BAB2C /* setLanguageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = setLanguageVC.m; path = "Classes/我的/Controllers/setLanguageVC.m"; sourceTree = "<group>"; };
 		2798C8361C75B366001BAB2C /* setLanguageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = setLanguageVC.xib; path = "Classes/我的/Controllers/setLanguageVC.xib"; sourceTree = "<group>"; };
+		279E94631C7E9DFE0012C752 /* MainTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTitleView.h; path = "Classes/专题/Views/MainTitleView.h"; sourceTree = "<group>"; };
+		279E94641C7E9DFE0012C752 /* MainTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTitleView.m; path = "Classes/专题/Views/MainTitleView.m"; sourceTree = "<group>"; };
+		279E94681C7EA15A0012C752 /* MainTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainTitleView.xib; path = "Classes/专题/Views/MainTitleView.xib"; sourceTree = "<group>"; };
+		279E946F1C7EA2760012C752 /* internshipInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = internshipInfoCell.h; path = "Classes/专题/Views/internshipInfoCell.h"; sourceTree = "<group>"; };
+		279E94701C7EA2760012C752 /* internshipInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = internshipInfoCell.m; path = "Classes/专题/Views/internshipInfoCell.m"; sourceTree = "<group>"; };
+		279E94711C7EA2760012C752 /* internshipInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = internshipInfoCell.xib; path = "Classes/专题/Views/internshipInfoCell.xib"; sourceTree = "<group>"; };
+		279E94741C7EA4BE0012C752 /* InternshipProcessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InternshipProcessCell.h; path = "Classes/专题/Views/InternshipProcessCell.h"; sourceTree = "<group>"; };
+		279E94751C7EA4BE0012C752 /* InternshipProcessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InternshipProcessCell.m; path = "Classes/专题/Views/InternshipProcessCell.m"; sourceTree = "<group>"; };
+		279E94761C7EA4BE0012C752 /* InternshipProcessCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InternshipProcessCell.xib; path = "Classes/专题/Views/InternshipProcessCell.xib"; sourceTree = "<group>"; };
+		279E94791C7EE2210012C752 /* movieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movieCell.h; path = "Classes/专题/Views/movieCell.h"; sourceTree = "<group>"; };
+		279E947A1C7EE2210012C752 /* movieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = movieCell.m; path = "Classes/专题/Views/movieCell.m"; sourceTree = "<group>"; };
+		279E947B1C7EE2210012C752 /* movieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = movieCell.xib; path = "Classes/专题/Views/movieCell.xib"; sourceTree = "<group>"; };
+		279E947E1C7EF72B0012C752 /* pastVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pastVC.h; path = "Classes/专题/Controllers/pastVC.h"; sourceTree = "<group>"; };
+		279E947F1C7EF72B0012C752 /* pastVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pastVC.m; path = "Classes/专题/Controllers/pastVC.m"; sourceTree = "<group>"; };
+		279E94801C7EF72B0012C752 /* pastVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = pastVC.xib; path = "Classes/专题/Controllers/pastVC.xib"; sourceTree = "<group>"; };
+		279F214E1C7D8BCF000A1F03 /* DVSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSwitch.h; sourceTree = "<group>"; };
+		279F214F1C7D8BCF000A1F03 /* DVSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSwitch.m; sourceTree = "<group>"; };
 		27AD7BB41C56245B003ADCA9 /* ExpectedIndustryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpectedIndustryVC.h; path = "Classes/我的/Controllers/ExpectedIndustryVC.h"; sourceTree = "<group>"; };
 		27AD7BB51C56245B003ADCA9 /* ExpectedIndustryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpectedIndustryVC.m; path = "Classes/我的/Controllers/ExpectedIndustryVC.m"; sourceTree = "<group>"; };
 		27AD7BB61C56245B003ADCA9 /* ExpectedIndustryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpectedIndustryVC.xib; path = "Classes/我的/Controllers/ExpectedIndustryVC.xib"; sourceTree = "<group>"; };
 		27B7C8261C7815C000339D35 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		27B7C8281C7815CC00339D35 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		27B98A711C7FEC2600542FAB /* pastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pastCell.h; path = "Classes/专题/Views/pastCell.h"; sourceTree = "<group>"; };
+		27B98A721C7FEC2600542FAB /* pastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pastCell.m; path = "Classes/专题/Views/pastCell.m"; sourceTree = "<group>"; };
+		27B98A731C7FEC2600542FAB /* pastCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = pastCell.xib; path = "Classes/专题/Views/pastCell.xib"; sourceTree = "<group>"; };
+		27B98A771C80018400542FAB /* pastDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pastDetailVC.h; path = "Classes/专题/Controllers/pastDetailVC.h"; sourceTree = "<group>"; };
+		27B98A781C80018400542FAB /* pastDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pastDetailVC.m; path = "Classes/专题/Controllers/pastDetailVC.m"; sourceTree = "<group>"; };
+		27B98A791C80018400542FAB /* pastDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = pastDetailVC.xib; path = "Classes/专题/Controllers/pastDetailVC.xib"; sourceTree = "<group>"; };
+		27B98A7D1C8045A300542FAB /* chooseJobVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chooseJobVC.h; path = "Classes/专题/Controllers/chooseJobVC.h"; sourceTree = "<group>"; };
+		27B98A7E1C8045A300542FAB /* chooseJobVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = chooseJobVC.m; path = "Classes/专题/Controllers/chooseJobVC.m"; sourceTree = "<group>"; };
+		27B98A7F1C8045A300542FAB /* chooseJobVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = chooseJobVC.xib; path = "Classes/专题/Controllers/chooseJobVC.xib"; sourceTree = "<group>"; };
+		27B98A841C80498000542FAB /* chooseJobCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chooseJobCell.h; path = "Classes/专题/Views/chooseJobCell.h"; sourceTree = "<group>"; };
+		27B98A851C80498000542FAB /* chooseJobCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = chooseJobCell.m; path = "Classes/专题/Views/chooseJobCell.m"; sourceTree = "<group>"; };
+		27B98A861C80498000542FAB /* chooseJobCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = chooseJobCell.xib; path = "Classes/专题/Views/chooseJobCell.xib"; sourceTree = "<group>"; };
+		27BD17E11C829F3300A03108 /* checkResumeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checkResumeVC.h; path = "Classes/我的/Controllers/checkResumeVC.h"; sourceTree = "<group>"; };
+		27BD17E21C829F3300A03108 /* checkResumeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = checkResumeVC.m; path = "Classes/我的/Controllers/checkResumeVC.m"; sourceTree = "<group>"; };
+		27BD17E31C829F3300A03108 /* checkResumeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = checkResumeVC.xib; path = "Classes/我的/Controllers/checkResumeVC.xib"; sourceTree = "<group>"; };
 		27BE77F91C59B734005A9607 /* majorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = majorVC.h; path = "Classes/我的/Controllers/majorVC.h"; sourceTree = "<group>"; };
 		27BE77FA1C59B734005A9607 /* majorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = majorVC.m; path = "Classes/我的/Controllers/majorVC.m"; sourceTree = "<group>"; };
 		27BE77FB1C59B734005A9607 /* majorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = majorVC.xib; path = "Classes/我的/Controllers/majorVC.xib"; sourceTree = "<group>"; };
@@ -765,6 +869,21 @@
 		0C00400D1C45E74D000DEC34 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				27915BCF1C8574E300C31DBC /* 购物车 */,
+				27B98A821C80490A00542FAB /* 选择工作 */,
+				27B98A701C7FEBF300542FAB /* 往期 */,
+				279E94631C7E9DFE0012C752 /* MainTitleView.h */,
+				279E94641C7E9DFE0012C752 /* MainTitleView.m */,
+				279E94681C7EA15A0012C752 /* MainTitleView.xib */,
+				279E946F1C7EA2760012C752 /* internshipInfoCell.h */,
+				279E94701C7EA2760012C752 /* internshipInfoCell.m */,
+				279E94711C7EA2760012C752 /* internshipInfoCell.xib */,
+				279E94741C7EA4BE0012C752 /* InternshipProcessCell.h */,
+				279E94751C7EA4BE0012C752 /* InternshipProcessCell.m */,
+				279E94761C7EA4BE0012C752 /* InternshipProcessCell.xib */,
+				279E94791C7EE2210012C752 /* movieCell.h */,
+				279E947A1C7EE2210012C752 /* movieCell.m */,
+				279E947B1C7EE2210012C752 /* movieCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -772,9 +891,16 @@
 		0C00400E1C45E757000DEC34 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				27915BD61C85850700C31DBC /* 确认订单 */,
+				27915BD51C8584F600C31DBC /* 购物车 */,
+				27B98A7C1C80458300542FAB /* 报名 */,
+				27B98A761C80013000542FAB /* 往期 */,
 				0C0040181C45ED69000DEC34 /* specialSubjectVC.h */,
 				0C0040191C45ED69000DEC34 /* specialSubjectVC.m */,
 				0C00401A1C45ED69000DEC34 /* specialSubjectVC.xib */,
+				279E947E1C7EF72B0012C752 /* pastVC.h */,
+				279E947F1C7EF72B0012C752 /* pastVC.m */,
+				279E94801C7EF72B0012C752 /* pastVC.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -842,6 +968,7 @@
 		0CD1F1861C43519E0081EA7A = {
 			isa = PBXGroup;
 			children = (
+				27915BB41C85390600C31DBC /* resources */,
 				277A19561C771CC1007CACFB /* frameworks */,
 				0CD1F1911C43519E0081EA7A /* Internshiptour */,
 				0CD1F1AB1C43519F0081EA7A /* InternshiptourTests */,
@@ -873,9 +1000,7 @@
 				0C003FFD1C45E347000DEC34 /* tabBar.m */,
 				0C003FFF1C45E643000DEC34 /* Classes */,
 				0CD1F19B1C43519F0081EA7A /* Main.storyboard */,
-				27C3FB6E1C4DF23B00B62959 /* Header.h */,
-				27C3FB6F1C4DF2CA00B62959 /* Internshiptour-Prefix.pch */,
-				27DA49651C7B04C9002C05B5 /* 国际化 */,
+				27DA49651C7B04C9002C05B5 /* config */,
 				0CD1F19E1C43519F0081EA7A /* Assets.xcassets */,
 				0CD1F1A01C43519F0081EA7A /* LaunchScreen.storyboard */,
 				0CD1F1A31C43519F0081EA7A /* Info.plist */,
@@ -1352,6 +1477,8 @@
 		277A19561C771CC1007CACFB /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27915BAD1C85389900C31DBC /* InfiniteScrollPicker */,
+				279F214D1C7D8BCF000A1F03 /* segment */,
 				27401AF51C7970C900E9B4E2 /* alipay */,
 				277A194E1C771CB8007CACFB /* weixinPay */,
 			);
@@ -1384,6 +1511,70 @@
 				2798C8271C75A46B001BAB2C /* 修改密码 */,
 			);
 			name = "设置";
+			sourceTree = "<group>";
+		};
+		27915BAD1C85389900C31DBC /* InfiniteScrollPicker */ = {
+			isa = PBXGroup;
+			children = (
+				27915BAE1C85389900C31DBC /* InfiniteScrollPicker.h */,
+				27915BAF1C85389900C31DBC /* InfiniteScrollPicker.m */,
+				27915BB01C85389900C31DBC /* UIView+viewController.h */,
+				27915BB11C85389900C31DBC /* UIView+viewController.m */,
+			);
+			path = InfiniteScrollPicker;
+			sourceTree = "<group>";
+		};
+		27915BB41C85390600C31DBC /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				27915BB51C85391800C31DBC /* Set2 */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		27915BB51C85391800C31DBC /* Set2 */ = {
+			isa = PBXGroup;
+			children = (
+				27915BB61C85391800C31DBC /* s2_1.png */,
+				27915BB71C85391800C31DBC /* s2_10.png */,
+				27915BB81C85391800C31DBC /* s2_2.png */,
+				27915BB91C85391800C31DBC /* s2_3.png */,
+				27915BBA1C85391800C31DBC /* s2_4.png */,
+				27915BBB1C85391800C31DBC /* s2_5.png */,
+				27915BBC1C85391800C31DBC /* s2_6.png */,
+				27915BBD1C85391800C31DBC /* s2_7.png */,
+				27915BBE1C85391800C31DBC /* s2_8.png */,
+				27915BBF1C85391800C31DBC /* s2_9.png */,
+			);
+			name = Set2;
+			path = Internshiptour/resources/Set2;
+			sourceTree = "<group>";
+		};
+		27915BCF1C8574E300C31DBC /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				27915BD01C85750600C31DBC /* shoppingCartCell.h */,
+				27915BD11C85750600C31DBC /* shoppingCartCell.m */,
+				27915BD21C85750600C31DBC /* shoppingCartCell.xib */,
+			);
+			name = "购物车";
+			sourceTree = "<group>";
+		};
+		27915BD51C8584F600C31DBC /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				27915BCA1C856A5500C31DBC /* shoppingCartVC.h */,
+				27915BCB1C856A5500C31DBC /* shoppingCartVC.m */,
+				27915BCC1C856A5500C31DBC /* shoppingCartVC.xib */,
+			);
+			name = "购物车";
+			sourceTree = "<group>";
+		};
+		27915BD61C85850700C31DBC /* 确认订单 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "确认订单";
 			sourceTree = "<group>";
 		};
 		2798C8211C757044001BAB2C /* 个人资料 */ = {
@@ -1435,6 +1626,73 @@
 			name = "设置语言";
 			sourceTree = "<group>";
 		};
+		279F214D1C7D8BCF000A1F03 /* segment */ = {
+			isa = PBXGroup;
+			children = (
+				279F214E1C7D8BCF000A1F03 /* DVSwitch.h */,
+				279F214F1C7D8BCF000A1F03 /* DVSwitch.m */,
+			);
+			name = segment;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		27B98A701C7FEBF300542FAB /* 往期 */ = {
+			isa = PBXGroup;
+			children = (
+				27B98A711C7FEC2600542FAB /* pastCell.h */,
+				27B98A721C7FEC2600542FAB /* pastCell.m */,
+				27B98A731C7FEC2600542FAB /* pastCell.xib */,
+			);
+			name = "往期";
+			sourceTree = "<group>";
+		};
+		27B98A761C80013000542FAB /* 往期 */ = {
+			isa = PBXGroup;
+			children = (
+				27B98A771C80018400542FAB /* pastDetailVC.h */,
+				27B98A781C80018400542FAB /* pastDetailVC.m */,
+				27B98A791C80018400542FAB /* pastDetailVC.xib */,
+			);
+			name = "往期";
+			sourceTree = "<group>";
+		};
+		27B98A7C1C80458300542FAB /* 报名 */ = {
+			isa = PBXGroup;
+			children = (
+				27B98A831C80491800542FAB /* 选择岗位 */,
+			);
+			name = "报名";
+			sourceTree = "<group>";
+		};
+		27B98A821C80490A00542FAB /* 选择工作 */ = {
+			isa = PBXGroup;
+			children = (
+				27B98A841C80498000542FAB /* chooseJobCell.h */,
+				27B98A851C80498000542FAB /* chooseJobCell.m */,
+				27B98A861C80498000542FAB /* chooseJobCell.xib */,
+				27017DBA1C83E2CB00D970B9 /* nextButtonView.h */,
+				27017DBB1C83E2CB00D970B9 /* nextButtonView.m */,
+				27017DBD1C83E2DE00D970B9 /* nextButtonView.xib */,
+			);
+			name = "选择工作";
+			sourceTree = "<group>";
+		};
+		27B98A831C80491800542FAB /* 选择岗位 */ = {
+			isa = PBXGroup;
+			children = (
+				27B98A7D1C8045A300542FAB /* chooseJobVC.h */,
+				27B98A7E1C8045A300542FAB /* chooseJobVC.m */,
+				27B98A7F1C8045A300542FAB /* chooseJobVC.xib */,
+				27017DBF1C83E93C00D970B9 /* chooseInfoVC.h */,
+				27017DC01C83E93C00D970B9 /* chooseInfoVC.m */,
+				27017DC11C83E93C00D970B9 /* chooseInfoVC.xib */,
+				27017DC41C841E2A00D970B9 /* chooseServicePackVC.h */,
+				27017DC51C841E2A00D970B9 /* chooseServicePackVC.m */,
+				27017DC61C841E2A00D970B9 /* chooseServicePackVC.xib */,
+			);
+			name = "选择岗位";
+			sourceTree = "<group>";
+		};
 		27BE77F81C59B2DD005A9607 /* 专业 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1471,13 +1729,15 @@
 			name = "实习经历";
 			sourceTree = "<group>";
 		};
-		27DA49651C7B04C9002C05B5 /* 国际化 */ = {
+		27DA49651C7B04C9002C05B5 /* config */ = {
 			isa = PBXGroup;
 			children = (
+				27C3FB6F1C4DF2CA00B62959 /* Internshiptour-Prefix.pch */,
+				27C3FB6E1C4DF23B00B62959 /* Header.h */,
 				27DA495D1C7AAB82002C05B5 /* InfoPlist.strings */,
 				27DA49631C7AFEBA002C05B5 /* Localizable.strings */,
 			);
-			name = "国际化";
+			name = config;
 			sourceTree = "<group>";
 		};
 		27F78CAE1C58727B00D843C5 /* 数据库 */ = {
@@ -1527,6 +1787,9 @@
 				27FF537E1C52014C0003D2F5 /* setUpResumeVC.h */,
 				27FF537F1C52014C0003D2F5 /* setUpResumeVC.m */,
 				27FF53801C52014C0003D2F5 /* setUpResumeVC.xib */,
+				27BD17E11C829F3300A03108 /* checkResumeVC.h */,
+				27BD17E21C829F3300A03108 /* checkResumeVC.m */,
+				27BD17E31C829F3300A03108 /* checkResumeVC.xib */,
 				27FBA02A1C57517F0087D8A6 /* 创建简历 */,
 			);
 			name = "我的简历";
@@ -1737,6 +2000,7 @@
 				TargetAttributes = {
 					0CD1F18E1C43519E0081EA7A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5L8N9YKBJ6;
 					};
 					0CD1F1A71C43519F0081EA7A = {
 						CreatedOnToolsVersion = 7.2;
@@ -1775,26 +2039,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CE4C9741C47A6D000AEF229 /* firstCell.xib in Resources */,
+				27915BC21C85391800C31DBC /* s2_2.png in Resources */,
+				27915BC31C85391800C31DBC /* s2_3.png in Resources */,
 				2751709C1C4CE4DA00839F94 /* InfoCell.xib in Resources */,
 				277A19551C771CB8007CACFB /* read_me.txt in Resources */,
+				27915BC61C85391800C31DBC /* s2_6.png in Resources */,
 				27F78CC11C58C1C500D843C5 /* cityCell.xib in Resources */,
 				27F514151C57A7B200DE783A /* ExpectedIndustryCell.xib in Resources */,
 				27FDD91D1C50854900FA8A5D /* AlreadyAcceptedCell.xib in Resources */,
 				278916901C4F8FCD006F2804 /* companyInviteVC.xib in Resources */,
+				279E94821C7EF72B0012C752 /* pastVC.xib in Resources */,
 				276CC0121C71A6AF00478FB5 /* loginVC.xib in Resources */,
+				27017DBE1C83E2DF00D970B9 /* nextButtonView.xib in Resources */,
 				2798C82C1C75A4E4001BAB2C /* changePasswordVC.xib in Resources */,
 				277A194D1C76C65B007CACFB /* myTripCell.xib in Resources */,
 				0C0040301C45EDCE000DEC34 /* personalVC.xib in Resources */,
 				2798C8261C759DAF001BAB2C /* personalSignatureVC.xib in Resources */,
+				27B98A751C7FEC2600542FAB /* pastCell.xib in Resources */,
 				0CAF73FC1C489C0000CF1A4B /* contentCell.xib in Resources */,
 				27D8AB4A1C74478800F056DF /* personalInfoCell.xib in Resources */,
 				276CC0171C71B5B200478FB5 /* registerVC.xib in Resources */,
 				27FF539B1C5225070003D2F5 /* InToVCCell.xib in Resources */,
 				27401AF31C7970C500E9B4E2 /* AlipaySDK.bundle in Resources */,
+				27915BC01C85391800C31DBC /* s2_1.png in Resources */,
 				27FBA0271C5748490087D8A6 /* headCellView.xib in Resources */,
+				27915BC81C85391800C31DBC /* s2_8.png in Resources */,
 				2730EF801C50C38400FEF99B /* receivingCell.xib in Resources */,
 				0C91636A1C478F4F00E3B53F /* detailVC.xib in Resources */,
 				2798C8201C756E12001BAB2C /* changeSexVC.xib in Resources */,
+				279E94691C7EA15A0012C752 /* MainTitleView.xib in Resources */,
 				0C0040171C45EBD8000DEC34 /* infoVC.xib in Resources */,
 				27ED8B761C59069800F0AE7D /* cityVC.xib in Resources */,
 				0CD1F1A21C43519F0081EA7A /* LaunchScreen.storyboard in Resources */,
@@ -1803,15 +2076,24 @@
 				27FF53911C5223A80003D2F5 /* sexCell.xib in Resources */,
 				0CAF73F71C4894EC00CF1A4B /* secondCell.xib in Resources */,
 				27D8AB4F1C747BF800F056DF /* changeNameVC.xib in Resources */,
+				27915BCE1C856A5500C31DBC /* shoppingCartVC.xib in Resources */,
 				278F54B41C73212500390730 /* settingVC.xib in Resources */,
+				27915BC41C85391800C31DBC /* s2_4.png in Resources */,
 				27F78CAB1C586B6900D843C5 /* locationVC.xib in Resources */,
+				27BD17E51C829F3300A03108 /* checkResumeVC.xib in Resources */,
 				27FF538C1C521C4B0003D2F5 /* userInfoVC.xib in Resources */,
 				27F78CB11C58728A00D843C5 /* ocenter_city.sql in Resources */,
+				27B98A7B1C80018400542FAB /* pastDetailVC.xib in Resources */,
+				27017DC31C83E93C00D970B9 /* chooseInfoVC.xib in Resources */,
+				27B98A811C8045A300542FAB /* chooseJobVC.xib in Resources */,
 				27C860311C51D18800B13E09 /* myResumeCell.xib in Resources */,
+				279E94781C7EA4BE0012C752 /* InternshipProcessCell.xib in Resources */,
 				277A19481C76C370007CACFB /* toolCell.xib in Resources */,
+				27915BC51C85391800C31DBC /* s2_5.png in Resources */,
 				0C00401C1C45ED69000DEC34 /* specialSubjectVC.xib in Resources */,
 				27BE780E1C5A15AF005A9607 /* InternshipExperienceVC.xib in Resources */,
 				27BE77FD1C59B734005A9607 /* majorVC.xib in Resources */,
+				27915BD41C85750600C31DBC /* shoppingCartCell.xib in Resources */,
 				27FF53821C52014C0003D2F5 /* setUpResumeVC.xib in Resources */,
 				0C00402B1C45EDAB000DEC34 /* tripHelp.xib in Resources */,
 				2730EF921C50E12800FEF99B /* myInviteVC.xib in Resources */,
@@ -1820,6 +2102,7 @@
 				27DA495B1C7AAB82002C05B5 /* InfoPlist.strings in Resources */,
 				278F54AE1C73193600390730 /* getBackPassword2.xib in Resources */,
 				27DA49611C7AFEBA002C05B5 /* Localizable.strings in Resources */,
+				27915BC91C85391800C31DBC /* s2_9.png in Resources */,
 				2798C8321C75ABFB001BAB2C /* aboutUSVC.xib in Resources */,
 				27F78CB21C58728A00D843C5 /* ocenter_country.sql in Resources */,
 				27D8AB451C741C2400F056DF /* headPortraitCellTableViewCell.xib in Resources */,
@@ -1828,16 +2111,22 @@
 				2798C8381C75B366001BAB2C /* setLanguageVC.xib in Resources */,
 				27FBA0361C575AED0087D8A6 /* EducationExperienceVC.xib in Resources */,
 				27AD7BB81C56245B003ADCA9 /* ExpectedIndustryVC.xib in Resources */,
+				279E94731C7EA2760012C752 /* internshipInfoCell.xib in Resources */,
 				275267751C5A44E900CA6A52 /* loc.db in Resources */,
 				0CD1F19D1C43519F0081EA7A /* Main.storyboard in Resources */,
 				278F54A91C73153500390730 /* getBackPassword.xib in Resources */,
+				27B98A881C80498000542FAB /* chooseJobCell.xib in Resources */,
 				2789168B1C4F730D006F2804 /* UserCell.xib in Resources */,
 				27FF53961C5224D70003D2F5 /* DirectInputCell.xib in Resources */,
+				27915BC71C85391800C31DBC /* s2_7.png in Resources */,
+				279E947D1C7EE2210012C752 /* movieCell.xib in Resources */,
 				27BE78081C5A0492005A9607 /* majorDescribeVC.xib in Resources */,
+				27017DC81C841E2A00D970B9 /* chooseServicePackVC.xib in Resources */,
 				27D8AB3B1C740E2600F056DF /* loginOutCell.xib in Resources */,
 				274D64471C57611D00F06C03 /* EducationExperienceCell.xib in Resources */,
 				27D8AB401C7412D000F056DF /* personalDataVC.xib in Resources */,
 				278F54A41C73005F00390730 /* ServicesProtocolVC.xib in Resources */,
+				27915BC11C85391800C31DBC /* s2_10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1905,11 +2194,15 @@
 				27C8602B1C51C8E400B13E09 /* myResumeVC.m in Sources */,
 				0CAF73F61C4894EC00CF1A4B /* secondCell.m in Sources */,
 				2730EF911C50E12800FEF99B /* myInviteVC.m in Sources */,
+				27017DC71C841E2A00D970B9 /* chooseServicePackVC.m in Sources */,
 				277A194C1C76C65B007CACFB /* myTripCell.m in Sources */,
 				27249ACD1C48F2E1009892F9 /* commentCell.m in Sources */,
 				0C91635C1C4751C700E3B53F /* WMImageViewCell.m in Sources */,
+				27017DC21C83E93C00D970B9 /* chooseInfoVC.m in Sources */,
 				0C00402A1C45EDAB000DEC34 /* tripHelp.m in Sources */,
+				27BD17E41C829F3300A03108 /* checkResumeVC.m in Sources */,
 				27C1CABF1C697AE80051B82E /* ExperienceDirVC.m in Sources */,
+				27B98A7A1C80018400542FAB /* pastDetailVC.m in Sources */,
 				2789168A1C4F730D006F2804 /* UserCell.m in Sources */,
 				27D8AB441C741C2400F056DF /* headPortraitCellTableViewCell.m in Sources */,
 				0C0040161C45EBD8000DEC34 /* infoVC.m in Sources */,
@@ -1920,23 +2213,29 @@
 				27BE77FC1C59B734005A9607 /* majorVC.m in Sources */,
 				27F78CB51C58907900D843C5 /* FMDBManager.m in Sources */,
 				27D8AB491C74478800F056DF /* personalInfoCell.m in Sources */,
+				27B98A741C7FEC2600542FAB /* pastCell.m in Sources */,
 				2751709B1C4CE4DA00839F94 /* InfoCell.m in Sources */,
 				0C00402F1C45EDCE000DEC34 /* personalVC.m in Sources */,
 				27ED8B751C59069800F0AE7D /* cityVC.m in Sources */,
 				278F54B31C73212500390730 /* settingVC.m in Sources */,
+				279E94771C7EA4BE0012C752 /* InternshipProcessCell.m in Sources */,
 				278F54AD1C73193600390730 /* getBackPassword2.m in Sources */,
 				2798C82B1C75A4E4001BAB2C /* changePasswordVC.m in Sources */,
 				2789168F1C4F8FCD006F2804 /* companyInviteVC.m in Sources */,
+				279F21501C7D8BCF000A1F03 /* DVSwitch.m in Sources */,
 				27BE78071C5A0492005A9607 /* majorDescribeVC.m in Sources */,
 				27FF53901C5223A80003D2F5 /* sexCell.m in Sources */,
 				0C9163591C4750C100E3B53F /* WMLoopView.m in Sources */,
 				27F78CAA1C586B6900D843C5 /* locationVC.m in Sources */,
 				27FF53811C52014C0003D2F5 /* setUpResumeVC.m in Sources */,
+				279E947C1C7EE2210012C752 /* movieCell.m in Sources */,
 				27FDD91C1C50854900FA8A5D /* AlreadyAcceptedCell.m in Sources */,
 				0C00401B1C45ED69000DEC34 /* specialSubjectVC.m in Sources */,
 				27F78CBC1C58C00400D843C5 /* cityModel.m in Sources */,
+				27B98A801C8045A300542FAB /* chooseJobVC.m in Sources */,
 				274D64461C57611D00F06C03 /* EducationExperienceCell.m in Sources */,
 				0CD1F1941C43519E0081EA7A /* main.m in Sources */,
+				27017DBC1C83E2CB00D970B9 /* nextButtonView.m in Sources */,
 				2798C8311C75ABFB001BAB2C /* aboutUSVC.m in Sources */,
 				0CE4C9731C47A6D000AEF229 /* firstCell.m in Sources */,
 				27D8AB3A1C740E2600F056DF /* loginOutCell.m in Sources */,
@@ -1946,18 +2245,26 @@
 				27FF538B1C521C4B0003D2F5 /* userInfoVC.m in Sources */,
 				27FBA0251C5748300087D8A6 /* headCellView.m in Sources */,
 				2798C8251C759DAF001BAB2C /* personalSignatureVC.m in Sources */,
+				27915BB21C85389900C31DBC /* InfiniteScrollPicker.m in Sources */,
 				27D8AB3F1C7412D000F056DF /* personalDataVC.m in Sources */,
 				27FF539A1C5225070003D2F5 /* InToVCCell.m in Sources */,
 				2798C8371C75B366001BAB2C /* setLanguageVC.m in Sources */,
 				27AD7BB71C56245B003ADCA9 /* ExpectedIndustryVC.m in Sources */,
+				27915BCD1C856A5500C31DBC /* shoppingCartVC.m in Sources */,
 				27F78CC01C58C1C500D843C5 /* cityCell.m in Sources */,
+				27B98A871C80498000542FAB /* chooseJobCell.m in Sources */,
 				27C860301C51D18800B13E09 /* myResumeCell.m in Sources */,
 				278F54A31C73005F00390730 /* ServicesProtocolVC.m in Sources */,
 				0C9163651C4751D300E3B53F /* WMViewController.m in Sources */,
 				276CC0161C71B5B200478FB5 /* registerVC.m in Sources */,
 				27F514141C57A7B200DE783A /* ExpectedIndustryCell.m in Sources */,
 				276CC0111C71A6AF00478FB5 /* loginVC.m in Sources */,
+				27915BD31C85750600C31DBC /* shoppingCartCell.m in Sources */,
 				27ED8B791C5906DD00F0AE7D /* cityBModel.m in Sources */,
+				27915BB31C85389900C31DBC /* UIView+viewController.m in Sources */,
+				279E94651C7E9DFE0012C752 /* MainTitleView.m in Sources */,
+				279E94721C7EA2760012C752 /* internshipInfoCell.m in Sources */,
+				279E94811C7EF72B0012C752 /* pastVC.m in Sources */,
 				27FF53951C5224D70003D2F5 /* DirectInputCell.m in Sources */,
 				2730EF7F1C50C38400FEF99B /* receivingCell.m in Sources */,
 				0C9163641C4751D300E3B53F /* WMTableViewController.m in Sources */,
@@ -2141,12 +2448,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Internshiptour/FrameWorks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/zhaoyongdan/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/yongdanzhao/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Prefix.pch";
 				INFOPLIST_FILE = Internshiptour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -2154,9 +2462,10 @@
 					"$(PROJECT_DIR)/Internshiptour/FrameWorks/SDK1.6.2",
 					"$(PROJECT_DIR)/Internshiptour/FrameWorks/SDK1.6.2/libWeChatSDK.a",
 				);
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Shenzhen-Qianhai-Internshiptour-Co.Ltd.Internshiptour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Internshiptour/Internshiptour-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yongdanzhao/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Prefix.pch";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -2167,12 +2476,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Internshiptour/FrameWorks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/zhaoyongdan/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/yongdanzhao/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Prefix.pch";
 				INFOPLIST_FILE = Internshiptour/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -2182,7 +2492,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shenzhen-Qianhai-Internshiptour-Co.Ltd.Internshiptour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Internshiptour/Internshiptour-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yongdanzhao/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Prefix.pch";
 			};
 			name = Release;
 		};

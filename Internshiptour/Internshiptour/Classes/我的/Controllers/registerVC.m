@@ -9,7 +9,11 @@
 #import "registerVC.h"
 #import "ServicesProtocolVC.h"
 @interface registerVC ()
-
+{
+    NSTimer *_timer;
+    int seconds;
+}
+@property (weak, nonatomic) IBOutlet UIButton *identifyingCodeButton;
 @end
 
 @implementation registerVC
@@ -19,7 +23,29 @@
     // Do any additional setup after loading the view from its nib.
     
     self.navigationController.navigationBarHidden = YES;
+    _identifyingCodeButton.layer.cornerRadius = 5;
+    _identifyingCodeButton.layer.borderWidth = 0.5;
+    _identifyingCodeButton.layer.borderColor = mainBlue.CGColor;
     
+    // 倒计时
+    seconds = 60;
+    _timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerFireMethod:) userInfo:nil repeats:YES];
+    
+}
+-(void)timerFireMethod:(NSTimer *)theTimer {
+    if (seconds == 1) {
+        [theTimer invalidate];
+        seconds = 60;
+        [_identifyingCodeButton setTitle:@"验证码" forState: UIControlStateNormal];
+        [_identifyingCodeButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_identifyingCodeButton setEnabled:YES];
+    }else{
+        seconds--;
+        NSString *title = [NSString stringWithFormat:@"%d秒",seconds];
+        [_identifyingCodeButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+        [_identifyingCodeButton setEnabled:NO];
+        [_identifyingCodeButton setTitle:title forState:UIControlStateNormal];
+    }
 }
 #pragma mark --------注册按钮
 - (IBAction)registerAction:(id)sender {

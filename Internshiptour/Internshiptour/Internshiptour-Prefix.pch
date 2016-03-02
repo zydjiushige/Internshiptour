@@ -22,9 +22,17 @@
 #define NAVBARHIDDEN self.navigationController.navigationBarHidden = YES
 // NAVBACK
 #define NAVBACK  [self.navigationController popViewControllerAnimated:YES];
+
+
+
+
 //color
 #define BACKCOLOR [UIColor colorWithRed:241/255.0 green:242/255.0 blue:244/255.0 alpha:1.0]
 #define dfdfddColor [UIColor colorWithRed:223/255.0 green:223/255.0 blue:221/255.0 alpha:1.0]
 #define mainBlue [UIColor colorWithRed:0/255.0 green:132/255.0 blue:208/255.0 alpha:1.0]
 #define CLEARCOLOR [UIColor clearColor]
+#define six9 [UIColor colorWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1.0]
+#define sanbsanbsanb [UIColor colorWithRed:179/255.0 green:179/255.0 blue:179/255.0 alpha:1.0]
+#define f8f8f8 [UIColor colorWithRed:248/255.0 green:248/255.0 blue:248/255.0 alpha:1.0]
+#define f5f5f5 [UIColor colorWithRed:242/255.0 green:242/255.0 blue:242/255.0 alpha:1.0]
 #endif /* Internshiptour_Prefix_pch */

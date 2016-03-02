@@ -10,4 +10,6 @@
 
 @interface specialSubjectVC : UIViewController
 
+@property(nonatomic,assign)CGPoint startPoint;
+@property(nonatomic,assign)CGPoint endPoint;
 @end

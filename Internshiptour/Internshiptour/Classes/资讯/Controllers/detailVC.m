@@ -14,16 +14,20 @@
 #import "contentCell.h"
 #import "commentCell.h"
 #import "Internshiptour-Prefix.pch"
-@interface detailVC ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
+@interface detailVC ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate,UITextViewDelegate>
 {
 
     UIButton * _BackButton;
     UIButton * _ForwardButton;
     UIView *_backView;
 }
-@property (weak, nonatomic) IBOutlet UITextField *myTextField;
+//@property (weak, nonatomic) IBOutlet UITextField *myTextField;
+@property (weak, nonatomic) IBOutlet UITextView *myTextView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *ChangeTX;
 @property (weak, nonatomic) IBOutlet UIView *bottomView;
+
+
+@property (weak, nonatomic) IBOutlet UILabel *PlaceHolderLable;
 
 @end
 
@@ -38,6 +42,10 @@
     UIWindow *window = delegate.window;
     tabBar *tabbar = (tabBar *)window.rootViewController;
     tabbar.tab.hidden = YES;
+    
+    _myTextView.layer.borderColor = six9.CGColor;
+    _myTextView.layer.borderWidth = 1;
+    _myTextView.layer.cornerRadius =5.0;
     
     // 注册cell
     [self.myTableView registerNib:[UINib nibWithNibName:@"firstCell" bundle:nil] forCellReuseIdentifier:@"firstCell"];
@@ -71,6 +79,7 @@
     _backView.backgroundColor = [UIColor purpleColor];
     [self.view addSubview:_backView];
     
+    _backView.backgroundColor = CLEARCOLOR;
     [_backView addSubview:_BackButton];
     [_backView addSubview:_ForwardButton];
     
@@ -187,7 +196,7 @@
     }else {
     
         commentCell *cell = [tableView dequeueReusableCellWithIdentifier:@"commentCell"];
-        
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
         return cell;
     
     }
@@ -238,7 +247,6 @@
     if (offset>100) {
 //         CGFloat alpha=1-((64-offset)/64);
 //         _backView.hidden = NO;
-//        self.navigationController.navigationBar.backgroundColor = [color colorWithAlphaComponent:0];
         [_BackButton setImage:[UIImage imageNamed:@"back2"] forState:UIControlStateNormal];
         [_ForwardButton setImage:[UIImage imageNamed:@"share2"] forState:UIControlStateNormal];
 //       _backView.backgroundColor =  [UIColor colorWithRed:0 green:132/255.0 blue:208/255.0 alpha:1];
@@ -264,7 +272,18 @@
     }
     
 }
-
+#pragma mark -------<UITextViewDelegate>
+-(void)textViewDidChange:(UITextView *)textView
+{
+    if([_myTextView.text length] == 0){
+        
+        _PlaceHolderLable.hidden = NO;
+        
+    }else{
+        _PlaceHolderLable.hidden = YES;
+    }
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
