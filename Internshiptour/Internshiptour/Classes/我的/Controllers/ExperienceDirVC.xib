@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -10,6 +10,8 @@
                 <outlet property="PlaceHolderLable" destination="nCL-Ql-QNC" id="C9A-Cx-f2V"/>
                 <outlet property="dirTextView" destination="LON-GZ-0C8" id="sdW-SF-GVr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wordNum" destination="lXU-X4-Pom" id="Jkt-Re-npf"/>
+                <outlet property="wordViewBottomCon" destination="zsD-uI-BdW" id="uXI-Yl-JfG"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -96,9 +98,31 @@
                     <color key="textColor" red="0.47843137250000001" green="0.4823529412" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GVh-B0-nid">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/2000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXU-X4-Pom">
+                            <rect key="frame" x="186" y="14.5" width="120" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="Gph-Wh-7r5"/>
+                                <constraint firstAttribute="width" constant="120" id="LPT-pZ-jKO"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.70645369098058819" green="0.78343211206896557" blue="0.70977599868132413" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.95686274509803915" green="0.96078431372549022" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="lXU-X4-Pom" secondAttribute="trailing" constant="14" id="Dq5-3T-Trd"/>
+                        <constraint firstItem="lXU-X4-Pom" firstAttribute="centerY" secondItem="GVh-B0-nid" secondAttribute="centerY" id="eKh-9R-Vd3"/>
+                        <constraint firstAttribute="height" constant="50" id="yTF-7E-K9y"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="GVh-B0-nid" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="C8T-D7-jfa"/>
                 <constraint firstItem="LON-GZ-0C8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="M8g-pE-fKQ"/>
                 <constraint firstItem="gFn-YA-4PC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MEN-as-N4L"/>
                 <constraint firstItem="nCL-Ql-QNC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VAi-cR-x6f"/>
@@ -106,10 +130,12 @@
                 <constraint firstAttribute="trailing" secondItem="LON-GZ-0C8" secondAttribute="trailing" id="axg-Rj-VGS"/>
                 <constraint firstItem="gFn-YA-4PC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="bxo-IX-zva"/>
                 <constraint firstItem="mbd-b6-uYP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="g0w-MZ-VDH"/>
+                <constraint firstAttribute="trailing" secondItem="GVh-B0-nid" secondAttribute="trailing" id="iE8-Fa-XEK"/>
                 <constraint firstAttribute="trailing" secondItem="gFn-YA-4PC" secondAttribute="trailing" id="nvq-YD-6vq"/>
                 <constraint firstAttribute="trailing" secondItem="nCL-Ql-QNC" secondAttribute="trailing" id="suO-b5-zdy"/>
                 <constraint firstItem="LON-GZ-0C8" firstAttribute="top" secondItem="gFn-YA-4PC" secondAttribute="bottom" id="tUw-Mc-kj0"/>
                 <constraint firstAttribute="bottom" secondItem="LON-GZ-0C8" secondAttribute="bottom" id="zS3-ep-PIh"/>
+                <constraint firstAttribute="bottom" secondItem="GVh-B0-nid" secondAttribute="bottom" id="zsD-uI-BdW"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
