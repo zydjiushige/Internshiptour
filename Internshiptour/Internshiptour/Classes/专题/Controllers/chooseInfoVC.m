@@ -161,6 +161,13 @@
     
     _fatherView.hidden = YES;
 }
+
+-(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+ {
+      //获取对应列，对应行的数据
+    
+     
+}
 /*
 #pragma mark - Navigation
 

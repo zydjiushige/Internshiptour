@@ -68,9 +68,13 @@
    label.text = NSLocalizedString(@"qianfeng", nil);
     */
     
-//    NYSegmentedControl
+
     DVSwitch *switcher = [[DVSwitch alloc] initWithStringsArray:@[@"实习实践", @"文化体验"]];
-    switcher.frame = CGRectMake(self.view.bounds.size.width/2 -100, 25, 200, 29);
+    switcher.frame = CGRectMake(self.view.frame.size.width/2 -100, 25, 200, 29);
+    NJLog(@"switcher.frame%f,%f",switcher.frame.origin.x,switcher.frame.origin.y);
+    NJLog(@"%f,pingmu",self.view.frame.size.width/2);
+    int a = self.view.bounds.size.width/2;
+    switcher.center = CGPointMake(a, 64/2);
     switcher.backgroundColor = [UIColor whiteColor];
     switcher.labelTextColorInsideSlider = [UIColor whiteColor];
     switcher.labelTextColorOutsideSlider = mainBlue;
@@ -301,6 +305,7 @@
     pastVC *pastV = [[pastVC alloc] initWithNibName:@"pastVC" bundle:nil];
     [self.navigationController pushViewController:pastV animated:YES];
 }
+
 
 
 @end

@@ -2465,7 +2465,7 @@
 				"MTL_ENABLE_DEBUG_INFO[arch=*]" = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "Shenzhen-Qianhai-Internshiptour-Co.Ltd.Internshiptour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yongdanzhao/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Prefix.pch";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yongdanzhao/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Bridging-Header";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -2492,7 +2492,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Shenzhen-Qianhai-Internshiptour-Co.Ltd.Internshiptour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yongdanzhao/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Prefix.pch";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yongdanzhao/Desktop/Internshiptour/Internshiptour/Internshiptour/Internshiptour-Bridging-Header";
 			};
 			name = Release;
 		};
